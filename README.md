@@ -1,5 +1,5 @@
 # REE.PAK.Tool :see_no_evil:
-Tool for extract PAK archives from games developed using [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
+Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
 
 | Game   | Steam   | SteamDB   |
 |---      |---    |---    |
