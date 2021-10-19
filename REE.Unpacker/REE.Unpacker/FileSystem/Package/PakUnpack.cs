@@ -70,27 +70,42 @@ namespace REE.Unpacker
                 foreach (var m_Entry in m_EntryTable)
                 {
                     String m_FileName = PakHashList.iGetNameFromHashList(m_Entry.dwHashNameLower);
-
                     String m_FullPath = m_DstFolder + m_FileName.Replace("/", @"\");
-                    Utils.iCreateDirectory(m_FullPath);
 
                     Utils.iSetInfo("[UNPACKING]: " + m_FileName);
+                    Utils.iCreateDirectory(m_FullPath);
 
                     TFileStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == PakFlags.NONE)
                     {
                         var lpBuffer = TFileStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
+                        m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
+
                         File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                     else if (m_Entry.wCompressionType == PakFlags.DEFLATE || m_Entry.wCompressionType == PakFlags.ZSTD)
                     {
-                        var lpBuffer = TFileStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
-                        switch (m_Entry.wCompressionType)
+                        var lpSrcBuffer = TFileStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
+                        
+                        if (m_Entry.wCompressionType == PakFlags.DEFLATE)
                         {
-                            case PakFlags.DEFLATE: File.WriteAllBytes(m_FullPath, DEFLATE.iDecompress(lpBuffer)); break;
-                            case PakFlags.ZSTD: File.WriteAllBytes(m_FullPath, ZSTD.iDecompress(lpBuffer)); break;
-                            default: Utils.iSetError("[ERROR]: Unknown compression detected -> " + m_Entry.wCompressionType.ToString()); break;
+                            var lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer);
+                            m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
+                            
+                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
                         }
+                        else if (m_Entry.wCompressionType == PakFlags.ZSTD)
+                        {
+                            var lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer);
+                            m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
+                            
+                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                        }
+                    }
+                    else
+                    {
+                        Utils.iSetError("[ERROR]: Unknown compression id detected -> " + m_Entry.wCompressionType.ToString());
+                        return;
                     }
                 }
             }

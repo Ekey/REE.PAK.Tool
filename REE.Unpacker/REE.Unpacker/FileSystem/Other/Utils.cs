@@ -19,7 +19,7 @@ namespace REE.Unpacker
         public static void iSetInfo(String m_String)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(m_String + "!");
+            Console.WriteLine(m_String);
             Console.ResetColor();
         }
 
