@@ -23,7 +23,7 @@ namespace REE.Unpacker
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[Examples]");
-                Console.WriteLine("    REE.Unpacker mhr_demo.list E:\\Games\\MHR\\re_chunk_000.pak D:\\Unpacked");
+                Console.WriteLine("    REE.Unpacker mhr_pc_demo.list E:\\Games\\MHR\\re_chunk_000.pak D:\\Unpacked");
                 Console.ResetColor();
                 return;
             }
