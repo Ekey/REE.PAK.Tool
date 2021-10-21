@@ -9,9 +9,9 @@ namespace REE.Unpacker
         static List<PakEntry> m_EntryTable = new List<PakEntry>();
         public static void iDoIt(String m_Archive, String m_DstFolder)
         {
-            using (FileStream TFileStream = File.OpenRead(m_Archive))
+            using (FileStream TPakStream = File.OpenRead(m_Archive))
             {
-                var lpHeader = TFileStream.ReadBytes(16);
+                var lpHeader = TPakStream.ReadBytes(16);
                 var m_Header = new PakHeader();
 
                 using (var THeaderReader = new MemoryStream(lpHeader))
@@ -37,19 +37,19 @@ namespace REE.Unpacker
                 }
 
                 m_EntryTable.Clear();
-                var lpTable = TFileStream.ReadBytes(m_Header.dwTotalFiles * 48);
-                using (var TMemoryReader = new MemoryStream(lpTable))
+                var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * 48);
+                using (var TEntryReader = new MemoryStream(lpTable))
                 {
                     for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
                     {
-                        UInt32 dwHashNameLower = TMemoryReader.ReadUInt32();
-                        UInt32 dwHashNameUpper = TMemoryReader.ReadUInt32();
-                        Int64 dwOffset = TMemoryReader.ReadInt64();
-                        Int64 dwCompressedSize = TMemoryReader.ReadInt64();
-                        Int64 dwDecompressedSize = TMemoryReader.ReadInt64();
-                        Int64 wCompressionType = TMemoryReader.ReadInt64();
-                        UInt32 dwCRC = TMemoryReader.ReadUInt32();
-                        UInt32 dwUnknown = TMemoryReader.ReadUInt32();
+                        UInt32 dwHashNameLower = TEntryReader.ReadUInt32();
+                        UInt32 dwHashNameUpper = TEntryReader.ReadUInt32();
+                        Int64 dwOffset = TEntryReader.ReadInt64();
+                        Int64 dwCompressedSize = TEntryReader.ReadInt64();
+                        Int64 dwDecompressedSize = TEntryReader.ReadInt64();
+                        Int64 wCompressionType = TEntryReader.ReadInt64();
+                        UInt32 dwCRC = TEntryReader.ReadUInt32();
+                        UInt32 dwUnknown = TEntryReader.ReadUInt32();
 
                         var Entry = new PakEntry
                         {
@@ -65,6 +65,8 @@ namespace REE.Unpacker
 
                         m_EntryTable.Add(Entry);
                     }
+
+                    TEntryReader.Dispose();
                 }
 
                 foreach (var m_Entry in m_EntryTable)
@@ -75,17 +77,17 @@ namespace REE.Unpacker
                     Utils.iSetInfo("[UNPACKING]: " + m_FileName);
                     Utils.iCreateDirectory(m_FullPath);
 
-                    TFileStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
+                    TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == PakFlags.NONE)
                     {
-                        var lpBuffer = TFileStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
+                        var lpBuffer = TPakStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
 
                         File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                     else if (m_Entry.wCompressionType == PakFlags.DEFLATE || m_Entry.wCompressionType == PakFlags.ZSTD)
                     {
-                        var lpSrcBuffer = TFileStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
+                        var lpSrcBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         
                         if (m_Entry.wCompressionType == PakFlags.DEFLATE)
                         {
@@ -108,6 +110,8 @@ namespace REE.Unpacker
                         return;
                     }
                 }
+
+                TPakStream.Dispose();
             }
         }
     }
