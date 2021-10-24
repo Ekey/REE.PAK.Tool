@@ -1,4 +1,4 @@
-# REE.PAK.Tool :see_no_evil:
+# REE.Unpacker :see_no_evil:
 Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
 
 | Game   | Steam   | SteamDB   | List Tag   |
@@ -22,3 +22,6 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | MHR_Demo
 | MONSTER HUNTER RISE | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | MHR_Release
 | Pragmata | 👀 | 👀| 👀
+
+# REE.FontsCryptor :see_no_evil:
+Tool for decrypt and encrypt fonts (*.otf.1)
