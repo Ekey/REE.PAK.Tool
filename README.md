@@ -20,8 +20,11 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Resident Evil: Re:Verse Open Beta | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | RERE_Beta
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | RERE_Release
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | MHR_Demo
-| MONSTER HUNTER RISE (Encrypted PAK) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | MHR_Release
+| MONSTER HUNTER RISE | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | MHR_Release
 | Pragmata | 👀 | 👀| 👀
 
 # REE.FontsCryptor :see_no_evil:
 Tool for decrypt and encrypt fonts (*.otf.1)
+
+# Special Thanks
+To :point_right: wigwrm :point_left: for the provided list of missing dlcs filenames (RE7) :eyeglasses:
