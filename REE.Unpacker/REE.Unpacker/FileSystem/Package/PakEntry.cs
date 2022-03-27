@@ -10,7 +10,6 @@ namespace REE.Unpacker
         public Int64 dwCompressedSize { get; set; }
         public Int64 dwDecompressedSize { get; set; }
         public PakFlags wCompressionType { get; set; }
-        public UInt32 dwCRC { get; set; }
-        public UInt32 dwUnknown { get; set; }
+        public UInt64 dwDependencyHash { get; set; }
     }
 }

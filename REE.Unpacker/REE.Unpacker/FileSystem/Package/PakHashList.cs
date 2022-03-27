@@ -42,17 +42,17 @@ namespace REE.Unpacker
             Console.WriteLine();
         }
 
-        public static String iGetNameFromHashList(UInt32 dwHash)
+        public static String iGetNameFromHashList(UInt32 dwHashNameLower, UInt32 dwHashNameUpper)
         {
             String m_FileName = null;
 
-            if (m_HashList.ContainsKey(dwHash))
+            if (m_HashList.ContainsKey(dwHashNameLower))
             {
-                m_HashList.TryGetValue(dwHash, out m_FileName);
+                m_HashList.TryGetValue(dwHashNameLower, out m_FileName);
             }
             else
             {
-                m_FileName = @"__Unknown\" + dwHash.ToString("X8");
+                m_FileName = @"__Unknown\" + dwHashNameLower.ToString("X8") + "_" + dwHashNameUpper.ToString("X8");
             }
 
             return m_FileName;

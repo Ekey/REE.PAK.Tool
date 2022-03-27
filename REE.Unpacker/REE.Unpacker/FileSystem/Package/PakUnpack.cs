@@ -17,8 +17,10 @@ namespace REE.Unpacker
                 using (var THeaderReader = new MemoryStream(lpHeader))
                 {
                     m_Header.dwMagic = THeaderReader.ReadUInt32(); // KPKA
-                    m_Header.dwVersion = THeaderReader.ReadInt32(); // 4
-                    m_Header.dwTotalFiles = THeaderReader.ReadInt32();
+                    m_Header.bMajorVersion = THeaderReader.ReadByte(); // 4
+                    m_Header.bMinorVersion = THeaderReader.ReadByte(); // 0
+                    m_Header.wFeature = THeaderReader.ReadInt16(); // 0
+                    m_Header.dwTotalFiles = THeaderReader.ReadByte();
                     m_Header.dwHash = THeaderReader.ReadUInt32();
 
                     if (m_Header.dwMagic != 0x414B504B)
@@ -27,9 +29,9 @@ namespace REE.Unpacker
                         return;
                     }
 
-                    if (m_Header.dwVersion != 4)
+                    if (m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0)
                     {
-                        Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.dwVersion.ToString() + ", expected 4");
+                        Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 4.0");
                         return;
                     }
 
@@ -48,10 +50,9 @@ namespace REE.Unpacker
                         Int64 dwCompressedSize = TEntryReader.ReadInt64();
                         Int64 dwDecompressedSize = TEntryReader.ReadInt64();
                         Int64 wCompressionType = TEntryReader.ReadInt64();
-                        UInt32 dwCRC = TEntryReader.ReadUInt32();
-                        UInt32 dwUnknown = TEntryReader.ReadUInt32();
+                        UInt64 dwDependencyHash = TEntryReader.ReadUInt64();
 
-                        var Entry = new PakEntry
+                        var TEntry = new PakEntry
                         {
                             dwHashNameLower = dwHashNameLower,
                             dwHashNameUpper = dwHashNameUpper,
@@ -59,11 +60,10 @@ namespace REE.Unpacker
                             dwCompressedSize = dwCompressedSize,
                             dwDecompressedSize = dwDecompressedSize,
                             wCompressionType = PakUtils.iGetCompressionType(wCompressionType),
-                            dwCRC = dwCRC,
-                            dwUnknown = dwUnknown,
+                            dwDependencyHash = dwDependencyHash,
                         };
 
-                        m_EntryTable.Add(Entry);
+                        m_EntryTable.Add(TEntry);
                     }
 
                     TEntryReader.Dispose();
@@ -71,7 +71,7 @@ namespace REE.Unpacker
 
                 foreach (var m_Entry in m_EntryTable)
                 {
-                    String m_FileName = PakHashList.iGetNameFromHashList(m_Entry.dwHashNameLower);
+                    String m_FileName = PakHashList.iGetNameFromHashList(m_Entry.dwHashNameLower, m_Entry.dwHashNameUpper);
                     String m_FullPath = m_DstFolder + m_FileName.Replace("/", @"\");
 
                     Utils.iSetInfo("[UNPACKING]: " + m_FileName);
