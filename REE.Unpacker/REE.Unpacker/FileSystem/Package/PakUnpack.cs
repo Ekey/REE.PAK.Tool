@@ -7,66 +7,61 @@ namespace REE.Unpacker
     class PakUnpack
     {
         static List<PakEntry> m_EntryTable = new List<PakEntry>();
+
         public static void iDoIt(String m_Archive, String m_DstFolder)
         {
             using (FileStream TPakStream = File.OpenRead(m_Archive))
             {
-                var lpHeader = TPakStream.ReadBytes(16);
                 var m_Header = new PakHeader();
 
-                using (var THeaderReader = new MemoryStream(lpHeader))
+                m_Header.dwMagic = TPakStream.ReadUInt32(); // KPKA
+                m_Header.bMajorVersion = TPakStream.ReadByte(); // 4
+                m_Header.bMinorVersion = TPakStream.ReadByte(); // 0
+                m_Header.wFeature = TPakStream.ReadInt16(); // 0
+                m_Header.dwTotalFiles = TPakStream.ReadByte();
+                m_Header.dwHash = TPakStream.ReadUInt32();
+
+                if (m_Header.dwMagic != 0x414B504B)
                 {
-                    m_Header.dwMagic = THeaderReader.ReadUInt32(); // KPKA
-                    m_Header.bMajorVersion = THeaderReader.ReadByte(); // 4
-                    m_Header.bMinorVersion = THeaderReader.ReadByte(); // 0
-                    m_Header.wFeature = THeaderReader.ReadInt16(); // 0
-                    m_Header.dwTotalFiles = THeaderReader.ReadByte();
-                    m_Header.dwHash = THeaderReader.ReadUInt32();
+                    Utils.iSetError("[ERROR]: Invalid magic of PAK archive file");
+                    return;
+                }
 
-                    if (m_Header.dwMagic != 0x414B504B)
-                    {
-                        Utils.iSetError("[ERROR]: Invalid magic of PAK archive file");
-                        return;
-                    }
+                if (m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0)
+                {
+                    Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 4.0");
+                    return;
+                }
 
-                    if (m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0)
-                    {
-                        Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 4.0");
-                        return;
-                    }
-
-                    THeaderReader.Dispose();
+                if (m_Header.wFeature != 0)
+                {
+                    Utils.iSetError("[ERROR]: Encrypted archive is not supported");
+                    return;
                 }
 
                 m_EntryTable.Clear();
-                var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * 48);
-                using (var TEntryReader = new MemoryStream(lpTable))
+                for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
                 {
-                    for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
+                    UInt32 dwHashNameLower = TPakStream.ReadUInt32();
+                    UInt32 dwHashNameUpper = TPakStream.ReadUInt32();
+                    Int64 dwOffset = TPakStream.ReadInt64();
+                    Int64 dwCompressedSize = TPakStream.ReadInt64();
+                    Int64 dwDecompressedSize = TPakStream.ReadInt64();
+                    Int64 wCompressionType = TPakStream.ReadInt64();
+                    UInt64 dwDependencyHash = TPakStream.ReadUInt64();
+
+                    var TEntry = new PakEntry
                     {
-                        UInt32 dwHashNameLower = TEntryReader.ReadUInt32();
-                        UInt32 dwHashNameUpper = TEntryReader.ReadUInt32();
-                        Int64 dwOffset = TEntryReader.ReadInt64();
-                        Int64 dwCompressedSize = TEntryReader.ReadInt64();
-                        Int64 dwDecompressedSize = TEntryReader.ReadInt64();
-                        Int64 wCompressionType = TEntryReader.ReadInt64();
-                        UInt64 dwDependencyHash = TEntryReader.ReadUInt64();
+                        dwHashNameLower = dwHashNameLower,
+                        dwHashNameUpper = dwHashNameUpper,
+                        dwOffset = dwOffset,
+                        dwCompressedSize = dwCompressedSize,
+                        dwDecompressedSize = dwDecompressedSize,
+                        wCompressionType = PakUtils.iGetCompressionType(wCompressionType),
+                        dwDependencyHash = dwDependencyHash,
+                    };
 
-                        var TEntry = new PakEntry
-                        {
-                            dwHashNameLower = dwHashNameLower,
-                            dwHashNameUpper = dwHashNameUpper,
-                            dwOffset = dwOffset,
-                            dwCompressedSize = dwCompressedSize,
-                            dwDecompressedSize = dwDecompressedSize,
-                            wCompressionType = PakUtils.iGetCompressionType(wCompressionType),
-                            dwDependencyHash = dwDependencyHash,
-                        };
-
-                        m_EntryTable.Add(TEntry);
-                    }
-
-                    TEntryReader.Dispose();
+                    m_EntryTable.Add(TEntry);
                 }
 
                 foreach (var m_Entry in m_EntryTable)
