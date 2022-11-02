@@ -5,10 +5,13 @@ namespace REE.Unpacker
 {
     class Program
     {
-        static void Main(string[] args)
+        private static String m_Title = "RE Engine PAK Unpacker";
+
+        static void Main(String[] args)
         {
+            Console.Title = m_Title;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("RE Engine PAK Unpacker");
+            Console.WriteLine(m_Title);
             Console.WriteLine("(c) 2021 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
             Console.ResetColor();
 
