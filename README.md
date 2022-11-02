@@ -21,6 +21,7 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Resident Evil: Re:Verse Open Beta | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | RERE_PC_Beta
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | RERE_PC_Release
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | MHR_PC_Demo
+| MONSTER HUNTER RISE: SUNBREAK DEMO | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | MHRS_PC_Demo
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | MHR_PC_Release
 | Exoprimal (Beta) | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | EXP_PC_Beta
 | Street Fighter 6  (Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | SF6_PC_Beta
