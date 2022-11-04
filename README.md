@@ -12,6 +12,7 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Resident Evil 2 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | RE2_PC_Release
 | Resident Evil 3: Raccoon City Demo | [here](https://store.steampowered.com/app/1173690) | [here](https://steamdb.info/app/1173690) | RE3_PC_Demo
 | Resident Evil 3 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | RE3_PC_Release
+| Resident Evil 3: Z Version | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | RE3Z_PC_Release
 | Resident Evil 7: Teaser - Beginning Hour | [here](https://store.steampowered.com/app/530620) | [here](https://steamdb.info/app/530620) | RE7_PC_Demo
 | Resident Evil 7: Biohazard | [here](https://store.steampowered.com/app/418370) | [here](https://steamdb.info/app/418370) | RE7_Release
 | Resident Evil 8: Village Gameplay Demo | [here](https://store.steampowered.com/app/1541780) | [here](https://steamdb.info/app/1541780) | RE8_PC_Demo
