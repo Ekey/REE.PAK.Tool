@@ -10,6 +10,7 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Resident Evil 2: "1-Shot Demo" | [here](https://store.steampowered.com/app/961440) | [here](https://steamdb.info/app/961440) | RE2_PC_Demo
 | Resident Evil 2: "R.P.D. Demo" | [here](https://store.steampowered.com/app/1168280) | [here](https://steamdb.info/app/1168280) | RE2_PC_Demo
 | Resident Evil 2 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | RE2_PC_Release
+| Resident Evil 2: Z Version | [here](https://store.steampowered.com/app/895950) | [here](https://steamdb.info/app/895950) | RE2Z_PC_Release
 | Resident Evil 3: Raccoon City Demo | [here](https://store.steampowered.com/app/1173690) | [here](https://steamdb.info/app/1173690) | RE3_PC_Demo
 | Resident Evil 3 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | RE3_PC_Release
 | Resident Evil 3: Z Version | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | RE3Z_PC_Release
