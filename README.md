@@ -4,6 +4,7 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | CAS_PC_Release
+| Capcom Arcade Stadium 2 | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | CAS2_PC_Release
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | DMC5_PC_Release
 | Ghosts 'n Goblins Resurrection | [here](https://store.steampowered.com/app/1375400) | [here](https://steamdb.info/app/1375400) | GGR_PC_Release
 | Resident Evil 2: "1-Shot Demo" | [here](https://store.steampowered.com/app/961440) | [here](https://steamdb.info/app/961440) | RE2_PC_Demo
