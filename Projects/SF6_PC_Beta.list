@@ -1623,6 +1623,12 @@ natives/stm/product/appsys/config/gui/cap-kleelatin-db.oft.1
 natives/stm/product/appsys/config/gui/cap-popfurylatin-b.oft.1
 natives/stm/product/appsys/config/gui/capcom_goji-udkakugoc80pro-db.oft.1
 natives/stm/product/appsys/config/gui/capcom_goji-udkakugoc80pro-r.oft.1
+natives/stm/product/appsys/config/gui/fontslot_ara.fslt.3
+natives/stm/product/appsys/config/gui/fontslot_eul.fslt.3
+natives/stm/product/appsys/config/gui/fontslot_jpn_eng.fslt.3
+natives/stm/product/appsys/config/gui/fontslot_kor.fslt.3
+natives/stm/product/appsys/config/gui/fontslot_scc.fslt.3
+natives/stm/product/appsys/config/gui/fontslot_tcc.fslt.3
 natives/stm/product/appsys/config/gui/fot-newcinemaastd-d.oft.1
 natives/stm/product/appsys/config/gui/fot-oedktrstd-e.oft.1
 natives/stm/product/appsys/config/gui/fotk-yoongothic750.oft.1
@@ -1631,6 +1637,7 @@ natives/stm/product/appsys/config/gui/fotk-yoonmincho790.oft.1
 natives/stm/product/appsys/config/gui/fotk-yoonsomang2m.oft.1
 natives/stm/product/appsys/config/gui/frutigerltarabic-47lightcn.oft.1
 natives/stm/product/appsys/config/gui/frutigerltarabic-57cn.oft.1
+natives/stm/product/appsys/config/gui/iconfont.ift.7
 natives/stm/product/appsys/config/gui/mgothicgoldhk-medium.oft.1
 natives/stm/product/appsys/config/gui/mgothicgoldprc-medium.oft.1
 natives/stm/product/appsys/config/gui/mkai2hk-black.oft.1
@@ -6334,6 +6341,7 @@ natives/stm/product/event/uicutscene/fgm/vsm/facialemote/data/facialemoteadditio
 natives/stm/product/event/uicutscene/fgm/vsm/facialemote/gui/gui_facialemote_rtt.gui.530034
 natives/stm/product/event/uicutscene/fgm/vsm/facialemote/rtt/rtt_facialemote_left.rtex.5
 natives/stm/product/event/uicutscene/fgm/vsm/facialemote/rtt/rtt_facialemote_right.rtex.5
+natives/stm/product/event/uicutscene/fgm/vsm/versusdemo/camera/ess302_vs.motcam.12
 natives/stm/product/event/uicutscene/fgm/vsm/versusdemo/effect/resource/modeselect_typo_01.mesh.220721329
 natives/stm/product/event/uicutscene/fgm/vsm/versusdemo/face2face/f2f_body_left_fsm2.motfsm2.43
 natives/stm/product/event/uicutscene/fgm/vsm/versusdemo/face2face/f2f_body_right_fsm2.motfsm2.43
@@ -6643,6 +6651,7 @@ natives/stm/product/gui/cmn/lib/part/uv_cmn_9grid.uvs.7
 natives/stm/product/gui/cmn/lib/part/uv_streak.uvs.7
 natives/stm/product/gui/cmn/lib/part/uvs_add_icon.uvs.7
 natives/stm/product/gui/cmn/lib/part/uvs_rental_timer.uvs.7
+natives/stm/product/gui/cmn/preset/pre000.gcp.2
 natives/stm/product/gui/cmn/sortmessageuserdata.user.2
 natives/stm/product/gui/cmn/sortsubmenutextlistuserdata.user.2
 natives/stm/product/gui/cmn/ui00100/choicewindow.pfb.17
@@ -13604,6 +13613,7 @@ natives/stm/product/light/probe/ess/ess0000_00/ess0000_00_lp_000_01.lprb.6
 natives/stm/product/light/probe/ess/ess0000_00/ess0000_00_pn_000_02.prb.9
 natives/stm/product/light/probe/ess/ess0100_00/ess0100_00_lp_000_test_00.lprb.6
 natives/stm/product/light/probe/ess/ess0100_00/ess0100_00_lp_001_chara.lprb.6
+natives/stm/product/light/probe/ess/ess0100_00/ess0100_00_p_000_test_00.dblc.1
 natives/stm/product/light/probe/ess/ess0100_00/ess0100_00_p_000_test_00.prb.9
 natives/stm/product/light/probe/ess/ess0200_00/ess0200_00_lp_000_00.prb.9
 natives/stm/product/light/probe/ess/ess0200_00/ess0200_00_pn_000_00.lprb.6
@@ -25230,6 +25240,7 @@ natives/stm/product/vfx/resource/decal/decal_capcom_smollcrack_01.pfb.17
 natives/stm/product/vfx/resource/decal/decal_capcom_smollcrack_02.pfb.17
 natives/stm/product/vfx/resource/decal/decal_capcom_spherecrack_01.pfb.17
 natives/stm/product/vfx/resource/decal/decal_capcom_spherecrack_02.pfb.17
+natives/stm/product/vfx/resource/lensflare/lensflareasset/lnf_10_cmn_0000.lfa.4
 natives/stm/product/vfx/resource/lensflare/lensflareprefab/tex_capcom_light_glow_0000_alpg.tex.36
 natives/stm/product/vfx/resource/mark/markasset/mesh_10_mark_essfloor.mesh.220721329
 natives/stm/product/vfx/resource/mark/markasset/mesh_10_mark_essfloor_401.mesh.220721329
