@@ -35,6 +35,7 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x1D8: return m_FileName + ".motlist";
+                        case 0x424956: return m_FileName + ".vib";
                         case 0x444957: return m_FileName + ".wid";
                         case 0x444F4C: return m_FileName + ".lod";
                         case 0x444252: return m_FileName + ".rbd";
@@ -52,6 +53,8 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x4D455241: return m_FileName + ".arem";
+                        case 0x21545353: return m_FileName + ".sst";
                         case 0x204D4252: return m_FileName + ".rbm";
                         case 0x4D534648: return m_FileName + ".hfsm";
                         case 0x59444F42: return m_FileName + ".rdd";
@@ -74,6 +77,7 @@ namespace REE.Unpacker
                         case 0x414D4941: return m_FileName + ".aimapattr";
                         case 0x504D4941: return m_FileName + ".aimp";
                         case 0x72786665: return m_FileName + ".efx";
+                        case 0x736C6375: return m_FileName + ".ucls";
                         case 0x54435846: return m_FileName + ".fxct";
                         case 0x58455452: return m_FileName + ".rtex";
                         case 0x4F464246: return m_FileName + ".oft";
@@ -89,6 +93,14 @@ namespace REE.Unpacker
                         case 0x7261666C: return m_FileName + ".lfar";
                         case 0x52524554: return m_FileName + ".terr";
                         case 0x736E636A: return m_FileName + ".jcns";
+                        case 0x6C626C74: return m_FileName + ".tmlbld";
+                        case 0x54455343: return m_FileName + ".cset";
+                        case 0x726D6565: return m_FileName + ".eemr";
+                        case 0x434C4244: return m_FileName + ".dblc";
+                        case 0x384D5453: return m_FileName + ".stmesh";
+                        case 0x32736674: return m_FileName + ".tmlfsm2";
+                        case 0x45555141: return m_FileName + ".aque";
+                        case 0x46554247: return m_FileName + ".gbuf";
                     }
                 }
 
@@ -117,6 +129,19 @@ namespace REE.Unpacker
                         case 0x70616D6A: return m_FileName + ".jmap";
                         case 0x736E636A: return m_FileName + ".jcns";
                         case 0x4E414554: return m_FileName + ".tean";
+                        case 0x736C6B69: return m_FileName + ".ikls";
+                        case 0x72746B69: return m_FileName + ".iktr";
+                        case 0x326C6B69: return m_FileName + ".ikl2";
+                        case 0x72686366: return m_FileName + ".fchr";
+                        case 0x544C5346: return m_FileName + ".fslt";
+                        case 0x6B6E6263: return m_FileName + ".cbnk";
+                        case 0x30474154: return m_FileName + ".havokcl";
+                        case 0x52504347: return m_FileName + ".gcpr";
+                        case 0x74646366: return m_FileName + ".fcmndatals";
+                        case 0x67646C6A: return m_FileName + ".jointlodgroup";
+                        case 0x444E5347: return m_FileName + ".gsnd";
+                        case 0x59545347: return m_FileName + ".gsty";
+                        case 0x3267656C: return m_FileName + ".leg2";
                     }
                 }
 
@@ -126,6 +151,21 @@ namespace REE.Unpacker
             {
                 return m_FileName;
             }
+        }
+
+        public static String iGetStringFromBytes(Byte[] m_Bytes)
+        {
+            Char[] lpBytesHex = new Char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+            Char[] lpHexString = new Char[m_Bytes.Length * 2];
+            Int32 dwIndex = 0;
+
+            foreach (Byte bByte in m_Bytes)
+            {
+                lpHexString[dwIndex++] = lpBytesHex[bByte >> 4];
+                lpHexString[dwIndex++] = lpBytesHex[bByte & 0x0F];
+            }
+
+            return new String(lpHexString);
         }
     }
 }
