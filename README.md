@@ -31,6 +31,7 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | Exoprimal (Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | EXP_PC_Beta
 | Street Fighter 6  (Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | SF6_PC_Beta
 | Pragmata | 👀 | 👀| 👀
+| Dragon's Dogma II | 👀 | 👀| 👀
 
 # REE.FontsCryptor :see_no_evil:
 Tool for decrypt and encrypt fonts (*.otf.1)
