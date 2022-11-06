@@ -38,4 +38,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Special Thanks
 To :point_right: wigwrm :point_left: for the provided list of missing dlcs filenames (RE7) :eyeglasses:
 
-To :point_right: SilverEzredes :point_left: for the provided list of missing dlcs filenames (Exoprimal Beta) :eyeglasses:
+To :point_right: SilverEzredes :point_left: for the provided list of missing filenames (Exoprimal Beta) :eyeglasses:
