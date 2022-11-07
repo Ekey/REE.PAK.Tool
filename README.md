@@ -1,6 +1,10 @@
 # REE.Unpacker :see_no_evil:
 Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
 
+# REE.FontsCryptor :see_no_evil:
+Tool for decrypt and encrypt fonts (*.otf.1)
+
+# Games
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
@@ -33,9 +37,6 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
 | Street Fighter 6  (Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Beta](Projects)
-
-# REE.FontsCryptor :see_no_evil:
-Tool for decrypt and encrypt fonts (*.otf.1)
 
 # Special Thanks
 To :point_right: wigwrm :point_left: for the provided list of missing dlcs filenames (RE7) :eyeglasses:
