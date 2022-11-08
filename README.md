@@ -39,6 +39,21 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
 | Street Fighter 6  (Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Beta](Projects)
 
+# Need Some Help
+
+Still looking for owners of the following games available only for the Japanese region
+
+| Game   |
+|---      
+| Resident Evil 2: Z Version
+| Resident Evil 3: Z Version
+| Resident Evil 7: Z Version
+| Resident Evil 8: Village Z Version
+
+If you have one of these games, contact me here or in [Modding Haven](https://discord.gg/moddinghaven) discord.
+
+Thanks advance 😉
+
 # Special Thanks
 To :point_right: wigwrm :point_left: for the provided list of missing dlcs filenames (RE7) :eyeglasses:
 
