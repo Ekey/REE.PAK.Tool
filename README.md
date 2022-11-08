@@ -29,6 +29,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 8: Village Gameplay Demo | [here](https://store.steampowered.com/app/1541780) | [here](https://steamdb.info/app/1541780) | [RE8_PC_Demo](Projects)
 | Resident Evil 8: Village Gold Edition Gameplay Demo | [here](https://store.steampowered.com/app/2062120) | [here](https://steamdb.info/app/2062120) | [RE8_PC_Demo_Gold](Projects)
 | Resident Evil 8: Village | [here](https://store.steampowered.com/app/1196590) | [here](https://steamdb.info/app/1196590) | [RE8_PC_Release](Projects)
+| Resident Evil 8: Village: Z Version | [here](https://store.steampowered.com/app/1196600) | [here](https://steamdb.info/app/1196600) | None
 | Resident Evil: Resistance Open Beta | [here](https://store.steampowered.com/app/1173710) | [here](https://steamdb.info/app/1173710) | [RER_PC_Beta](Projects)
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_PC_Release](Projects)
 | Resident Evil: Re:Verse Open Beta | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Beta](Projects)
