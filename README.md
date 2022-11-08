@@ -55,6 +55,6 @@ If you have one of these games, contact me here or in [Modding Haven](https://di
 Thanks advance 😉
 
 # Special Thanks
-To :point_right: wigwrm :point_left: for the provided list of missing dlcs filenames (RE7) :eyeglasses:
 
-To :point_right: SilverEzredes :point_left: for the provided list of missing filenames (Exoprimal Beta) :eyeglasses:
+* wigwrm (RE7) dlc filenames
+* [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
