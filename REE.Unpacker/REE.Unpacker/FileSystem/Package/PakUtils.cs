@@ -101,6 +101,9 @@ namespace REE.Unpacker
                         case 0x32736674: return m_FileName + ".tmlfsm2";
                         case 0x45555141: return m_FileName + ".aque";
                         case 0x46554247: return m_FileName + ".gbuf";
+                        case 0x4F4C4347: return m_FileName + ".gclo";
+                        case 0x44525453: return m_FileName + ".srtd";
+                        case 0x544C4946: return m_FileName + ".filt";
                     }
                 }
 
