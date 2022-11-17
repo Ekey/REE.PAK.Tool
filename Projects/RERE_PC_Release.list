@@ -15315,6 +15315,7 @@ natives/stm/streaming/system/item/texture/sm74_201_gvirus01a_a_albm.tex.31
 natives/stm/streaming/system/item/texture/sm74_201_gvirus01a_a_atos.tex.31
 natives/stm/streaming/system/item/texture/sm74_201_gvirus01a_a_emi.tex.31
 natives/stm/streaming/system/item/texture/sm74_201_gvirus01a_a_nrmr.tex.31
+natives/stm/streaming/ui/gui/logoui/movie/re logo animation.mov.1.x64
 natives/stm/streaming/vfx/mesh/mesh_common/mesh_transform/tex_cell_nrm.tex.31
 natives/stm/streaming/vfx/recordsystem/recordtexture/basetextures/record_injury_map_alba.tex.31
 natives/stm/streaming/vfx/recordsystem/recordtexture/basetextures/record_injurymap_nrm.tex.31
@@ -16049,6 +16050,7 @@ natives/stm/ui/gui/lobbyui/texture/t_lobbyui.tex.31
 natives/stm/ui/gui/lobbyui/texture/t_lobbyui_uvs.uvs.7
 natives/stm/ui/gui/lobbyui/texture/t_skillinfo.tex.31
 natives/stm/ui/gui/lobbyui/texture/t_skillinfo_uvs.uvs.7
+natives/stm/ui/gui/logoui/movie/re logo animation.mov.1.x64
 natives/stm/ui/gui/logoui/movie/t_logo_rtt.rtex.5
 natives/stm/ui/gui/logoui/texture/t_capcom.tex.31
 natives/stm/ui/gui/logoui/texture/t_logo_1.tex.31
@@ -16082,6 +16084,7 @@ natives/stm/ui/gui/optionui/optiongui.gui.410024
 natives/stm/ui/gui/optionui/privacypolicydetailgui.gui.410024
 natives/stm/ui/gui/optionui/texture/t_brightness/t_brightnesssetting.tex.31
 natives/stm/ui/gui/optionui/texture/t_brightness/t_highbrightness.tex.31
+natives/stm/ui/gui/optionui/texture/t_controller/t_controller_uvs.uvs.7.stm
 natives/stm/ui/gui/optionui/texture/t_controller/t_controller_x64.tex.31
 natives/stm/ui/gui/optionui/texture/t_hdr/t_hdr.tex.31
 natives/stm/ui/gui/optionui/texture/t_hdr/t_hdr_art.tex.31
@@ -16209,6 +16212,8 @@ natives/stm/ui/gui/playerui/texture/t_playerui.tex.31
 natives/stm/ui/gui/playerui/texture/t_playerui_uvs.uvs.7
 natives/stm/ui/gui/posteffectui/posteffectgui.gui.410024
 natives/stm/ui/gui/qrcodeui/qrcodegui.gui.410024
+natives/stm/ui/gui/qrcodeui/texture/t_qrcode.tex.31.stm
+natives/stm/ui/gui/qrcodeui/texture/t_qrcode_qa.tex.31.stm
 natives/stm/ui/gui/rankui/rankgui.gui.410024
 natives/stm/ui/gui/rankui/texture/t_rankui.tex.31
 natives/stm/ui/gui/rankui/texture/t_rankui_uvs.uvs.7
@@ -16266,6 +16271,7 @@ natives/stm/ui/gui/tutorialui/texture/t_tutorialui_start.tex.31
 natives/stm/ui/gui/tutorialui/texture/t_tutorialui_superweapon.tex.31
 natives/stm/ui/gui/tutorialui/texture/t_tutorialui_uvs.uvs.7
 natives/stm/ui/gui/tutorialui/texture/t_tutorialui_virus.tex.31
+natives/stm/ui/gui/tutorialui/texture/t_tutorialui_weaponswitch.tex.31.stm
 natives/stm/ui/gui/tutorialui/tutorialgui.gui.410024
 natives/stm/ui/gui/wallpaperui/prefab/pref_wallpaper_bow_002.pfb.17
 natives/stm/ui/gui/wallpaperui/prefab/pref_wallpaper_bow_007.pfb.17
@@ -16354,6 +16360,9 @@ natives/stm/ui/guilibrary/vital/texture/t_vital_sh.tex.31
 natives/stm/ui/guilibrary/vital/texture/t_vital_uvs.uvs.7
 natives/stm/ui/guilibrary/vital/vitalgui.gui.410024
 natives/stm/ui/iconfont/iconfont.ift.4
+natives/stm/ui/iconfont/texture/t_iconfont_nsw.tex.31.stm
+natives/stm/ui/iconfont/texture/t_iconfont_ps.tex.31.stm
+natives/stm/ui/iconfont/texture/t_iconfont_stadia.tex.31.stm
 natives/stm/ui/iconfont/texture/t_iconfont_uvs.uvs.7
 natives/stm/ui/iconfont/texture/t_iconfont_xb.tex.31
 natives/stm/ui/message/asset/msg_abilitybow.msg.17
