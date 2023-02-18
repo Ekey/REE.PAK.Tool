@@ -18,10 +18,10 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 2: "1-Shot Demo" | [here](https://store.steampowered.com/app/961440) | [here](https://steamdb.info/app/961440) | [RE2_PC_Demo](Projects)
 | Resident Evil 2: "R.P.D. Demo" | [here](https://store.steampowered.com/app/1168280) | [here](https://steamdb.info/app/1168280) | [RE2_PC_Demo](Projects)
 | Resident Evil 2 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | [RE2_PC_Release](Projects)
-| Resident Evil 2: Z Version | [here](https://store.steampowered.com/app/895950) | [here](https://steamdb.info/app/895950) | None
+| Resident Evil 2: Z Version | [here](https://store.steampowered.com/app/895950) | [here](https://steamdb.info/app/895950) | [RE2Z_RT_PC_Release](Projects)
 | Resident Evil 3: Raccoon City Demo | [here](https://store.steampowered.com/app/1173690) | [here](https://steamdb.info/app/1173690) | [RE3_PC_Demo](Projects)
 | Resident Evil 3 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | [RE3_PC_Release](Projects)
-| Resident Evil 3: Z Version | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | None
+| Resident Evil 3: Z Version | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | [RE3Z_RT_PC_Release](Projects)
 | Resident Evil 4 | [here](https://store.steampowered.com/app/2050650) | [here](https://steamdb.info/app/2050650) | None
 | Resident Evil 7: Teaser - Beginning Hour | [here](https://store.steampowered.com/app/530620) | [here](https://steamdb.info/app/530620) | [RE7_PC_Demo](Projects)
 | Resident Evil 7: Biohazard | [here](https://store.steampowered.com/app/418370) | [here](https://steamdb.info/app/418370) | [RE7_Release](Projects)
@@ -45,9 +45,9 @@ Still looking for owners of the following games available only for the Japanese 
 
 | Game   |
 |---      
-| Resident Evil 2: Z Version
-| Resident Evil 3: Z Version
-| Resident Evil 7: Z Version
+| :heavy_check_mark: Resident Evil 2: Z Version
+| :heavy_check_mark: Resident Evil 3: Z Version
+| :heavy_check_mark: Resident Evil 7: Z Version
 | Resident Evil 8: Village Z Version
 
 If you have one of these games, contact me here or in [Modding Haven](https://discord.gg/moddinghaven) discord.
@@ -59,3 +59,4 @@ Thanks advance 😉
 * wigwrm (RE7) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
 * [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version)
+* [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
