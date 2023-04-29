@@ -44,6 +44,7 @@ namespace REE.FontsCryptor
             {
                 case 0x4F464246: FontDecrypt.iDoIt(TFontsReader, m_DstFile); break;
                 case 0x4F54544F: FontEncrypt.iDoIt(TFontsReader, m_DstFile); break;
+                case 0x00000100: FontEncrypt.iDoIt(TFontsReader, m_DstFile); break;
             }
         }
     }
