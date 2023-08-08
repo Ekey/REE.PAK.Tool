@@ -15,7 +15,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Exoprimal (Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | [EXP_PC_Beta](Projects)
 | Ghosts 'n Goblins Resurrection | [here](https://store.steampowered.com/app/1375400) | [here](https://steamdb.info/app/1375400) | [GGR_PC_Release](Projects)
 | Ghost Trick: Phantom Detective | [here](https://store.steampowered.com/app/1967430) | [here](https://steamdb.info/app/1967430) | None
-| Ghost Trick: Phantom Detective Demo | [here](https://store.steampowered.com/app/1971230) | [here](https://steamdb.info/app/1971230) | None
+| Ghost Trick: Phantom Detective Demo | [here](https://store.steampowered.com/app/1971230) | [here](https://steamdb.info/app/1971230) | [GTD_PC_Demo](Projects)
 | Pragmata | 👀 | 👀| None
 | Resident Evil 2: "1-Shot Demo" | [here](https://store.steampowered.com/app/961440) | [here](https://steamdb.info/app/961440) | [RE2_PC_Demo](Projects)
 | Resident Evil 2: "R.P.D. Demo" | [here](https://store.steampowered.com/app/1168280) | [here](https://steamdb.info/app/1168280) | [RE2_PC_Demo](Projects)
