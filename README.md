@@ -65,3 +65,4 @@ Thanks advance 😉
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
 * [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
+* [r00t0s](https://github.com/r00t0s) (RE8)
