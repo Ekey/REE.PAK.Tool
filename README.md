@@ -32,7 +32,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 8: Village Gameplay Demo | [here](https://store.steampowered.com/app/1541780) | [here](https://steamdb.info/app/1541780) | [RE8_PC_Demo](Projects)
 | Resident Evil 8: Village Gold Edition Gameplay Demo | [here](https://store.steampowered.com/app/2062120) | [here](https://steamdb.info/app/2062120) | [RE8_PC_Demo_Gold](Projects)
 | Resident Evil 8: Village | [here](https://store.steampowered.com/app/1196590) | [here](https://steamdb.info/app/1196590) | [RE8_PC_Release](Projects)
-| Resident Evil 8: Village Z Version | [here](https://store.steampowered.com/app/1196600) | [here](https://steamdb.info/app/1196600) | None
+| Resident Evil 8: Village Z Version | [here](https://store.steampowered.com/app/1196600) | [here](https://steamdb.info/app/1196600) | [RE8Z_PC_Release](Projects)
 | Resident Evil: Resistance Open Beta | [here](https://store.steampowered.com/app/1173710) | [here](https://steamdb.info/app/1173710) | [RER_PC_Beta](Projects)
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_PC_Release](Projects)
 | Resident Evil: Re:Verse Open Beta | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Beta](Projects)
@@ -44,21 +44,6 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Street Fighter 6: Beta | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Beta](Projects)
 | Street Fighter 6: Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | None
 
-# Need Some Help
-
-Still looking for owners of the following games available only for the Japanese region
-
-| Game   |
-|---      
-| :heavy_check_mark: Resident Evil 2: Z Version
-| :heavy_check_mark: Resident Evil 3: Z Version
-| :heavy_check_mark: Resident Evil 7: Z Version
-| Resident Evil 8: Village Z Version
-
-If you have one of these games, contact me here or in [Modding Haven](https://discord.gg/moddinghaven) discord.
-
-Thanks advance 😉
-
 # Special Thanks
 
 * wigwrm (RE7) dlc filenames
@@ -66,3 +51,4 @@ Thanks advance 😉
 * [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
 * [r00t0s](https://github.com/r00t0s) (RE8)
+* [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
