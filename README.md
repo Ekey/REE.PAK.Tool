@@ -11,7 +11,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Capcom Arcade Stadium 2 | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
 | Dragon's Dogma II | 👀 | 👀| None
-| Exoprimal | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | None
+| Exoprimal | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | [EXP_PC_Release](Projects)
 | Exoprimal (Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | [EXP_PC_Beta](Projects)
 | Ghosts 'n Goblins Resurrection | [here](https://store.steampowered.com/app/1375400) | [here](https://steamdb.info/app/1375400) | [GGR_PC_Release](Projects)
 | Ghost Trick: Phantom Detective | [here](https://store.steampowered.com/app/1967430) | [here](https://steamdb.info/app/1967430) | None
