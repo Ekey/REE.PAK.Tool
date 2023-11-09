@@ -6,7 +6,7 @@ namespace REE.Unpacker
 {
     class PakUnpack
     {
-        static List<PakEntry> m_EntryTable = new List<PakEntry>();
+        private static List<PakEntry> m_EntryTable = new List<PakEntry>();
 
         public static void iDoIt(String m_Archive, String m_DstFolder)
         {
