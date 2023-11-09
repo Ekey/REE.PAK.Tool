@@ -4,19 +4,19 @@ Tool for extract PAK archives from games developed on [RE Engine](https://en.wik
 # REE.FontsCryptor :see_no_evil:
 Tool for decrypt and encrypt fonts (*.otf.1)
 
-# Games
+# Games (PC)
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
 | Capcom Arcade Stadium 2 | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
-| Dragon's Dogma II | 👀 | 👀| None
+| Dragon's Dogma II | None | None| None
 | Exoprimal | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | [EXP_PC_Release](Projects)
 | Exoprimal (Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | [EXP_PC_Beta](Projects)
 | Ghosts 'n Goblins Resurrection | [here](https://store.steampowered.com/app/1375400) | [here](https://steamdb.info/app/1375400) | [GGR_PC_Release](Projects)
 | Ghost Trick: Phantom Detective | [here](https://store.steampowered.com/app/1967430) | [here](https://steamdb.info/app/1967430) | None
 | Ghost Trick: Phantom Detective Demo | [here](https://store.steampowered.com/app/1971230) | [here](https://steamdb.info/app/1971230) | [GTD_PC_Demo](Projects)
-| Pragmata | 👀 | 👀| None
+| Pragmata | None | None| None
 | Resident Evil 2: "1-Shot Demo" | [here](https://store.steampowered.com/app/961440) | [here](https://steamdb.info/app/961440) | [RE2_PC_Demo](Projects)
 | Resident Evil 2: "R.P.D. Demo" | [here](https://store.steampowered.com/app/1168280) | [here](https://steamdb.info/app/1168280) | [RE2_PC_Demo](Projects)
 | Resident Evil 2 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | [RE2_PC_Release](Projects)
@@ -44,6 +44,18 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Street Fighter 6: Beta | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Beta](Projects)
 | Street Fighter 6: Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | None
 
+# Games (MacOS)
+| Game   | List Tag   |
+|---      |---    |
+| Resident Evil 4 | None
+| Resident Evil 8: Village | [RE8_MAC_Release](Projects)
+
+# Games (iOS)
+| Game   | List Tag   |
+|---      |---    |
+| Resident Evil 4 | None
+| Resident Evil 8: Village | None
+
 # Special Thanks
 
 * wigwrm (RE7) dlc filenames
@@ -52,3 +64,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
 * [r00t0s](https://github.com/r00t0s) (RE8)
 * [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
+* [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version)
