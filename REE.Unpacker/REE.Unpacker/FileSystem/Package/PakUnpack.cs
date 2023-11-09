@@ -12,13 +12,19 @@ namespace REE.Unpacker
         {
             using (FileStream TPakStream = File.OpenRead(m_Archive))
             {
+                if (TPakStream.Length <= 16)
+                {
+                    Utils.iSetError("[ERROR]: Empty PAK archive file");
+                    return;
+                }
+
                 var m_Header = new PakHeader();
 
                 m_Header.dwMagic = TPakStream.ReadUInt32(); // KPKA
                 m_Header.bMajorVersion = TPakStream.ReadByte(); // 4
                 m_Header.bMinorVersion = TPakStream.ReadByte(); // 0
                 m_Header.wFeature = TPakStream.ReadInt16(); // 0
-                m_Header.dwTotalFiles = TPakStream.ReadByte();
+                m_Header.dwTotalFiles = TPakStream.ReadInt32();
                 m_Header.dwHash = TPakStream.ReadUInt32();
 
                 if (m_Header.dwMagic != 0x414B504B)
@@ -33,35 +39,41 @@ namespace REE.Unpacker
                     return;
                 }
 
+                m_EntryTable.Clear();
+                var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * 48);
+
                 if (m_Header.wFeature != 0)
                 {
-                    Utils.iSetError("[ERROR]: Encrypted archive is not supported");
-                    return;
+                    var lpBlobHash = TPakStream.ReadBytes(128);
+
+                    lpTable = PakCipher.iDecryptData(lpTable, lpBlobHash);
                 }
 
-                m_EntryTable.Clear();
-                for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
+                using (var TEntryReader = new MemoryStream(lpTable))
                 {
-                    UInt32 dwHashNameLower = TPakStream.ReadUInt32();
-                    UInt32 dwHashNameUpper = TPakStream.ReadUInt32();
-                    Int64 dwOffset = TPakStream.ReadInt64();
-                    Int64 dwCompressedSize = TPakStream.ReadInt64();
-                    Int64 dwDecompressedSize = TPakStream.ReadInt64();
-                    Int64 wCompressionType = TPakStream.ReadInt64();
-                    UInt64 dwDependencyHash = TPakStream.ReadUInt64();
-
-                    var TEntry = new PakEntry
+                    for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
                     {
-                        dwHashNameLower = dwHashNameLower,
-                        dwHashNameUpper = dwHashNameUpper,
-                        dwOffset = dwOffset,
-                        dwCompressedSize = dwCompressedSize,
-                        dwDecompressedSize = dwDecompressedSize,
-                        wCompressionType = PakUtils.iGetCompressionType(wCompressionType),
-                        dwDependencyHash = dwDependencyHash,
-                    };
+                        UInt32 dwHashNameLower = TEntryReader.ReadUInt32();
+                        UInt32 dwHashNameUpper = TEntryReader.ReadUInt32();
+                        Int64 dwOffset = TEntryReader.ReadInt64();
+                        Int64 dwCompressedSize = TEntryReader.ReadInt64();
+                        Int64 dwDecompressedSize = TEntryReader.ReadInt64();
+                        Int64 wCompressionType = TEntryReader.ReadInt64();
+                        UInt64 dwDependencyHash = TEntryReader.ReadUInt64();
 
-                    m_EntryTable.Add(TEntry);
+                        var TEntry = new PakEntry
+                        {
+                            dwHashNameLower = dwHashNameLower,
+                            dwHashNameUpper = dwHashNameUpper,
+                            dwOffset = dwOffset,
+                            dwCompressedSize = dwCompressedSize,
+                            dwDecompressedSize = dwDecompressedSize,
+                            wCompressionType = PakUtils.iGetCompressionType(wCompressionType),
+                            dwDependencyHash = dwDependencyHash,
+                        };
+
+                        m_EntryTable.Add(TEntry);
+                    }
                 }
 
                 foreach (var m_Entry in m_EntryTable)

@@ -43,6 +43,7 @@ namespace REE.Unpacker
                         case 0x424650: return m_FileName + ".pfb";
                         case 0x464453: return m_FileName + ".mmtr";
                         case 0x46444D: return m_FileName + ".mdf2";
+                        case 0x4C4F46: return m_FileName + ".fol";
                         case 0x4E4353: return m_FileName + ".scn";
                         case 0x4F4C43: return m_FileName + ".clo";
                         case 0x504D4C: return m_FileName + ".lmp";
@@ -53,6 +54,7 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x464E4946: return m_FileName + ".finf";
                         case 0x4D455241: return m_FileName + ".arem";
                         case 0x21545353: return m_FileName + ".sst";
                         case 0x204D4252: return m_FileName + ".rbm";
