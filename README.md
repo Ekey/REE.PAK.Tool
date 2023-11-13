@@ -58,6 +58,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 4 | None
 | Resident Evil 8: Village | None
 
+# Games (PS4)
+| Game   | List Tag   |
+|---      |---    |
+| Resident Evil 7: Kitchen Demo | None
+
 # Special Thanks
 
 * wigwrm (RE7) dlc filenames

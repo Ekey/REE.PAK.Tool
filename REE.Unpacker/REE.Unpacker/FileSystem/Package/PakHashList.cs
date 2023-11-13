@@ -13,6 +13,7 @@ namespace REE.Unpacker
         public static void iLoadProject(String m_ProjectFile)
         {
             String m_Line = null;
+            m_ProjectFile = m_ProjectFile + ".list";
             if (!File.Exists(m_Path + m_ProjectFile))
             {
                 Utils.iSetWarning("[WARNING]: Unable to load project file " + m_ProjectFile);

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="FileSystem\Compression\DEFLATE.cs" />
     <Compile Include="FileSystem\Compression\ZSTD.cs" />
+    <Compile Include="FileSystem\Encryption\PakCipher.cs" />
     <Compile Include="FileSystem\Other\Helpers.cs" />
     <Compile Include="FileSystem\Other\Utils.cs" />
     <Compile Include="FileSystem\Package\PakEntry.cs" />
@@ -55,7 +56,8 @@
     <Compile Include="FileSystem\Package\PakHash.cs" />
     <Compile Include="FileSystem\Package\PakHashList.cs" />
     <Compile Include="FileSystem\Package\PakHeader.cs" />
-    <Compile Include="FileSystem\Package\PakUnpack.cs" />
+    <Compile Include="FileSystem\Package\PakUnpack20.cs" />
+    <Compile Include="FileSystem\Package\PakUnpack40.cs" />
     <Compile Include="FileSystem\Package\PakUtils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
