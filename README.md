@@ -43,7 +43,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | None
-| Street Fighter 6: Beta | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Beta](Projects)
+| Street Fighter 6: Closed Beta | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Closed_Beta](Projects)
 | Street Fighter 6: Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | [SF6_PC_Demo](Projects)
 
 # Games (MacOS)
