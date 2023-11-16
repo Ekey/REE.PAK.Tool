@@ -13,7 +13,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
 | Dragon's Dogma II | None | None| None
 | Exoprimal | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | [EXP_PC_Release](Projects)
-| Exoprimal (Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | [EXP_PC_Beta](Projects)
+| Exoprimal (Closed Beta) | [here](https://store.steampowered.com/app/1904230) | [here](https://steamdb.info/app/1904230) | [EXP_PC_Closed_Beta](Projects)
 | Ghosts 'n Goblins Resurrection | [here](https://store.steampowered.com/app/1375400) | [here](https://steamdb.info/app/1375400) | [GGR_PC_Release](Projects)
 | Ghost Trick: Phantom Detective | [here](https://store.steampowered.com/app/1967430) | [here](https://steamdb.info/app/1967430) | None
 | Ghost Trick: Phantom Detective Demo | [here](https://store.steampowered.com/app/1971230) | [here](https://steamdb.info/app/1971230) | [GTPD_PC_Demo](Projects)
@@ -34,17 +34,17 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 8: Village Gold Edition Gameplay Demo | [here](https://store.steampowered.com/app/2062120) | [here](https://steamdb.info/app/2062120) | [RE8_PC_Demo_Gold](Projects)
 | Resident Evil 8: Village | [here](https://store.steampowered.com/app/1196590) | [here](https://steamdb.info/app/1196590) | [RE8_PC_Release](Projects)
 | Resident Evil 8: Village Z Version | [here](https://store.steampowered.com/app/1196600) | [here](https://steamdb.info/app/1196600) | [RE8Z_PC_Release](Projects)
-| Resident Evil: Resistance Open Beta | [here](https://store.steampowered.com/app/1173710) | [here](https://steamdb.info/app/1173710) | [RER_PC_Open_Beta](Projects)
+| Resident Evil: Resistance (Open Beta) | [here](https://store.steampowered.com/app/1173710) | [here](https://steamdb.info/app/1173710) | [RER_PC_Open_Beta](Projects)
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_PC_Release](Projects)
-| Resident Evil: Re:Verse Open Beta | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Open_Beta](Projects)
+| Resident Evil: Re:Verse (Open Beta) | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Open_Beta](Projects)
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | [RERE_PC_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess | None | None| None
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_PC_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | None
-| Street Fighter 6: Closed Beta | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Closed_Beta](Projects)
-| Street Fighter 6: Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | [SF6_PC_Demo](Projects)
+| Street Fighter 6 (Closed Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Closed_Beta](Projects)
+| Street Fighter 6 Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | [SF6_PC_Demo](Projects)
 
 # Games (MacOS)
 | Game   | List Tag   |
