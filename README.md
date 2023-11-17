@@ -25,7 +25,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 3: Raccoon City Demo | [here](https://store.steampowered.com/app/1173690) | [here](https://steamdb.info/app/1173690) | [RE3_PC_Demo](Projects)
 | Resident Evil 3 | [here](https://store.steampowered.com/app/883710) | [here](https://steamdb.info/app/883710) | [RE3_PC_Release](Projects)
 | Resident Evil 3: Z Version | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | [RE3Z_RT_PC_Release](Projects)
-| Resident Evil 4 (Encrypted) | [here](https://store.steampowered.com/app/2050650) | [here](https://steamdb.info/app/2050650) | None
+| Resident Evil 4 (Encrypted) | [here](https://store.steampowered.com/app/2050650) | [here](https://steamdb.info/app/2050650) | [RE4_PC_Release](Projects)
 | Resident Evil 4: Chainsaw Demo | [here](https://store.steampowered.com/app/2231770) | [here](https://steamdb.info/app/2231770) | [RE4_PC_Demo](Projects)
 | Resident Evil 7: Teaser - Beginning Hour | [here](https://store.steampowered.com/app/530620) | [here](https://steamdb.info/app/530620) | [RE7_PC_Demo](Projects)
 | Resident Evil 7: Biohazard | [here](https://store.steampowered.com/app/418370) | [here](https://steamdb.info/app/418370) | [RE7_Release](Projects)
