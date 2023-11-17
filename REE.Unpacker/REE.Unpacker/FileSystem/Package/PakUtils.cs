@@ -54,6 +54,7 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x54414D2E: return m_FileName + ".mat";
                         case 0x54464453: return m_FileName + ".sdft";
                         case 0x44424453: return m_FileName + ".sdbd";
                         case 0x52554653: return m_FileName + ".sfur";
