@@ -37,7 +37,7 @@ namespace REE.Unpacker
 
             foreach (var m_Entry in m_EntryTable)
             {
-                String m_FileName = PakHashList.iGetNameFromHashList(m_Entry.dwHashNameLower, m_Entry.dwHashNameUpper);
+                String m_FileName = PakHashList.iGetNameFromHashList((UInt64)m_Entry.dwHashNameUpper << 32 | m_Entry.dwHashNameLower);
                 String m_FullPath = m_DstFolder + m_FileName.Replace("/", @"\");
 
                 Utils.iSetInfo("[UNPACKING]: " + m_FileName);

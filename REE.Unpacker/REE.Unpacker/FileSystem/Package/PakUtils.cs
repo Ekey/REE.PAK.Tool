@@ -54,6 +54,9 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x54464453: return m_FileName + ".sdft";
+                        case 0x44424453: return m_FileName + ".sdbd";
+                        case 0x52554653: return m_FileName + ".sfur";
                         case 0x464E4946: return m_FileName + ".finf";
                         case 0x4D455241: return m_FileName + ".arem";
                         case 0x21545353: return m_FileName + ".sst";
@@ -134,6 +137,7 @@ namespace REE.Unpacker
                         case 0x70616D6A: return m_FileName + ".jmap";
                         case 0x736E636A: return m_FileName + ".jcns";
                         case 0x4E414554: return m_FileName + ".tean";
+                        case 0x61646B69: return m_FileName + ".ikda";
                         case 0x736C6B69: return m_FileName + ".ikls";
                         case 0x72746B69: return m_FileName + ".iktr";
                         case 0x326C6B69: return m_FileName + ".ikl2";
