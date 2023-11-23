@@ -79,7 +79,7 @@ namespace REE.Unpacker
                         case (PakFlags)2: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
                     }
 					
-					File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                    File.WriteAllBytes(m_FullPath, lpDstBuffer);
                 }
                 else
                 {
