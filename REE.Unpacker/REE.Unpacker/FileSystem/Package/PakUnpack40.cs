@@ -79,6 +79,8 @@ namespace REE.Unpacker
                         case (PakFlags)2: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
                     }
 					
+                    m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
+					
                     File.WriteAllBytes(m_FullPath, lpDstBuffer);
                 }
                 else
