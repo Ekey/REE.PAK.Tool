@@ -71,21 +71,15 @@ namespace REE.Unpacker
                 else if (m_Entry.wCompressionType == PakFlags.DEFLATE || m_Entry.wCompressionType == PakFlags.ZSTD)
                 {
                     var lpSrcBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
-
-                    if (m_Entry.wCompressionType == PakFlags.DEFLATE)
+                    var lpDstBuffer = new Byte[] { };
+					
+                    switch (m_Entry.wCompressionType)
                     {
-                        var lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer);
-                        m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
-
-                        File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                        case (PakFlags)1: lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer); break;
+                        case (PakFlags)2: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
                     }
-                    else if (m_Entry.wCompressionType == PakFlags.ZSTD)
-                    {
-                        var lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer);
-                        m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
-
-                        File.WriteAllBytes(m_FullPath, lpDstBuffer);
-                    }
+					
+					File.WriteAllBytes(m_FullPath, lpDstBuffer);
                 }
                 else
                 {
