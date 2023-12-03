@@ -61,7 +61,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (PS4)
 | Game   | List Tag   |
 |---      |---    |
-| Resident Evil 7: Kitchen Demo | None
+| Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
 
 # Special Thanks
 
