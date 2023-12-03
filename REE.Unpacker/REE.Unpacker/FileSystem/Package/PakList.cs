@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace REE.Unpacker
 {
-    class PakHashList
+    class PakList
     {
         private static String m_Path = Utils.iGetApplicationPath() + @"\Projects\";
 
@@ -55,7 +55,7 @@ namespace REE.Unpacker
             }
             else
             {
-                m_FileName = @"__Unknown\" + dwHash.ToString("X16");
+                m_FileName = @"__Unknown/" + dwHash.ToString("X16");
             }
 
             return m_FileName;
