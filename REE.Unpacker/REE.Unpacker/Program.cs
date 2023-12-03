@@ -63,6 +63,8 @@ namespace REE.Unpacker
                 m_Header.bMajorVersion = TPakStream.ReadByte();
                 m_Header.bMinorVersion = TPakStream.ReadByte();
                 m_Header.wFeature = TPakStream.ReadInt16();
+                m_Header.dwTotalFiles = TPakStream.ReadInt32();
+                m_Header.dwHash = TPakStream.ReadUInt32();
 
                 if (m_Header.dwMagic != 0x414B504B)
                 {

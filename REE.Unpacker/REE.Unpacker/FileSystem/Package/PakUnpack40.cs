@@ -10,13 +10,8 @@ namespace REE.Unpacker
 
         public static void iDoIt(FileStream TPakStream, PakHeader m_Header, String m_DstFolder)
         {
-            var m_SubHeader = new PakSubHeader40();
-
-            m_SubHeader.dwTotalFiles = TPakStream.ReadInt32();
-            m_SubHeader.dwHash = TPakStream.ReadUInt32();
-
             m_EntryTable.Clear();
-            var lpTable = TPakStream.ReadBytes(m_SubHeader.dwTotalFiles * 48);
+            var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * 48);
 
             if (m_Header.wFeature == 8)
             {
@@ -27,7 +22,7 @@ namespace REE.Unpacker
 
             using (var TEntryReader = new MemoryStream(lpTable))
             {
-                for (Int32 i = 0; i < m_SubHeader.dwTotalFiles; i++)
+                for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
                 {
                     UInt32 dwHashNameLower = TEntryReader.ReadUInt32();
                     UInt32 dwHashNameUpper = TEntryReader.ReadUInt32();

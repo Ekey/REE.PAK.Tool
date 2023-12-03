@@ -10,26 +10,20 @@ namespace REE.Unpacker
 
         public static void iDoIt(FileStream TPakStream, PakHeader m_Header, String m_DstFolder)
         {
-            var m_SubHeader = new PakSubHeader20();
-
-            m_SubHeader.dwTotalFiles = TPakStream.ReadInt64();
-            m_SubHeader.dwBaseOffset = TPakStream.ReadInt64();
-            m_SubHeader.dwUnknown = TPakStream.ReadInt64();
-
             m_EntryTable.Clear();
-            for (Int32 i = 0; i < m_SubHeader.dwTotalFiles; i++)
+            for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
             {
-                UInt32 dwHashNameLower = TPakStream.ReadUInt32();
-                UInt32 dwHashNameUpper = TPakStream.ReadUInt32();
                 Int64 dwOffset = TPakStream.ReadInt64();
                 Int64 dwSize = TPakStream.ReadInt64();
+                UInt32 dwHashNameLower = TPakStream.ReadUInt32();
+                UInt32 dwHashNameUpper = TPakStream.ReadUInt32();
 
                 var TEntry = new PakEntry20
                 {
-                    dwHashNameLower = dwHashNameLower,
-                    dwHashNameUpper = dwHashNameUpper,
                     dwOffset = dwOffset,
                     dwSize = dwSize,
+                    dwHashNameLower = dwHashNameLower,
+                    dwHashNameUpper = dwHashNameUpper,
                 };
 
                 m_EntryTable.Add(TEntry);
