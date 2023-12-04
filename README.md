@@ -56,7 +56,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | List Tag   |
 |---      |---    |
 | Resident Evil 4 | None
-| Resident Evil 8: Village | None
+| Resident Evil 8: Village | [RE8_iOS_Release](Projects)
 
 # Games (PS4)
 | Game   | List Tag   |
