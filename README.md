@@ -65,6 +65,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (PS4)
 | Game   | List Tag   |
 |---      |---    |
+| Devil May Cry 5 | [DMC5_PS4_Release](Projects)
 | Resident Evil 4 | [RE4_PS4_Release](Projects)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
