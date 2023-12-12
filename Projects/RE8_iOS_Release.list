@@ -2159,6 +2159,7 @@ natives/ios/gui/ui2000/gui/ui2011.gui.520034
 natives/ios/gui/ui2000/gui/ui2012.gui.520034
 natives/ios/gui/ui2000/gui/ui2020.gui.520034
 natives/ios/gui/ui2000/gui/ui2021.gui.520034
+natives/ios/gui/ui2000/gui/ui2030.gui.520034
 natives/ios/gui/ui2000/gui/ui2030_stadia.gui.520034
 natives/ios/gui/ui2000/gui/ui2040.gui.520034
 natives/ios/gui/ui2000/gui/ui2041.gui.520034
@@ -3013,6 +3014,7 @@ natives/ios/systems/develop/ecotopemapbaker.sdf.230828653
 natives/ios/systems/develop/geometrybrush.sdf.230828653
 natives/ios/systems/develop/ground/defaultheightmap.tex.143221104
 natives/ios/systems/develop/landform.sdf.230828653
+natives/ios/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.5
 natives/ios/systems/develop/meshshader/test.sdf.230828653
 natives/ios/systems/develop/mobile.tex.143221104
 natives/ios/systems/develop/mobilebutton.tex.143221104
@@ -3024,6 +3026,7 @@ natives/ios/systems/develop/ns.tex.143221104
 natives/ios/systems/develop/nslite.tex.143221104
 natives/ios/systems/develop/nsoled.tex.143221104
 natives/ios/systems/develop/shadereditor/box.mesh.220721329
+natives/ios/systems/develop/shadereditor/cylinder.mesh.220721329
 natives/ios/systems/develop/shadereditor/plane.mesh.220721329
 natives/ios/systems/develop/shadereditor/sphere.mesh.220721329
 natives/ios/systems/develop/shape.sdf.230828653
@@ -3056,6 +3059,7 @@ natives/ios/systems/gui/systemdialog.gui.520034
 natives/ios/systems/physics/default.cdef.5
 natives/ios/systems/rendering/ambientbrdf.tex.143221104
 natives/ios/systems/rendering/areatex.tex.143221104
+natives/ios/systems/rendering/beach_cross_cm.tex.143221104
 natives/ios/systems/rendering/bluenoise.tex.143221104
 natives/ios/systems/rendering/bluenoise/rankingtile_128spp.gpbf.2
 natives/ios/systems/rendering/bluenoise/rankingtile_16spp.gpbf.2
@@ -3081,6 +3085,7 @@ natives/ios/systems/rendering/colorcubelinear.tex.143221104
 natives/ios/systems/rendering/cube.rtex.5
 natives/ios/systems/rendering/default.rtmr.5
 natives/ios/systems/rendering/defaultshader.mmtr.230828653
+natives/ios/systems/rendering/empty.gpbf.2
 natives/ios/systems/rendering/eyeball/eye_alb.tex.143221104
 natives/ios/systems/rendering/eyeball/eye_nmr.tex.143221104
 natives/ios/systems/rendering/eyeball/eye_occ.tex.143221104
@@ -3088,6 +3093,7 @@ natives/ios/systems/rendering/eyeball/eye_vns.tex.143221104
 natives/ios/systems/rendering/eyeball/eyeball.mesh.220721329
 natives/ios/systems/rendering/eyeball/eyeballmaterial.mmtr.230828653
 natives/ios/systems/rendering/eyeball/eyecaustics.tex.143221104
+natives/ios/systems/rendering/groundsmoothnoise.tex.143221104
 natives/ios/systems/rendering/inscatter.tex.143221104
 natives/ios/systems/rendering/irradiance.tex.143221104
 natives/ios/systems/rendering/lens_mask.tex.143221104
