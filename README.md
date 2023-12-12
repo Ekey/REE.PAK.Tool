@@ -77,4 +77,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [r00t0s](https://github.com/r00t0s) (RE8)
 * [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
 * [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version)
-* [osyu](https://github.com/osyu) (GTPD)
+* [osyu](https://github.com/osyu) (GTPD) filenames
