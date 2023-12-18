@@ -36,7 +36,6 @@ namespace REE.Unpacker
 
         public static Byte[] iDecryptData(Byte[] lpBuffer, Byte[] lpEncryptedKey)
         {
-
             var lpKey = iDecryptKey(lpEncryptedKey);
 
             if (lpKey.Length > 0)
