@@ -51,9 +51,9 @@ namespace REE.Unpacker
 
                 if (m_Header.wFeature == 8)
                 {
-                    var lpBlobHash = TPakStream.ReadBytes(128);
+                    var lpEncryptedKey = TPakStream.ReadBytes(128);
 
-                    lpTable = PakCipher.iDecryptData(lpTable, lpBlobHash);
+                    lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
                 }
 
                 m_EntryTable.Clear();
