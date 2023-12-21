@@ -71,6 +71,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
 
+# Games (Nintendo Switch)
+| Game   | List Tag   |
+|---      |---    |
+| MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
+
 # Special Thanks
 
 * wigwrm (RE7) dlc filenames
