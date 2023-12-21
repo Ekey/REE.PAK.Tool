@@ -4,6 +4,7 @@ natives/stm/character/bow/common/animation/motionbank/a_bow_comm_victory_mb.motb
 natives/stm/character/bow/common/animation/motionlist/a_bow_comm_0001_movemotiontree_ml.motlist.500
 natives/stm/character/bow/common/animation/motionlist/a_bow_comm_0001_victorymotion_ml.motlist.500
 natives/stm/character/bow/common/animation/motionlist/a_bow_comm_0006_damagemotiontree_ml.motlist.500
+natives/stm/character/bow/common/animation/uservar/d_bow_comm_anim_base_uservar.uvar.2
 natives/stm/character/bow/common/animation/uservar/d_bow_comm_jack_anim_base_uservar.uvar.2
 natives/stm/character/bow/common/animation/uservar/d_bow_victorymotion_anim_uservar.uvar.2
 natives/stm/character/bow/common/texture/t_bow_comm_grossdetail_nrm.tex.31
