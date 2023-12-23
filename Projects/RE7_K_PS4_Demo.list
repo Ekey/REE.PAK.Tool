@@ -114,12 +114,14 @@ natives/ps4/e3/mastermaterial/master/env_decalblood.mmtr.58
 natives/ps4/e3/mastermaterial/master/faceblend.mmtr.58
 natives/ps4/e3/mastermaterial/master/handblend.mmtr.58
 natives/ps4/e3/mastermaterial/master/weapon_default.mmtr.58
+natives/ps4/e3/prefab/camera/main camera.pfb.15
 natives/ps4/e3/prefab/debugtrackingui/debuggui2.gui.150013
 natives/ps4/e3/prefab/fpsui/fpsui.gui.150013
 natives/ps4/e3/prefab/gui/e3endcard.pfb.15
 natives/ps4/e3/prefab/gui/e3hmduserchange.pfb.15
 natives/ps4/e3/prefab/gui/e3ingametitle.pfb.15
 natives/ps4/e3/prefab/localcubemap/localcubemap.tex.6
+natives/ps4/e3/prefab/system/systemobject.pfb.15
 natives/ps4/e3/props/floor_lamp/floor_lamp_bm.tex.6
 natives/ps4/e3/props/floor_lamp/floor_lamp_cable.mdf2.5
 natives/ps4/e3/props/floor_lamp/floor_lamp_cable_motion.mesh.31
