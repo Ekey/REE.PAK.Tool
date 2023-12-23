@@ -66,6 +66,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (PS4)
 | Game   | List Tag   |
 |---      |---    |
+| Capcom Arcade Stadium | [CAS_PS4_Release](Projects)
 | Devil May Cry 5 | [DMC5_PS4_Release](Projects)
 | Ghosts 'n Goblins Resurrection | [GGR_PS4_Release](Projects)
 | Ghost Trick: Phantom Detective | [GTPD_PS4_Release](Projects)
