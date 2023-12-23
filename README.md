@@ -67,7 +67,8 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | List Tag   |
 |---      |---    |
 | Devil May Cry 5 | [DMC5_PS4_Release](Projects)
-| Ghost Trick: Phantom Detective | [GTPD_PS4_Release](Projects)
+| Ghosts 'n Goblins Resurrection | [DMC5_PS4_Release](Projects)
+| Ghost Trick: Phantom Detective | [GGR_PS4_Release](Projects)
 | Resident Evil 2 | [RE2_PS4_Release](Projects)
 | Resident Evil 3 | [RE3_PS4_Release](Projects)
 | Resident Evil 4 | [RE4_PS4_Release](Projects)
