@@ -80,6 +80,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | List Tag   |
 |---      |---    |
 | Capcom Arcade Stadium | [CAS_NSW_Release](Projects)
+| Capcom Arcade Stadium 2 | [CAS2_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
 
 # Special Thanks
