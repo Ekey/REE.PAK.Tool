@@ -83,6 +83,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Capcom Arcade Stadium 2 | [CAS2_NSW_Release](Projects)
 | Ghosts 'n Goblins Resurrection | [GGR_NSW_Release](Projects)
 | Ghost Trick: Phantom Detective Demo | [GTPD_NSW_Demo](Projects)
+| Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
 
 # Special Thanks
