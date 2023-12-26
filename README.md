@@ -9,7 +9,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 |---      |---    |---    |---    |
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| None
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
-| Capcom Arcade Stadium 2 | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
+| Capcom Arcade 2nd Stadium | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
 | Dragon's Dogma II | None | None| None
 | Exoprimal | [here](https://store.steampowered.com/app/1286320) | [here](https://steamdb.info/app/1286320) | [EXP_PC_Release](Projects)
@@ -67,6 +67,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | List Tag   |
 |---      |---    |
 | Capcom Arcade Stadium | [CAS_PS4_Release](Projects)
+| Capcom Arcade 2nd Stadium | [CAS2_PS4_Release](Projects)
 | Devil May Cry 5 | [DMC5_PS4_Release](Projects)
 | Ghosts 'n Goblins Resurrection | [GGR_PS4_Release](Projects)
 | Ghost Trick: Phantom Detective | [GTPD_PS4_Release](Projects)
@@ -80,7 +81,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | List Tag   |
 |---      |---    |
 | Capcom Arcade Stadium | [CAS_NSW_Release](Projects)
-| Capcom Arcade Stadium 2 | [CAS2_NSW_Release](Projects)
+| Capcom Arcade 2nd Stadium | [CAS2_NSW_Release](Projects)
 | Ghosts 'n Goblins Resurrection | [GGR_NSW_Release](Projects)
 | Ghost Trick: Phantom Detective Demo | [GTPD_NSW_Demo](Projects)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
