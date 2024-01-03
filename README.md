@@ -45,7 +45,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_PC_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
-| MONSTER HUNTER WILDS | None | None| None
+| MONSTER HUNTER WILDS | [here](https://store.steampowered.com/app/2246340) | [here](https://steamdb.info/app/2246340)| None
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | None
 | Street Fighter 6 (Closed Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Closed_Beta](Projects)
 | Street Fighter 6 (Open Beta) | [here](https://store.steampowered.com/app/1952120) | [here](https://steamdb.info/app/1952120) | None
@@ -75,6 +75,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 3 | [RE3_PS4_Release](Projects)
 | Resident Evil 4 | [RE4_PS4_Release](Projects)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
+| Resident Evil 7 Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
 
 # Games (Nintendo Switch)
