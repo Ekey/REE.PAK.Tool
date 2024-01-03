@@ -75,7 +75,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 3 | [RE3_PS4_Release](Projects)
 | Resident Evil 4 | [RE4_PS4_Release](Projects)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
-| Resident Evil 7 Gold Edition | [RE7_GE_PS4_Release](Projects)
+| Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
 
 # Games (Nintendo Switch)
