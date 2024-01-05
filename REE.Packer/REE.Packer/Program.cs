@@ -25,7 +25,7 @@ namespace REE.Packer
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[Examples]");
-                Console.WriteLine("    REE.Packer D:\\Unpacked\re_chunk_000 D:\\re_chunk_000.pak");
+                Console.WriteLine("    REE.Packer D:\\Unpacked\\re_chunk_000 D:\\re_chunk_000.pak");
                 Console.WriteLine("    REE.Packer D:\\MyMod\\ABCDE D:\\re_chunk_000.pak.patch_001.pak");
                 Console.WriteLine("    REE.Packer D:\\MyMod\\ABCDE D:\\re_dlc_stm_0000000.pak");
                 Console.WriteLine("    REE.Packer D:\\MyMod\\ABCDE D:\\re_dlc_000.pak\n");
