@@ -1,8 +1,32 @@
 # REE.Unpacker :see_no_evil:
 Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
 
+### Usage
+> REE.Unpacker "**TAG_LIST_FILE**" "**INPUT_PAK_FILE**" "**UNPACK_DIRECTORY**"
+
+### Example Usage
+> REE.Unpacker **RE4_PC_Release** "**E:\Games\RESIDENT EVIL 4  BIOHAZARD RE4\re_chunk_000.pak.patch_002.pak**" "**D:\RE4_Unpacked**"
+
+### Note
+> The Projects folder must be in the tool folder, don't forget to copy it :) 
+
+# REE.Packer :see_no_evil:
+Tool for creating your own PAK archives
+
+### Usage
+> REE.Packer "**INPUT_DIRECTORY**" "**OUTPUT_PAK_FILE**"
+
+### Example Usage
+> REE.Packer "**D:\RE4_Unpacked**" "**E:\Games\RESIDENT EVIL 4  BIOHAZARD RE4\re_chunk_000.pak.patch_002.pak**"
+
+### Note
+> Don't forget to make a backup of the PAK archives
+
 # REE.FontsCryptor :see_no_evil:
 Tool for decrypt and encrypt fonts (*.otf.1)
+
+### Usage
+> REE.FontsCryptor "**INPUT_FONT_FILE**" "**OUTPUT_FONT_FILE**"
 
 # Games (PC)
 | Game   | Steam   | SteamDB   | List Tag   |
