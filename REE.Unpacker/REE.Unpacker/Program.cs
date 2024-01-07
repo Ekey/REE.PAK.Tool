@@ -5,7 +5,7 @@ namespace REE.Unpacker
 {
     class Program
     {
-        private static String m_Title = "RE Engine PAK Unpacker";
+        public static String m_Title = "RE Engine PAK Unpacker";
 
         static void Main(String[] args)
         {

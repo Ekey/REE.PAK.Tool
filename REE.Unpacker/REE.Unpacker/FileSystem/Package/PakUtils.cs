@@ -8,6 +8,16 @@ namespace REE.Unpacker
         {
             return Convert.ToInt32(Math.Max(dwCompressedSize, dwDecompressedSize));
         }
+		
+        public static Int32 iGetPercent(Int32 dwCurrent, Int32 dwMaxValue)
+        {
+            return (Int32)Math.Floor(((float)dwCurrent / (float)dwMaxValue) * 100.0);
+        }
+
+        public static String iPrintInfo(Int32 dwCurrent, Int32 dwMaxValue)
+        {
+            return String.Format("{0} of {1} ({2}%)", dwCurrent, dwMaxValue, iGetPercent(dwCurrent, dwMaxValue));
+        }
 
         public static PakFlags iGetCompressionType(Int64 dwFlag)
         {

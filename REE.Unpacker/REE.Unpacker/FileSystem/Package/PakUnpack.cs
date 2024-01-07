@@ -86,11 +86,14 @@ namespace REE.Unpacker
                         m_EntryTable.Add(m_Entry);
                     }
                 }
-
+				
+                Int32 dwCounter = 1;
                 foreach (var m_Entry in m_EntryTable)
                 {
                     String m_FileName = PakList.iGetNameFromHashList((UInt64)m_Entry.dwHashNameUpper << 32 | m_Entry.dwHashNameLower);
                     String m_FullPath = m_DstFolder + m_FileName.Replace("/", @"\");
+					
+                    Console.Title = Program.m_Title + " - " + Path.GetFileName(m_PakFile) + " -> " + PakUtils.iPrintInfo(dwCounter++, (Int32)m_Header.dwTotalFiles);
 
                     Utils.iSetInfo("[UNPACKING]: " + m_FileName);
                     Utils.iCreateDirectory(m_FullPath);
@@ -124,6 +127,8 @@ namespace REE.Unpacker
                         return;
                     }
                 }
+				
+                Console.Title = Program.m_Title;
 
                 TPakStream.Dispose();
             }
