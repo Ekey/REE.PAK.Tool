@@ -2,12 +2,19 @@
 Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
 
 ### Usage
-> REE.Unpacker "**TAG_LIST_FILE**" "**INPUT_PAK_FILE**" "**UNPACK_DIRECTORY**"
+> REE.Unpacker "**TAG_LIST_FILE**" "**INPUT_PAK_FILE**"
 
-### Example Usage
-> REE.Unpacker **RE4_PC_Release** "**E:\Games\RESIDENT EVIL 4  BIOHAZARD RE4\re_chunk_000.pak.patch_002.pak**" "**D:\RE4_Unpacked**"
+> REE.Unpacker "**TAG_LIST_FILE**" "**INPUT_PAK_FILE**" "**UNPACK_DIRECTORY (OPTIONAL)**"
 
-### Note
+> [!note]
+> If the output directory is not specified, then the unpacked files will be in the same place as the PAK file
+
+### Example
+> REE.Unpacker **RE4_PC_Release** "**E:\Games\RESIDENT EVIL 4\re_chunk_000.pak.patch_002.pak**"
+
+> REE.Unpacker **RE4_PC_Release** "**E:\Games\RESIDENT EVIL 4\re_chunk_000.pak.patch_002.pak**" "**D:\RE4_Unpacked**"
+
+> [!warning]
 > The Projects folder must be in the tool folder, don't forget to copy it :) 
 
 # REE.Packer :see_no_evil:
@@ -16,10 +23,10 @@ Tool for creating your own PAK archives
 ### Usage
 > REE.Packer "**INPUT_DIRECTORY**" "**OUTPUT_PAK_FILE**"
 
-### Example Usage
-> REE.Packer "**D:\RE4_Unpacked**" "**E:\Games\RESIDENT EVIL 4  BIOHAZARD RE4\re_chunk_000.pak.patch_002.pak**"
+### Example
+> REE.Packer "**D:\RE4_Unpacked**" "**E:\Games\RESIDENT EVIL 4\re_chunk_000.pak.patch_002.pak**"
 
-### Note
+> [!important]
 > Don't forget to make a backup of the PAK archives
 
 # REE.FontsCryptor :see_no_evil:
