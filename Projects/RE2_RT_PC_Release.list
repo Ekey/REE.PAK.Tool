@@ -1030,6 +1030,7 @@ natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_costume_d.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_costume_e.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_costume_f.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_costume_g.scn.20
+natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_unlockallbonus.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_weapon_a.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_weapon_b.scn.20
 natives/stm/objectroot/scene/contents/extra/contentsholder_dlc_weapon_c.scn.20
@@ -30969,6 +30970,7 @@ natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_costume
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_costume_f.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_costume_g.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_cs.user.2
+natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_unlock.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_weapon_a.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_weapon_b.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_weapon_c.user.2
