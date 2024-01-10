@@ -8522,6 +8522,7 @@ natives/stm/escape/light/userdata/thunder_pattern_05.user.2
 natives/stm/escape/light/userdata/thunder_pattern_06.user.2
 natives/stm/escape/message/dlc/mes_dlc_costumea.msg.67305745
 natives/stm/escape/message/dlc/mes_dlc_costumeb.msg.67305745
+natives/stm/escape/message/dlc/mes_dlc_unlockallbonus.msg.17
 natives/stm/escape/message/file/mes_file_00.msg.67305745
 natives/stm/escape/message/file/mes_file_01.msg.67305745
 natives/stm/escape/message/file/mes_file_02.msg.67305745
@@ -8909,6 +8910,7 @@ natives/stm/escape/prefab/ui/ending/endingmovie.pfb.17
 natives/stm/escape/prefab/ui/ending/movieplayer.pfb.17
 natives/stm/escape/scene/contents/extra/contentsholder_dlc_costume_a.scn.20
 natives/stm/escape/scene/contents/extra/contentsholder_dlc_costume_b.scn.20
+natives/stm/escape/scene/contents/extra/contentsholder_dlc_unlockallbonus.scn.20
 natives/stm/escape/scene/contents/extra/ropewayextracontents.scn.20
 natives/stm/escape/scene/contents/main/catalog.scn.20
 natives/stm/escape/scene/contents/main/catalog_1st.scn.20
@@ -31417,6 +31419,7 @@ natives/stm/sectionroot/ui/ui_mesh/sm70_999_uibox_00ms.mesh.2109108288
 natives/stm/sectionroot/ui/ui_mesh/sm70_999_uibox_00ms_mat.mdf2.21
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_costume_a.user.2
 natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_costume_b.user.2
+natives/stm/sectionroot/userdata/announcement/announcementuserdata_extra_unlockall.user.2
 natives/stm/sectionroot/userdata/camera/cameraforcetwirlersetting.user.2
 natives/stm/sectionroot/userdata/camera/camerainterpolatesettings.user.2
 natives/stm/sectionroot/userdata/camera/playercamera/pl0000/damage/burstlarge.user.2
