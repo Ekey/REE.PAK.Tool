@@ -122,6 +122,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Special Thanks
 
 * wigwrm (RE7) dlc filenames
+* iRaven (RE2 & RE3 RT) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
 * [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
