@@ -108,6 +108,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
+| Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
 
 # Games (Nintendo Switch)
 | Game   | List Tag   |
@@ -121,6 +122,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 
 # Special Thanks
 
+* [flatz](https://github.com/flatz) (PS4 stuffs :sunglasses:)
 * wigwrm (RE7) dlc filenames
 * iRaven (RE2 & RE3 RT) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
