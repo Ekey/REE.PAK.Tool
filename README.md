@@ -104,6 +104,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Ghost Trick: Phantom Detective | [GTPD_PS4_Release](Projects)
 | Resident Evil 2: "1-Shot Demo" | [RE2_1S_PS4_Demo](Projects)
 | Resident Evil 2 | [RE2_PS4_Release](Projects)
+| Resident Evil 3: Raccoon City Demo| [RE3_RC_PS4_Demo](Projects)
 | Resident Evil 3 | [RE3_PS4_Release](Projects)
 | Resident Evil 4 | [RE4_PS4_Release](Projects)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
@@ -123,7 +124,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 
 # Special Thanks
 
-* [flatz](https://github.com/flatz) (PS4 stuffs :sunglasses:)
+* [flatz](https://github.com/flatz) (PS4 stuff :sunglasses:)
 * wigwrm (RE7) dlc filenames
 * iRaven (RE2 & RE3 RT) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
