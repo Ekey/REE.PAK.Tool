@@ -110,6 +110,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
+| Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
 | Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
 
 # Games (Nintendo Switch)
