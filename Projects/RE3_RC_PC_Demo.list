@@ -673,6 +673,7 @@ natives/stm/escape/collision/character/shell/bomb/plreactionbombblow.rcol.11
 natives/stm/escape/collision/character/shell/bomb/plreactionbombexplosion.rcol.11
 natives/stm/escape/collision/character/shell/bomb/plreactionbombshockwave.rcol.11
 natives/stm/escape/collision/character/shell/bullet/bulletdefault.rcol.11
+natives/stm/escape/collision/damage/damagegimmick.cfil.7
 natives/stm/escape/collision/effect/effectdefault.cfil.7
 natives/stm/escape/collision/esupdateswitch/esupdateswitchsensor.cfil.7
 natives/stm/escape/collision/marker/markerevent.cfil.7
@@ -2736,6 +2737,8 @@ natives/stm/escape/setmodel/sm4x_gimmick/common/ladder/animation/list/sm_tpl_lad
 natives/stm/escape/setmodel/sm4x_gimmick/common/ladder/prefab/ladderpoint_lower.pfb.17
 natives/stm/escape/setmodel/sm4x_gimmick/common/ladder/prefab/ladderpoint_upper.pfb.17
 natives/stm/escape/setmodel/sm4x_gimmick/common/openobject/animation/fsm/sm_tpl_openobject_gimmick.motfsm2.36
+natives/stm/escape/setmodel/sm4x_gimmick/sm40/sm40_007_doubledoors01a/sm40_007_doubledoors01a_00md.mesh.1902042334
+natives/stm/escape/setmodel/sm4x_gimmick/sm40/sm40_007_doubledoors01a/sm40_007_doubledoors01a_00md_mat.mdf2.13
 natives/stm/escape/setmodel/sm4x_gimmick/sm40/sm40_022_irondoor01a/sm40_022_irondoor01a_00ce.mcol.9018
 natives/stm/escape/setmodel/sm4x_gimmick/sm40/sm40_053_plantirondoor02a/sm40_053_plantirondoor02a_00ce.mcol.9018
 natives/stm/escape/setmodel/sm4x_gimmick/sm40/sm40_053_plantirondoor02a/sm40_053_plantirondoor02a_00md.mesh.1902042334
@@ -5145,6 +5148,7 @@ natives/stm/escape/sound/wwise/wp6200_media.bnk.2.stm
 natives/stm/escape/sound/wwise/wp_bullet_material_hit.bnk.2.stm
 natives/stm/escape/sound/wwise/wp_mtr_cartridge_brass.bnk.2.stm
 natives/stm/escape/sound/wwise/wp_mtr_cartridge_plastic.bnk.2.stm
+natives/stm/escape/sound/wwise/wwiseids.wid.2
 natives/stm/escape/sound/wwisememorysettings.wms.5
 natives/stm/escape/sound/wwiseplugins.wpi.3
 natives/stm/escape/ui/system/movie/movie_1920_1080.gui.340020
@@ -9143,6 +9147,7 @@ natives/stm/sectionroot/ui/title/startflow/tex/startflow_300_im.tex.190820018
 natives/stm/sectionroot/ui/title/startflow/tex/startflow_400_im.tex.190820018
 natives/stm/sectionroot/ui/title/startflow/tex/startflow_410_im.tex.190820018
 natives/stm/sectionroot/ui/title/startflow/tex/startflow_411_im.tex.190820018
+natives/stm/sectionroot/ui/title/startflow/tex/startflow_500_im.tex.190820018
 natives/stm/sectionroot/ui/ui_mesh/sm70_999_uibox_00ms.mesh.1902042334
 natives/stm/sectionroot/ui/ui_mesh/sm70_999_uibox_00ms_mat.mdf2.13
 natives/stm/sectionroot/userdata/camera/cameraforcetwirlersetting.user.2
@@ -11397,6 +11402,9 @@ natives/stm/streaming/sectionroot/character/enemy/em0000/face/face14/em0050_face
 natives/stm/streaming/sectionroot/character/enemy/em0000/face/face70/em0000_face70_head_atos.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/face/face_scratch00_msk4.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/face/face_scratch01_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/face/face_scratch02_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/face/face_scratch03_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/face/face_scratch05_msk4.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/hat/hat01/em0000_hat01_albm.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/hat/hat01/em0000_hat01_atos.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/hat/hat01/em0000_hat01_nrmr.tex.190820018
@@ -11447,6 +11455,11 @@ natives/stm/streaming/sectionroot/character/enemy/em0000/shirt/shirt10/em0000_sh
 natives/stm/streaming/sectionroot/character/enemy/em0000/shirt/shirt10/em0000_shirt10_nrmr.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_bodymask.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_damagetex_msk.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_destruction_arm_l_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_destruction_arm_r_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_destruction_head_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_destruction_leg_l_msk4.tex.190820018
+natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_destruction_leg_r_msk4.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0000/zombie_wetmask_msk1.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0100/body/body00/body_scratch00_msk4.tex.190820018
 natives/stm/streaming/sectionroot/character/enemy/em0100/body/body00/em0100_body00_albm.tex.190820018
@@ -11683,6 +11696,7 @@ natives/stm/streaming/sectionroot/character/player/pl7500/pl7580/pl7580_niku_nrm
 natives/stm/streaming/systems/rendering/eyeball/eye_nmr.tex.190820018
 natives/stm/systems/develop/geometrybrush.sdf.1905100741
 natives/stm/systems/develop/landform.sdf.1905100741
+natives/stm/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.4
 natives/stm/systems/develop/mobile.tex.190820018
 natives/stm/systems/develop/mobilebutton.tex.190820018
 natives/stm/systems/develop/mobilenavbarlandscape.tex.190820018
@@ -11691,6 +11705,7 @@ natives/stm/systems/develop/mobilenotch.tex.190820018
 natives/stm/systems/develop/mobilestatusbar.tex.190820018
 natives/stm/systems/develop/ns.tex.190820018
 natives/stm/systems/develop/shadereditor/box.mesh.1902042334
+natives/stm/systems/develop/shadereditor/cylinder.mesh.1902042334
 natives/stm/systems/develop/shadereditor/plane.mesh.1902042334
 natives/stm/systems/develop/shadereditor/sphere.mesh.1902042334
 natives/stm/systems/develop/shape.sdf.1905100741
@@ -11720,6 +11735,7 @@ natives/stm/systems/gui/systemdialog.gui.340020
 natives/stm/systems/physics/default.cdef.3
 natives/stm/systems/rendering/ambientbrdf.tex.190820018
 natives/stm/systems/rendering/areatex.tex.190820018
+natives/stm/systems/rendering/beach_cross_cm.tex.190820018
 natives/stm/systems/rendering/colorcubelinear.tex.190820018
 natives/stm/systems/rendering/defaultshader.mmtr.1905100741
 natives/stm/systems/rendering/eyeball/eye_alb.tex.190820018
