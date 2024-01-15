@@ -21617,6 +21617,7 @@ natives/stm/systems/develop/geometrybrush.sdf.220624984
 natives/stm/systems/develop/ground/debugsplatindex.tex.35
 natives/stm/systems/develop/ground/defaultheightmap.tex.35
 natives/stm/systems/develop/landform.sdf.220624984
+natives/stm/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.5
 natives/stm/systems/develop/meshshader/test.sdf.220624984
 natives/stm/systems/develop/mobile.tex.35
 natives/stm/systems/develop/mobilebutton.tex.35
@@ -21628,6 +21629,7 @@ natives/stm/systems/develop/ns.tex.35
 natives/stm/systems/develop/nslite.tex.35
 natives/stm/systems/develop/nsoled.tex.35
 natives/stm/systems/develop/shadereditor/box.mesh.220622606
+natives/stm/systems/develop/shadereditor/cylinder.mesh.220622606
 natives/stm/systems/develop/shadereditor/plane.mesh.220622606
 natives/stm/systems/develop/shadereditor/sphere.mesh.220622606
 natives/stm/systems/develop/shape.sdf.220624984
@@ -21661,6 +21663,7 @@ natives/stm/systems/gui/systemdialog.gui.520034
 natives/stm/systems/physics/default.cdef.5
 natives/stm/systems/rendering/ambientbrdf.tex.35
 natives/stm/systems/rendering/areatex.tex.35
+natives/stm/systems/rendering/beach_cross_cm.tex.35
 natives/stm/systems/rendering/bluenoise.tex.35
 natives/stm/systems/rendering/bluenoise/rankingtile_128spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/rankingtile_16spp.gpbf.2
@@ -21686,6 +21689,7 @@ natives/stm/systems/rendering/colorcubelinear.tex.35
 natives/stm/systems/rendering/cube.rtex.5
 natives/stm/systems/rendering/default.rtmr.5
 natives/stm/systems/rendering/defaultshader.mmtr.220624984
+natives/stm/systems/rendering/empty.gpbf.2
 natives/stm/systems/rendering/eyeball/eye_alb.tex.35
 natives/stm/systems/rendering/eyeball/eye_nmr.tex.35
 natives/stm/systems/rendering/eyeball/eye_occ.tex.35
@@ -21693,6 +21697,7 @@ natives/stm/systems/rendering/eyeball/eye_vns.tex.35
 natives/stm/systems/rendering/eyeball/eyeball.mesh.220622606
 natives/stm/systems/rendering/eyeball/eyeballmaterial.mmtr.220624984
 natives/stm/systems/rendering/eyeball/eyecaustics.tex.35
+natives/stm/systems/rendering/groundsmoothnoise.tex.35
 natives/stm/systems/rendering/inscatter.tex.35
 natives/stm/systems/rendering/irradiance.tex.35
 natives/stm/systems/rendering/lens_mask.tex.35
