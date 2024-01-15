@@ -2365,6 +2365,24 @@ natives/stm/mastermaterial/master/spine_gimmickfog.mmtr.2003272996
 natives/stm/mastermaterial/master/spine_item0500_pattern.mmtr.2003272996
 natives/stm/mastermaterial/master/spine_pl0002_luminous.mmtr.2003272996
 natives/stm/mastermaterial/master/spine_primitive.mmtr.2003272996
+natives/stm/message/common/mes_common_texts.msg.16
+natives/stm/message/common/mes_guideicon.msg.16
+natives/stm/message/common/mes_system.msg.16
+natives/stm/message/ingame/mes_bosshints.msg.16
+natives/stm/message/ingame/mes_hud.msg.16
+natives/stm/message/ingame/mes_pause.msg.16
+natives/stm/message/menu/mes_challangelist.msg.16
+natives/stm/message/menu/mes_credit.msg.16
+natives/stm/message/menu/mes_graphics_option.msg.16
+natives/stm/message/menu/mes_heroicaction.msg.16
+natives/stm/message/menu/mes_howtoplay.msg.16
+natives/stm/message/menu/mes_option.msg.16
+natives/stm/message/menu/mes_popup.msg.16
+natives/stm/message/menu/mes_results_records.msg.16
+natives/stm/message/menu/mes_richpresence.msg.16
+natives/stm/message/menu/mes_skilltree.msg.16
+natives/stm/message/menu/mes_stageselect.msg.16
+natives/stm/message/menu/mes_titlemenu.msg.16
 natives/stm/movie/crisispower_00.mov.1
 natives/stm/movie/crisispower_00.mov.1.stm
 natives/stm/movie/demo.mov.1
@@ -6057,6 +6075,7 @@ natives/stm/sound/resource/snd_soundbank/soundbank_wp/wp0700.wcbk.3
 natives/stm/sound/resource/snd_soundbank/soundbank_wp/wp0900.wcbk.3
 natives/stm/sound/resource/snd_state/state_cmn/appeartreasurebox.wss.2
 natives/stm/sound/resource/snd_state/state_cmn/bgm_state.wcst.5
+natives/stm/sound/resource/snd_state/state_cmn/guv_common.wgs.2
 natives/stm/sound/resource/snd_state/state_cmn/hellroombegin.wss.2
 natives/stm/sound/resource/snd_state/state_cmn/hellroomend.wss.2
 natives/stm/sound/resource/snd_state/state_cmn/sound_resident.wcst.5
@@ -6425,6 +6444,7 @@ natives/stm/streaming/sound/wwise/ev9000.pck.3.stm
 natives/stm/streaming/systems/rendering/eyeball/eye_nmr.tex.25
 natives/stm/systems/develop/geometrybrush.sdf.2003272996
 natives/stm/systems/develop/landform.sdf.2003272996
+natives/stm/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.5
 natives/stm/systems/develop/mobile.tex.25
 natives/stm/systems/develop/mobilebutton.tex.25
 natives/stm/systems/develop/mobilenavbarlandscape.tex.25
@@ -6434,6 +6454,7 @@ natives/stm/systems/develop/mobilestatusbar.tex.25
 natives/stm/systems/develop/ns.tex.25
 natives/stm/systems/develop/nslite.tex.25
 natives/stm/systems/develop/shadereditor/box.mesh.2005268288
+natives/stm/systems/develop/shadereditor/cylinder.mesh.2005268288
 natives/stm/systems/develop/shadereditor/plane.mesh.2005268288
 natives/stm/systems/develop/shadereditor/sphere.mesh.2005268288
 natives/stm/systems/develop/shape.sdf.2003272996
@@ -6463,6 +6484,7 @@ natives/stm/systems/gui/systemdialog.gui.390022
 natives/stm/systems/physics/default.cdef.3
 natives/stm/systems/rendering/ambientbrdf.tex.25
 natives/stm/systems/rendering/areatex.tex.25
+natives/stm/systems/rendering/beach_cross_cm.tex.25
 natives/stm/systems/rendering/bluenoise.tex.25
 natives/stm/systems/rendering/bluenoise/rankingtile_128spp.gpbf.1
 natives/stm/systems/rendering/bluenoise/rankingtile_16spp.gpbf.1
@@ -6603,6 +6625,7 @@ natives/stm/ui/imageslide/startflow/tex/startflow_000_im.tex.25
 natives/stm/ui/imageslide/startflow/tex/startflow_020_im.tex.25
 natives/stm/ui/system/fade/gui/fade.gui.390022
 natives/stm/ui/system/movie/gui/movie.gui.390022
+natives/stm/ui/system/movie/texture/moviertt_1080p.rtex.5
 natives/stm/ui/ui0000/font/df-romankagayaki-w9.oft.1
 natives/stm/ui/ui0000/font/fot-corinthalbold.oft.1
 natives/stm/ui/ui0000/font/fot-dualla.oft.1
@@ -6615,6 +6638,7 @@ natives/stm/ui/ui0000/gui/00_weapon_icon.gui.390022
 natives/stm/ui/ui0000/tex/icon_comp.uvs.7
 natives/stm/ui/ui0000/tex/icon_comp_iam.tex.25
 natives/stm/ui/ui0000/ui0000.ift.2
+natives/stm/ui/ui0000/ui0000.uvs.7
 natives/stm/ui/ui0000/ui0000_iam.tex.25
 natives/stm/ui/ui0000/ui0000_iam.tex.25.stm
 natives/stm/ui/ui0100/gui/ui0100.gui.390022
@@ -9780,6 +9804,7 @@ natives/stm/vfx/texture/tex_smoke/tex_guilotine_c_smoke_00_0001.uvs.7
 natives/stm/vfx/texture/tex_smoke/tex_guilotine_c_smoke_00_0001_alpg.tex.25
 natives/stm/vfx/texture/tex_smoke/tex_guilotine_c_smoke_00_0002.uvs.7
 natives/stm/vfx/texture/tex_smoke/tex_guilotine_c_smoke_00_0002_alpg.tex.25
+natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st03_01_brightness_0000_rtt.rtex.5
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_chaos_0000_msk1.tex.25
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_colorshift_0000_msk4.tex.25
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_fence01_luminous_0000_msk1.tex.25
@@ -9796,6 +9821,7 @@ natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_luminous_0000_msk1.te
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_luminousanimtiming_0000_msk1.tex.25
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_pillar02_luminous_0000_msk1.tex.25
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_st05_03_pillar02_luminousanimtiming_0000_msk1.tex.25
+natives/stm/vfx/texture/tex_stage/tex_guillotine_o_stage_common_silhouette_0000_rtt.rtex.5
 natives/stm/vfx/texture/tex_stage/tex_guillotine_o_stage_common_vertextexture_0000_msk3.tex.25
 natives/stm/vfx/texture/tex_water/tex_guillotine_c_water_00_0001.uvs.7
 natives/stm/vfx/texture/tex_water/tex_guillotine_c_water_00_0001_alpg.tex.25
