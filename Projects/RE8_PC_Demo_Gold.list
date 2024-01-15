@@ -782,6 +782,12 @@ natives/stm/_ge/event/presentation/c22/c22_sound.scn.20
 natives/stm/_ge/event/presentation/c22/c22_sound_deactivate.scn.20
 natives/stm/_ge/event/presentation/c22/c22_sound_non_deactivate.scn.20
 natives/stm/_ge/event/presentation/c22/c22_vfx.scn.20
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/light/c22e220_00_camera.clip.40
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/light/c22e220_00_light.clip.40
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/motbank/ch01_1000_c22e220_00_a.motbank.3
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/motfsm/ch01_1000_c22e220_00_a.motfsm2.42
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/motlist/ch01_1000_c22e220_00_a.motlist.486
+natives/stm/_ge/event/presentation/c22/c22e220/c22e220_00/userdata/c22e220_00.user.2
 natives/stm/_ge/event/presentation/c22/c22e400/c22e400_00/motbank/ch01_0000_c22e400_00_a.motbank.3
 natives/stm/_ge/event/presentation/c22/c22e400/c22e400_00/motbank/ch02_0000_c22e400_00_a.motbank.3
 natives/stm/_ge/event/presentation/c22/c22e400/c22e400_00/motbank/it02_000_c22e400_00_a.motbank.3
@@ -875,6 +881,9 @@ natives/stm/_ge/gameflow/dlc/dlc05.scn.20
 natives/stm/_ge/gameflow/dlc/dlc05_0.scn.20
 natives/stm/_ge/gameflow/dlcroot_ge.scn.20
 natives/stm/_ge/gameflow/dlcrootadditional_ge.scn.20
+natives/stm/_ge/gameflow/gamecore_ps5ge.scn.20
+natives/stm/_ge/gameflow/trial/credits.scn.20
+natives/stm/_ge/gameflow/trial/fsm_trialcreditsflow.fsmv2.40
 natives/stm/_ge/gui/accessibility/userdata/ch1_soundvisualizeuserdata.user.2
 natives/stm/_ge/gui/accessibility/userdata/ch2-1_soundvisualizeuserdata.user.2
 natives/stm/_ge/gui/accessibility/userdata/ch2-2_soundvisualizeuserdata.user.2
@@ -902,6 +911,7 @@ natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ja
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ko
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ptbr
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ru
+natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.th
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.zhcn
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.zhtw
 natives/stm/_ge/gui/ui10300/gui/ui10330.gui.400023
@@ -962,6 +972,17 @@ natives/stm/_ge/leveldesign/scene/chapter2_2/c02_2_sub_undergroundmadambattle.sc
 natives/stm/_ge/leveldesign/scene/chapter2_2/c02_2_sub_undergroundwitchbattle.scn.20
 natives/stm/_ge/leveldesign/scene/chapter2_2/c02_2_sub_vineyardmerchantevent.scn.20
 natives/stm/_ge/leveldesign/scene/chapter2_2/c02_2_sub_waterheight.scn.20
+natives/stm/_ge/leveldesign/scene/chapter2_2/trial.scn.20
+natives/stm/_ge/leveldesign/scene/chapter2_2/trialubitus.scn.20
+natives/stm/_ge/leveldesign/scene/chapter2_2/trialubitusprops.scn.20
+natives/stm/_ge/leveldesign/uniquefsm/chapter2_2/c02_2_setup.fsmv2.40
+natives/stm/_ge/leveldesign/uniquefsm/chapter2_2/c02_2_setup_ubi.fsmv2.40
+natives/stm/_ge/leveldesign/uniquefsm/trial/areacheck.fsmv2.40
+natives/stm/_ge/leveldesign/uniquefsm/trial/fsm_trialubitusdoormap.fsmv2.40
+natives/stm/_ge/leveldesign/uniquefsm/trial/trialendcreditstartrequest.fsmv2.40
+natives/stm/_ge/leveldesign/userdata/chapter2_2/additemlist_startitem.user.2
+natives/stm/_ge/leveldesign/userdata/chapter2_2/additemlist_startitem_ubitus.user.2
+natives/stm/_ge/leveldesign/userdata/chapter2_2/setmoneydata_startitem.user.2
 natives/stm/_ge/light/chapter02/area01/share/stagelight/st10_254_sharelight.scn.20
 natives/stm/_ge/light/chapter02/area02/area02_time/area02_morning/animation/area02_timeline_morning.scn.20
 natives/stm/_ge/light/chapter02/area02/area02_time/area02_morning/area02_morning.scn.20
@@ -1164,6 +1185,8 @@ natives/stm/_ge/sound/sound_scene/event_timeline/c02_2/c22e720_sound.scn.20
 natives/stm/_ge/sound/sound_scene/event_timeline/c02_2/c22e760_sound.scn.20
 natives/stm/_ge/sound/sound_scene/event_timeline/c02_2/c22e800_sound.scn.20
 natives/stm/_ge/sound/sound_scene/snd_spacedeterminationlist_c02_2.scn.20
+natives/stm/_ge/sound/vibration/settings/soundvibrationmanagersettings.user.2
+natives/stm/_ge/sound/vibration/userdata/replacesoundvibrationdefineinfolistdata.user.2
 natives/stm/_ge/spawn/enemy/scene/c02_2/c02_2_animal.scn.20
 natives/stm/_ge/spawn/enemy/scene/c02_2/c02_2_animalset_01.scn.20
 natives/stm/_ge/spawn/enemy/scene/c02_2/c02_2_asynccharacterpool.scn.20
@@ -2952,6 +2975,7 @@ natives/stm/develop/trial/gui/prefab/guitrialsceneloading.pfb.17
 natives/stm/develop/trial/gui/prefab/guitrialstadiastore.pfb.17
 natives/stm/develop/trial/gui/prefab/holder/trialcreditsguiprefabholder.user.2
 natives/stm/develop/trial/gui/prefab/holder/trialresidentguiprefabholder.user.2
+natives/stm/develop/trial/singletonuserdatas/trialgameeventtriggersounddata.user.2
 natives/stm/develop/trial/singletonuserdatas/trialmenumanageruserdata.user.2
 natives/stm/environment/props/animation/sm80_000/motbank/dresser_00.motbank.3
 natives/stm/environment/props/animation/sm80_000/motfsm/closet_00.motfsm2.42
@@ -11032,6 +11056,7 @@ natives/stm/event/presentation/c21/c21e810/c21e810_00/motlist/ch09_6000_c21e810_
 natives/stm/event/presentation/c21/c21e810/c21e810_00/motlist/sm84_034_c21e1810_00_a.motlist.486
 natives/stm/event/presentation/c21/msgmotlist/c21_em4070.motlist.486
 natives/stm/event/presentation/c22/c22_event.scn.20
+natives/stm/event/presentation/c22/c22_event_ubi.scn.20
 natives/stm/event/presentation/c22/c22_eventskipparamuserdata.user.2
 natives/stm/event/presentation/c22/c22_light.scn.20
 natives/stm/event/presentation/c22/c22_sound.scn.20
@@ -12730,6 +12755,7 @@ natives/stm/gui/ui2000/gui/ui2011.gui.400023
 natives/stm/gui/ui2000/gui/ui2012.gui.400023
 natives/stm/gui/ui2000/gui/ui2020.gui.400023
 natives/stm/gui/ui2000/gui/ui2021.gui.400023
+natives/stm/gui/ui2000/gui/ui2030.gui.400023
 natives/stm/gui/ui2000/gui/ui2030_stadia.gui.400023
 natives/stm/gui/ui2000/gui/ui2040.gui.400023
 natives/stm/gui/ui2000/gui/ui2041.gui.400023
@@ -13735,10 +13761,13 @@ natives/stm/leveldesign/maingame.user.2
 natives/stm/leveldesign/scene/chapter2_2/c02_2_asyncfoldercontrol.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_eventskipaftercare.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_level.scn.20
+natives/stm/leveldesign/scene/chapter2_2/c02_2_level_ubi.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_levelprops.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_main.scn.20
+natives/stm/leveldesign/scene/chapter2_2/c02_2_main_ubi.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_playercontrolarea.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_sub_autosave.scn.20
+natives/stm/leveldesign/scene/chapter2_2/c02_2_sub_autosave_ubi.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_sub_hallwitchbattle.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_sub_saferoommerchantevent.scn.20
 natives/stm/leveldesign/scene/chapter2_2/c02_2_sub_undergroundwitchbattle.scn.20
@@ -13746,6 +13775,7 @@ natives/stm/leveldesign/setmoneyuserdata/c02_1_startmoneydata.user.2
 natives/stm/leveldesign/setmoneyuserdata/c02_2_startmoneydata.user.2
 natives/stm/leveldesign/setmoneyuserdata/c02_6_startmoneydata.user.2
 natives/stm/leveldesign/subflow.user.2
+natives/stm/leveldesign/templatefsm/accumulativetimeraction_tutorialdispfsmaction.fsmv2.40
 natives/stm/leveldesign/templatefsm/advanceprogressivenumber.fsmv2.40
 natives/stm/leveldesign/templatefsm/advend_addfileaction.fsmv2.40
 natives/stm/leveldesign/templatefsm/advend_changewatermaterialzoneposition.fsmv2.40
@@ -13763,6 +13793,7 @@ natives/stm/leveldesign/templatefsm/advend_wwisesetstateaction.fsmv2.40
 natives/stm/leveldesign/templatefsm/changeshopassortmentaction.fsmv2.40
 natives/stm/leveldesign/templatefsm/cleartimeraction.fsmv2.40
 natives/stm/leveldesign/templatefsm/doorstateset.fsmv2.40
+natives/stm/leveldesign/templatefsm/enemybattlecheck.fsmv2.40
 natives/stm/leveldesign/templatefsm/enemydamagecheck_messagedisplay.fsmv2.40
 natives/stm/leveldesign/templatefsm/enemydeadcheck_advanceprogressivenumber.fsmv2.40
 natives/stm/leveldesign/templatefsm/eventskipaftercarecheck_fsmstateset.fsmv2.40
@@ -13789,6 +13820,7 @@ natives/stm/leveldesign/templatefsm/playerfsmaction.fsmv2.40
 natives/stm/leveldesign/templatefsm/playerfsmconditioncheck_advanceprogressivenumber.fsmv2.40
 natives/stm/leveldesign/templatefsm/playerfsmconditioncheck_fsmstateset.fsmv2.40
 natives/stm/leveldesign/templatefsm/propsprogresscheck_messagedisplay.fsmv2.40
+natives/stm/leveldesign/templatefsm/propsstateset.fsmv2.40
 natives/stm/leveldesign/templatefsm/requestfadein.fsmv2.40
 natives/stm/leveldesign/templatefsm/requestfadeout_advanceprogressivenumber.fsmv2.40
 natives/stm/leveldesign/templatefsm/saveautowithoutfadein_advencedprogressivenumer.fsmv2.40
@@ -16212,6 +16244,9 @@ natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/bgm_system/bgm_syst
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/bgm_system/bgm_system_chapter/chapter_invalid.wss.2
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/xx10_focustest/01/chp2_2_ft01_ri3041_drag_debut.wss.2
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/xx10_focustest/01/chp2_2_ft01_ri3041_drag_stop.wss.2
+natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/xx30_vge_trialdemo/trial_demo_vge00_timeup.wss.2
+natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/xx30_vge_trialdemo/trial_demo_vge01_tfp.wss.2
+natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm/xx30_vge_trialdemo/trial_demo_vge02_result.wss.2
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm_battle/snd_bgm_btl_enc_em1000_encount.wss.2
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm_battle/snd_bgm_btl_enc_em1000_standby.wss.2
 natives/stm/sound/sound_asset/snd_state/snd_setstatelist/bgm_battle/snd_bgm_btl_step_lv2.wss.2
@@ -21416,8 +21451,10 @@ natives/stm/streaming/vfx/texture/recordtexture/basetexture/deathmap_nrm.tex.30
 natives/stm/systems/develop/ecotope.sdf.2102188797
 natives/stm/systems/develop/ecotopemapbaker.sdf.2102188797
 natives/stm/systems/develop/geometrybrush.sdf.2102188797
+natives/stm/systems/develop/ground/debugsplatindex.tex.30
 natives/stm/systems/develop/ground/defaultheightmap.tex.30
 natives/stm/systems/develop/landform.sdf.2102188797
+natives/stm/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.5
 natives/stm/systems/develop/mobile.tex.30
 natives/stm/systems/develop/mobilebutton.tex.30
 natives/stm/systems/develop/mobilenavbarlandscape.tex.30
@@ -21427,6 +21464,7 @@ natives/stm/systems/develop/mobilestatusbar.tex.30
 natives/stm/systems/develop/ns.tex.30
 natives/stm/systems/develop/nslite.tex.30
 natives/stm/systems/develop/shadereditor/box.mesh.2101050001
+natives/stm/systems/develop/shadereditor/cylinder.mesh.2101050001
 natives/stm/systems/develop/shadereditor/plane.mesh.2101050001
 natives/stm/systems/develop/shadereditor/sphere.mesh.2101050001
 natives/stm/systems/develop/shape.sdf.2102188797
@@ -21456,6 +21494,7 @@ natives/stm/systems/gui/systemdialog.gui.400023
 natives/stm/systems/physics/default.cdef.3
 natives/stm/systems/rendering/ambientbrdf.tex.30
 natives/stm/systems/rendering/areatex.tex.30
+natives/stm/systems/rendering/beach_cross_cm.tex.30
 natives/stm/systems/rendering/bluenoise.tex.30
 natives/stm/systems/rendering/bluenoise/rankingtile_128spp.gpbf.1
 natives/stm/systems/rendering/bluenoise/rankingtile_16spp.gpbf.1
@@ -21480,6 +21519,7 @@ natives/stm/systems/rendering/bluenoise16x16.tex.30
 natives/stm/systems/rendering/colorcubelinear.tex.30
 natives/stm/systems/rendering/default.rtmr.5
 natives/stm/systems/rendering/defaultshader.mmtr.2102188797
+natives/stm/systems/rendering/empty.gpbf.1
 natives/stm/systems/rendering/eyeball/eye_alb.tex.30
 natives/stm/systems/rendering/eyeball/eye_nmr.tex.30
 natives/stm/systems/rendering/eyeball/eye_occ.tex.30
@@ -21487,6 +21527,7 @@ natives/stm/systems/rendering/eyeball/eye_vns.tex.30
 natives/stm/systems/rendering/eyeball/eyeball.mesh.2101050001
 natives/stm/systems/rendering/eyeball/eyeballmaterial.mmtr.2102188797
 natives/stm/systems/rendering/eyeball/eyecaustics.tex.30
+natives/stm/systems/rendering/groundsmoothnoise.tex.30
 natives/stm/systems/rendering/inscatter.tex.30
 natives/stm/systems/rendering/irradiance.tex.30
 natives/stm/systems/rendering/lens_mask.tex.30
