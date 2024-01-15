@@ -4693,6 +4693,7 @@ natives/stm/ch8/mastermaterial/master/risotto_hair_em4450.mmtr.220128762
 natives/stm/ch8/mastermaterial/master/risotto_skin_em4450.mmtr.220128762
 natives/stm/ch8/mastermaterial/master/weapon_default.mmtr.220128762
 natives/stm/ch8/mastermaterial/master/weapon_reticule.mmtr.220128762
+natives/stm/ch8/message/ch8_achievement_mes.msg.17
 natives/stm/ch8/message/ch8_credit_mes.msg.17
 natives/stm/ch8/message/ch8_file_mes.msg.17
 natives/stm/ch8/message/ch8_item_mes.msg.17
@@ -5963,6 +5964,7 @@ natives/stm/ch8/props/sm2701_minecrank01b/sm2701_minecrank01b.mesh.220128762
 natives/stm/ch8/props/sm2701_minecrank01b/sm2701_minecrank01b_e.mcol.13020
 natives/stm/ch8/props/sm2706_gasfilter01a/sm2706_gasfilter01a.mdf2.21
 natives/stm/ch8/props/sm2706_gasfilter01a/sm2706_gasfilter01a.mesh.220128762
+natives/stm/ch8/props/sm2706_gasfilter01a/sm2706_gasfilter01a_e.mcol.13020
 natives/stm/ch8/props/sm2712_shieldmachinedecal00/sm2712_shieldmachinedecal00.mdf2.21
 natives/stm/ch8/props/sm2712_shieldmachinedecal00/sm2712_shieldmachinedecal00.mesh.220128762
 natives/stm/ch8/props/sm2713_shieldmachinedecal01/sm2713_shieldmachinedecal01.mdf2.21
@@ -6120,6 +6122,8 @@ natives/stm/ch8/props/sm9232_coinbox02a/sm9232_coinbox02a.rbs.32
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_02.mdf2.21
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_02.mesh.220128762
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_e.mcol.13020
+natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_monitor00.mdf2.21
+natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_monitor01.mdf2.21
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_monitor02.mdf2.21
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_monitor03.mdf2.21
 natives/stm/ch8/props/sm9233_keyboardmoniter01a/sm9233_keyboardmoniter01a_monitor04.mdf2.21
@@ -6275,6 +6279,7 @@ natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_a.mdf2.21
 natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_a.mesh.220128762
 natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_a.rbs.32
 natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_a_e.mcol.13020
+natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_a_t.mcol.13020
 natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_b.mdf2.21
 natives/stm/ch8/props/sm9636_mineshutter_a/sm9636_mineshutter_c.mdf2.21
 natives/stm/ch8/props/sm9636_mineshutter_a1/sm9636_mineshutter_a1.mdf2.21
@@ -6288,6 +6293,7 @@ natives/stm/ch8/props/sm9638_heavyautomaticdoor/sm9638_heavyautomaticdoor.rbs.32
 natives/stm/ch8/props/sm9638_heavyautomaticdoor/sm9638_heavyautomaticdoor_e00.mcol.13020
 natives/stm/ch8/props/sm9638_heavyautomaticdoor/sm9638_heavyautomaticdoor_e01.mcol.13020
 natives/stm/ch8/props/sm9638_heavyautomaticdoor/sm9638_heavyautomaticdoor_t00.mcol.13020
+natives/stm/ch8/props/sm9638_heavyautomaticdoor/sm9638_heavyautomaticdoor_t01.mcol.13020
 natives/stm/ch8/props/sm9640_mineev/sm9640_mineev.mdf2.21
 natives/stm/ch8/props/sm9640_mineev/sm9640_mineev.mesh.220128762
 natives/stm/ch8/props/sm9640_mineev/sm9640_mineev.rbs.32
@@ -7743,6 +7749,7 @@ natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_15.efx.2818689
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_16.efx.2818689
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_17.efx.2818689
+natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_18.efx.2818689
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_19.efx.2818689
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_21.efx.2818689
 natives/stm/ch8/vfx/vfx_resource/vfx_effecteditor/efd_scene_id/efd_chapter8/vfx_efd_bh7_chapter8_22.efx.2818689
@@ -10765,9 +10772,11 @@ natives/stm/ch9/weapon/wp1900_joeliquidbomb/wp1900_nrmr.tex.35
 natives/stm/character/enemy/em2000/em2000/em2000.mdf2.21
 natives/stm/character/enemy/em2000/em2000/em2000.mesh.220128762
 natives/stm/character/enemy/em2000/em2000/em2000.rdd.32024
+natives/stm/character/enemy/em2000/em2000/em2000_body_albm.tex.35
 natives/stm/character/enemy/em2000/em2000/em2000_body_atlas_albm.tex.35
 natives/stm/character/enemy/em2000/em2000/em2000_body_atlas_nrmr.tex.35
 natives/stm/character/enemy/em2000/em2000/em2000_body_atos.tex.35
+natives/stm/character/enemy/em2000/em2000/em2000_body_nrmr.tex.35
 natives/stm/character/enemy/em2000/em2000/em2000_death.mdf2.21
 natives/stm/character/enemy/em2000/em2050/em2050.mdf2.21
 natives/stm/character/enemy/em2000/em2050/em2050.mesh.220128762
@@ -11726,6 +11735,9 @@ natives/stm/character/player/pl0000/pl0023/pl0023_codex_nrmr.tex.35
 natives/stm/character/player/pl0000/pl0050/pl0050.mdf2.21
 natives/stm/character/player/pl0000/pl0050/pl0050.mesh.220128762
 natives/stm/character/player/pl0000/pl0050/pl0050_face_albm.tex.35
+natives/stm/character/player/pl0000/pl0050/pl0050_face_blend_atos.tex.35
+natives/stm/character/player/pl0000/pl0050/pl0050_face_blend_nrmr.tex.35
+natives/stm/character/player/pl0000/pl0050/pl0050_face_intensity_msk4.tex.35
 natives/stm/character/player/pl0000/pl0050/pl0050_face_nrmr.tex.35
 natives/stm/character/player/pl0000/pl0050/pl0050_hair_alba.tex.35
 natives/stm/character/player/pl0000/pl0050/pl0050_hair_atos.tex.35
@@ -15960,12 +15972,14 @@ natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.de
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.en
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.es
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.fr
+natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.hi
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.it
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.ja
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.ko
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.pl
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.ptbr
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.ru
+natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.th
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.zhcn
 natives/stm/hikako/ui/ui4000/tex/healthwarning.tex.35.zhtw
 natives/stm/hikako/ui/ui4000/tex/logo_nvdia.tex.35
@@ -21087,6 +21101,7 @@ natives/stm/mastermaterial/master/swing.mmtr.220128762
 natives/stm/mastermaterial/master/tiling.mmtr.220128762
 natives/stm/mastermaterial/master/weapon_default.mmtr.220128762
 natives/stm/mastermaterial/master/weapon_emissive.mmtr.220128762
+natives/stm/message/activity_mes.msg.17
 natives/stm/message/ch00_scenario_mes.msg.17
 natives/stm/message/ch01_scenario_mes.msg.17
 natives/stm/message/ch03_scenario_mes.msg.17
@@ -21203,6 +21218,7 @@ natives/stm/movie/gamemovie/main/100_prologuestart.mov.1.x64
 natives/stm/movie/gamemovie/main/110_ff050_miamessage.mov.1.x64
 natives/stm/movie/gamemovie/main/130_ending_mia.mov.1.x64
 natives/stm/movie/gamemovie/main/140_ending_zoe.mov.1.x64
+natives/stm/movie/gamemovie/main/150_reengine_newlogo.mov.1.x64
 natives/stm/movie/gamemovie/main/images/ff050_miamessage_after.tex.35
 natives/stm/movie/gamemovie/main/images/ff050_miamessage_before.tex.35
 natives/stm/movie/gamemovie/main/images/findethan_00_bridge.tex.35
@@ -21961,6 +21977,7 @@ natives/stm/prefab/gui/satietylevelgage.pfb.17
 natives/stm/prefab/gui/savemenugui.pfb.17
 natives/stm/prefab/gui/savingicon.pfb.17
 natives/stm/prefab/gui/screenareaadjustgui.pfb.17
+natives/stm/prefab/gui/setting/messagetagreplacedata.user.2.x64
 natives/stm/prefab/gui/setting/uilanguagesettings.user.2
 natives/stm/prefab/gui/staffrolldataholder.user.2
 natives/stm/prefab/gui/staffrollgui.pfb.17
@@ -37680,6 +37697,7 @@ natives/stm/sound/resource/snd_container/snd_container_chp8_sm1998.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm2058.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm2119.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm2227.wcc.2
+natives/stm/sound/resource/snd_container/snd_container_chp8_sm2411.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm2699.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm9013.wcc.2
 natives/stm/sound/resource/snd_container/snd_container_chp8_sm9249.wcc.2
@@ -40593,6 +40611,7 @@ natives/stm/sound/wwise/chp8_sm2119.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2173.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2227.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2396_unique.bnk.2.stm
+natives/stm/sound/wwise/chp8_sm2411.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2698.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2699.bnk.2.stm
 natives/stm/sound/wwise/chp8_sm2701.bnk.2.stm
@@ -40836,6 +40855,7 @@ natives/stm/sound/wwise/chp9_pl9050_v_dialogue.pck.3.stm.it
 natives/stm/sound/wwise/chp9_pl9050_v_dialogue.pck.3.stm.ja
 natives/stm/sound/wwise/chp9_pl9050_v_dialogue.pck.3.stm.zhcn
 natives/stm/sound/wwise/chp9_sm1403.bnk.2.stm
+natives/stm/sound/wwise/chp9_sm1756.bnk.2.stm
 natives/stm/sound/wwise/chp9_sm1812.bnk.2.stm
 natives/stm/sound/wwise/chp9_sm1852.bnk.2.stm
 natives/stm/sound/wwise/chp9_sm2644.bnk.2.stm
@@ -42221,6 +42241,7 @@ natives/stm/sound/wwise/pl3050_v_dialogue.pck.3.stm.fr
 natives/stm/sound/wwise/pl3050_v_dialogue.pck.3.stm.it
 natives/stm/sound/wwise/pl3050_v_dialogue.pck.3.stm.ja
 natives/stm/sound/wwise/pl3050_v_dialogue.pck.3.stm.zhcn
+natives/stm/sound/wwise/s0110_lvd_lib.bnk.2.stm
 natives/stm/sound/wwise/se_chapter_8_advertise.bnk.2.stm
 natives/stm/sound/wwise/setstate.bnk.2.stm
 natives/stm/sound/wwise/sm0001.bnk.2.stm
@@ -51452,8 +51473,10 @@ natives/stm/systems/develop/ecotope/v10/_v10.mmtr.220128762
 natives/stm/systems/develop/ecotope/v10/_v10v1.mmtr.220128762
 natives/stm/systems/develop/ecotopemapbaker.sdf.220128762
 natives/stm/systems/develop/geometrybrush.sdf.220128762
+natives/stm/systems/develop/ground/debugsplatindex.tex.35
 natives/stm/systems/develop/ground/defaultheightmap.tex.35
 natives/stm/systems/develop/landform.sdf.220128762
+natives/stm/systems/develop/materialpaintrendertargettexture/materialpainteditrtt.rtex.5
 natives/stm/systems/develop/mobile.tex.35
 natives/stm/systems/develop/mobilebutton.tex.35
 natives/stm/systems/develop/mobilenavbarlandscape.tex.35
@@ -51464,6 +51487,7 @@ natives/stm/systems/develop/ns.tex.35
 natives/stm/systems/develop/nslite.tex.35
 natives/stm/systems/develop/road.sdf.220128762
 natives/stm/systems/develop/shadereditor/box.mesh.220128762
+natives/stm/systems/develop/shadereditor/cylinder.mesh.220128762
 natives/stm/systems/develop/shadereditor/plane.mesh.220128762
 natives/stm/systems/develop/shadereditor/sphere.mesh.220128762
 natives/stm/systems/develop/shape.sdf.220128762
@@ -51495,6 +51519,7 @@ natives/stm/systems/gui/systemdialog.gui.430027
 natives/stm/systems/physics/default.cdef.4
 natives/stm/systems/rendering/ambientbrdf.tex.35
 natives/stm/systems/rendering/areatex.tex.35
+natives/stm/systems/rendering/beach_cross_cm.tex.35
 natives/stm/systems/rendering/bluenoise.tex.35
 natives/stm/systems/rendering/bluenoise/rankingtile_128spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/rankingtile_16spp.gpbf.2
@@ -51519,6 +51544,7 @@ natives/stm/systems/rendering/bluenoise16x16.tex.35
 natives/stm/systems/rendering/colorcubelinear.tex.35
 natives/stm/systems/rendering/default.rtmr.5
 natives/stm/systems/rendering/defaultshader.mmtr.220128762
+natives/stm/systems/rendering/empty.gpbf.2
 natives/stm/systems/rendering/eyeball/eye_alb.tex.35
 natives/stm/systems/rendering/eyeball/eye_nmr.tex.35
 natives/stm/systems/rendering/eyeball/eye_occ.tex.35
@@ -51526,6 +51552,7 @@ natives/stm/systems/rendering/eyeball/eye_vns.tex.35
 natives/stm/systems/rendering/eyeball/eyeball.mesh.220128762
 natives/stm/systems/rendering/eyeball/eyeballmaterial.mmtr.220128762
 natives/stm/systems/rendering/eyeball/eyecaustics.tex.35
+natives/stm/systems/rendering/groundsmoothnoise.tex.35
 natives/stm/systems/rendering/inscatter.tex.35
 natives/stm/systems/rendering/irradiance.tex.35
 natives/stm/systems/rendering/lens_mask.tex.35
@@ -51744,6 +51771,7 @@ natives/stm/ui/ui0000/font/neuefrutigerthaimodern-rg.oft.1
 natives/stm/ui/ui0000/font/sjarabic_latin.oft.1
 natives/stm/ui/ui0000/font/timen___.oft.1
 natives/stm/ui/ui0000/tex/ui0010_iam.tex.35.x64
+natives/stm/ui/ui0000/tex/ui0020_iam.tex.35.x64
 natives/stm/ui/ui0000/tex/ui0021_iam.tex.35
 natives/stm/ui/ui0000/ui0010.ift.4
 natives/stm/ui/ui0000/ui0010.uvs.7
@@ -54570,6 +54598,7 @@ natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0289/vfx_efd_bh
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0329/vfx_efd_bh7_sm0329_etc_00.efx.2818689
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0329/vfx_efd_bh7_sm0329_etc_01.efx.2818689
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0337/vfx_efd_bh7_sm0337_0000.efx.2818689
+natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0392/vfx_efd_bh7_sm0392_0000.efx.2818689
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0392/vfx_efd_bh7_sm0392_0001.efx.2818689
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0669/vfx_efd_bh7_sm0669_0001.efx.2818689
 natives/stm/vfx/vfx_resource/vfx_effecteditor/efd_props_id/efd_sm0669/vfx_efd_bh7_sm0669_0002.efx.2818689
@@ -56412,6 +56441,7 @@ natives/stm/weapon/wp1382_redblaster/wp1382.mdf2.21
 natives/stm/weapon/wp1382_redblaster/wp1382_redblaster.mesh.220128762
 natives/stm/weapon/wp1382_redblaster/wp1382_redblaster_albm.tex.35
 natives/stm/weapon/wp1382_redblaster/wp1382_redblaster_nrmr.tex.35
+natives/stm/weapon/wp1390_chrisknife/wp1390_chrisknife.mesh.220128762
 natives/stm/weapon/wp1410_albertbullet/wp1410.mdf2.21
 natives/stm/weapon/wp1410_albertbullet/wp1410_albertbullet.mesh.220128762
 natives/stm/weapon/wp1410_albertbullet/wp1410_albm.tex.35
