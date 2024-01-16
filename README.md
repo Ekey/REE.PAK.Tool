@@ -1,5 +1,5 @@
 # REE.Unpacker :see_no_evil:
-Tool for extract PAK archives from games developed on [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
+Tool for extract PAK archives from games developed on [RE ENGINE](https://en.wikipedia.org/wiki/RE_Engine)
 
 ### Usage
 > REE.Unpacker "**TAG_LIST_FILE**" "**INPUT_PAK_FILE**"
@@ -79,7 +79,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | MONSTER HUNTER WILDS | [here](https://store.steampowered.com/app/2246340) | [here](https://steamdb.info/app/2246340)| None
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | None
 | Street Fighter 6 (Closed Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_PC_Closed_Beta](Projects)
-| Street Fighter 6 (Open Beta) | [here](https://store.steampowered.com/app/1952120) | [here](https://steamdb.info/app/1952120) | None
+| Street Fighter 6 (Open Beta) | [here](https://store.steampowered.com/app/1952120) | [here](https://steamdb.info/app/1952120) | [SF6_PC_Closed_Beta](Projects)
 | Street Fighter 6 Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | [SF6_PC_Demo](Projects)
 
 # Games (MacOS)
@@ -110,6 +110,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
+| Resident Evil 7: Teaser - Beginning Hour | [RE7_PS4_Demo](Projects)
 | Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
 | Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
 
