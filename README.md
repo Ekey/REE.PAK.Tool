@@ -60,7 +60,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 3: Z Version (RT) | [here](https://store.steampowered.com/app/1100830) | [here](https://steamdb.info/app/1100830) | [RE3Z_RT_PC_Release](Projects)
 | Resident Evil 4 (Encrypted) | [here](https://store.steampowered.com/app/2050650) | [here](https://steamdb.info/app/2050650) | [RE4_PC_Release](Projects)
 | Resident Evil 4: Chainsaw Demo | [here](https://store.steampowered.com/app/2231770) | [here](https://steamdb.info/app/2231770) | [RE4_PC_Demo](Projects)
-| Resident Evil 7: Teaser - Beginning Hour | [here](https://store.steampowered.com/app/530620) | [here](https://steamdb.info/app/530620) | [RE7_PC_Demo](Projects)
+| Resident Evil 7: Teaser - Beginning Hour | [here](https://store.steampowered.com/app/530620) | [here](https://steamdb.info/app/530620) | [RE7_TBH_PC_Demo](Projects)
 | Resident Evil 7: Biohazard | [here](https://store.steampowered.com/app/418370) | [here](https://steamdb.info/app/418370) | [RE7_PC_Release](Projects)
 | Resident Evil 7: Biohazard (RT) | [here](https://store.steampowered.com/app/418370) | [here](https://steamdb.info/app/418370) | [RE7_RT_PC_Release](Projects)
 | Resident Evil 7: Biohazard Z Version | [here](https://store.steampowered.com/app/530940) | [here](https://steamdb.info/app/530940) | [RE7Z_PC_Release](Projects)
@@ -110,7 +110,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7 | [RE7_PS4_Release](Projects)
 | Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
 | Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
-| Resident Evil 7: Teaser - Beginning Hour | [RE7_PS4_Demo](Projects)
+| Resident Evil 7: Teaser - Beginning Hour | [RE7_TBH_PS4_Demo](Projects)
 | Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
 | Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
 
@@ -123,6 +123,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Ghost Trick: Phantom Detective Demo | [GTPD_NSW_Demo](Projects)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
+
+# Games (Universal Windows Platform)
+| Game   | MS Store   | List Tag   |
+|---      |---    |---    |
+| Resident Evil 7: Teaser - Beginning Hour | [here](https://www.microsoft.com/en-us/p/resident-evil-7-teaser-beginning-hour/9nblggh3zh4b) | [RE7_TBH_UWP_Demo](Projects)
 
 # Special Thanks
 
