@@ -952,6 +952,7 @@ natives/ps5/develop/visualdemo/gameflow/demomoviemanager.scn.20
 natives/ps5/develop/visualdemo/gameflow/demoresident.scn.20
 natives/ps5/develop/visualdemo/gameflow/fsm/visualdemologoflow.fsmv2.40
 natives/ps5/develop/visualdemo/gameflow/transitionwaitscene.scn.20
+natives/ps5/develop/visualdemo/gameflow/visualdemo.scn.20
 natives/ps5/develop/visualdemo/gameflow/visualdemochapter.scn.20
 natives/ps5/develop/visualdemo/gameflow/visualdemocredits.scn.20
 natives/ps5/develop/visualdemo/gameflow/visualdemojump.scn.20
@@ -6738,6 +6739,7 @@ natives/ps5/nobody/globalvariables.uvar.2
 natives/ps5/nobody/inventoryinstanceholder.pfb.17
 natives/ps5/nobody/maingametimer.user.2
 natives/ps5/nobody/meshlodsettings.lod.3
+natives/ps5/nobody/networkconfig_eu.ncf.7
 natives/ps5/nobody/networkobject.pfb.17.ps5
 natives/ps5/nobody/skuuservariables.uvar.2
 natives/ps5/nobody/sss_profiles.sss.2
