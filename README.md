@@ -35,7 +35,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 ### Usage
 > REE.FontsCryptor "**INPUT_FONT_FILE**" "**OUTPUT_FONT_FILE**"
 
-# Games (PC)
+# Games (PC Steam)
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| None
@@ -94,7 +94,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 4 | None
 | Resident Evil 8: Village | [RE8_iOS_Release](Projects)
 
-# Games (PS4)
+# Games (PlayStation 4)
 | Game   | List Tag   |
 |---      |---    |
 | Capcom Arcade Stadium | [CAS_PS4_Release](Projects)
@@ -113,6 +113,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7: Teaser - Beginning Hour | [RE7_TBH_PS4_Demo](Projects)
 | Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
 | Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
+
+# Games (PlayStation 5)
+| Game   | List Tag   |
+|---      |---    |
+| Resident Evil 8: Village Maiden Demo | [RE8_M_PS5_Demo](Projects)
 
 # Games (Nintendo Switch)
 | Game   | List Tag   |
