@@ -5384,6 +5384,7 @@ natives/ps5/gui/ui0000/font/trumpmediaevalltcyr-bold.oft.1
 natives/ps5/gui/ui0000/font/tt0791m_.oft.1
 natives/ps5/gui/ui0000/font/universnextpro-cond.oft.1
 natives/ps5/gui/ui0000/tex/ui0000.uvs.7
+natives/ps5/gui/ui0000/tex/ui0000_iam.tex.30.ps5
 natives/ps5/gui/ui0000/ui0000.gui.400023
 natives/ps5/gui/ui0000/ui0000.ift.3
 natives/ps5/gui/ui0000/ui_font00.fslt.2
@@ -5512,6 +5513,7 @@ natives/ps5/gui/ui0300/tex/ui0315_00_im.tex.30
 natives/ps5/gui/ui0300/tex/ui0315_01_im.tex.30
 natives/ps5/gui/ui0300/tex/ui0330.uvs.7
 natives/ps5/gui/ui0300/tex/ui0330_iam.tex.30
+natives/ps5/gui/ui0300/tex/ui0330_iam.tex.30.ps5
 natives/ps5/gui/ui0400/gui/ui0400.gui.400023
 natives/ps5/gui/ui0400/gui/ui0410.gui.400023
 natives/ps5/gui/ui0400/gui/ui0411.gui.400023
