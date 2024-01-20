@@ -14434,6 +14434,7 @@ natives/stm/product/scene/mainmenu/transferdemo/sound_se.scn.20
 natives/stm/product/scene/mainmenu/transferdemo/text.scn.20
 natives/stm/product/scene/mainmenu/transferdemo/transferdemoobjects.scn.20
 natives/stm/product/scene/mainmenu/transferdemo/ui.scn.20
+natives/stm/product/scene/masterscene.scn.20
 natives/stm/product/scene/parallel/st0200_pve10_03/product/areasystem/parallel_a_st0200_pve20_01.areamap.8
 natives/stm/product/scene/parallel/st0200_pve10_03/product/areasystem/parallel_a_st0200_pve20_01_outside.areamap.8
 natives/stm/product/scene/parallel/st0200_pve10_03/product/areasystem/parallel_a_st0201_metaenemyarea.areamap.8
@@ -17898,10 +17899,16 @@ natives/stm/sectionroot/sound/sound_userdata/soundcountdownkeytriggerrespawnpod.
 natives/stm/sectionroot/sound/sound_userdata/soundembaseuserdata.user.2
 natives/stm/sectionroot/sound/sound_userdata/soundmanagerparameter.user.2
 natives/stm/sectionroot/sound/sound_userdata/suitarmorpeel.user.2
+natives/stm/streaming/alphatest/movie/opening01.mov.1
 natives/stm/streaming/mastermaterial/textures/env_addtrees/addtrees00_alba.tex.35
 natives/stm/streaming/mastermaterial/textures/env_explosion/env_explosion00_albd.tex.35
 natives/stm/streaming/mastermaterial/textures/env_explosion/env_explosion00_nrmr.tex.35
 natives/stm/streaming/mastermaterial/textures/env_ocean/seasample_nrmr.tex.35
+natives/stm/streaming/product/cutscene/ev/ev000/ev000_s00_rt/movie/opening01.mov.1
+natives/stm/streaming/product/cutscene/ev/ev021/ev021_s00_rt/movie/opening02.mov.1
+natives/stm/streaming/product/cutscene/ev/ev101/ev101_s00_rt/movie/ev101_s00_mv.mov.1
+natives/stm/streaming/product/cutscene/resource/movie/sm/sm08_004/sm08_004_display_00_mv.mov.1
+natives/stm/streaming/product/cutscene/resource/movie/sm/sm08_534/sm08_534_monitor_00_mv.mov.1
 natives/stm/streaming/product/environment/setmodel/sm00/sm00_019_gmtransportplane/textures/sm00_019_gmtransportplane_00_a_albd.tex.35
 natives/stm/streaming/product/environment/setmodel/sm00/sm00_019_gmtransportplane/textures/sm00_019_gmtransportplane_00_a_albmsc.tex.35
 natives/stm/streaming/product/environment/setmodel/sm00/sm00_019_gmtransportplane/textures/sm00_019_gmtransportplane_00_a_nrmr.tex.35
@@ -22621,6 +22628,7 @@ natives/stm/streaming/product/mesh/powered_suit/su5100/su5100_body/variations/te
 natives/stm/streaming/product/mesh/weapon/wp0000/wp0000_albmsc.tex.35
 natives/stm/streaming/product/mesh/weapon/wp0000/wp0000_nrro.tex.35
 natives/stm/streaming/product/mesh/weapon/wp1000/variations/texture/wp1000_01_msk4.tex.35
+natives/stm/streaming/product/mesh/weapon/wp1000/variations/texture/wp1000_02_msk4.tex.35
 natives/stm/streaming/product/mesh/weapon/wp1000/wp1000_albmsc.tex.35
 natives/stm/streaming/product/mesh/weapon/wp1000/wp1000_em_msk1.tex.35
 natives/stm/streaming/product/mesh/weapon/wp1000/wp1000_nrro.tex.35
@@ -22649,6 +22657,7 @@ natives/stm/streaming/product/mesh/weapon/wp3001/wp3001_nrro.tex.35
 natives/stm/streaming/product/mesh/weapon/wp5100/variations/texture/wp5100_00_msk4.tex.35
 natives/stm/streaming/product/mesh/weapon/wp5100/wp5100_albmsc.tex.35
 natives/stm/streaming/product/mesh/weapon/wp5100/wp5100_nrro.tex.35
+natives/stm/streaming/product/movie/re logo animation_ps4.mov.1
 natives/stm/streaming/re_engine_library/vfx_library/mesh/mesh_sample/mesh_shader/title03/shader_title03_01_ice00_nrmr.tex.35
 natives/stm/streaming/re_engine_library/vfx_library/texture/tex_vector/tex_capcom_vector_water_0011_array_nrmr.tex.35
 natives/stm/streaming/systems/rendering/eyeball/eye_nmr.tex.35
