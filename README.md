@@ -38,7 +38,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (PC Steam)
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
-| Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| None
+| Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| [AJ_AAT_PC_Release](Projects)
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
 | Capcom Arcade 2nd Stadium | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
@@ -146,4 +146,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [r00t0s](https://github.com/r00t0s) (RE8)
 * [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
 * [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version)
-* [osyu](https://github.com/osyu) (GTPD) filenames
+* [osyu](https://github.com/osyu) (GTPD, AJ_AAT) filenames
