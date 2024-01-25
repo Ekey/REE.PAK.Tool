@@ -122,6 +122,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (Nintendo Switch)
 | Game   | List Tag   |
 |---      |---    |
+| Apollo Justice: Ace Attorney Trilogy | [AJ_AAT_NSW_Release](Projects)
 | Capcom Arcade Stadium | [CAS_NSW_Release](Projects)
 | Capcom Arcade 2nd Stadium | [CAS2_NSW_Release](Projects)
 | Ghosts 'n Goblins Resurrection | [GGR_NSW_Release](Projects)
