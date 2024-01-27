@@ -141,7 +141,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * wigwrm (RE7) dlc filenames
 * iRaven (RE2 & RE3 RT) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
-* [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version)
+* [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version, Apollo)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
 * [r00t0s](https://github.com/r00t0s) (RE8)
 * [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
