@@ -838,6 +838,7 @@ natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_01_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_02_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_03_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_04_bm_nomip_iml4.tex.719230324
+natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_05_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_06_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0205/textures/gs5_bg0205_07_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/bg/bg0250/bg0250.mdf2.37
@@ -1513,6 +1514,7 @@ natives/stm/art/gs5/effect/mesh/22_water_00.mdf2.37
 natives/stm/art/gs5/effect/mesh/22_water_00.mesh.230612127
 natives/stm/art/gs5/effect/mesh/22_water_01.mdf2.37
 natives/stm/art/gs5/effect/texture/22_balloon_01_iml4.tex.719230324
+natives/stm/art/gs5/effect/texture/22_flash01_iml4.tex.719230324
 natives/stm/art/gs5/effect/texture/22_flash_00_iml4.tex.719230324
 natives/stm/art/gs5/effect/texture/22_hahen_00_iml4.tex.719230324
 natives/stm/art/gs5/effect/texture/22_hamon_00_hq_iml4.tex.719230324
@@ -5706,6 +5708,7 @@ natives/stm/art/gs5/obj/chr/chr610/model/chr610.mdf2.37
 natives/stm/art/gs5/obj/chr/chr610/model/chr610.mesh.230612127
 natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_arm_bm_hq_nomip_iml4.tex.719230324
 natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_body_bm_hq_nomip_iml4.tex.719230324
+natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_eye_bm_hq_nomip_iml4.tex.719230324
 natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_kigae_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_neck_hair_bm_nomip_iml4.tex.719230324
 natives/stm/art/gs5/obj/chr/chr610/model/textures/gs5_chr610_tantei_bm_nomip_iml4.tex.719230324
@@ -37103,6 +37106,8 @@ natives/stm/gui/gs4/20_ending/ending.gui.620035.ko
 natives/stm/gui/gs4/20_ending/ending.gui.620035.zhcn
 natives/stm/gui/gs4/20_ending/ending.gui.620035.zhtw
 natives/stm/gui/gs4/nitro/character.rtex.5
+natives/stm/gui/gs4/nitro/fpbase.fpolygon.10001
+natives/stm/gui/gs4/nitro/fpbasertt.fpolygon.10001
 natives/stm/gui/gs4/nitro/freepolygonholder.gui.620035
 natives/stm/gui/gs4/nitro/freepolygonrtt.gui.620035
 natives/stm/gui/gs4/nitro/gs4_sprite.mdf2.37
@@ -45062,6 +45067,7 @@ natives/stm/mastermaterial/textures/lutfresnel_34eb0e01a3541b64bfe030f95a49b148.
 natives/stm/mastermaterial/textures/lutfresnel_370b5ef7eeb341cc7c46d7090eda7be3.tex.719230324
 natives/stm/mastermaterial/textures/lutfresnel_39dc7423b31e041cb80ff3721a8f05fc.tex.719230324
 natives/stm/mastermaterial/textures/lutfresnel_3ad0932605ada767176b8b425c150bc6.tex.719230324
+natives/stm/mastermaterial/textures/lutfresnel_3b7b880b2f1e1b982b999d1ccd23fef9.tex.719230324
 natives/stm/mastermaterial/textures/lutfresnel_3f6247e2374a94f22ae495a994ec5e12.tex.719230324
 natives/stm/mastermaterial/textures/lutfresnel_41af02505d115554b27930d5813d6719.tex.719230324
 natives/stm/mastermaterial/textures/lutfresnel_42b206222f607a77a2b8f8aedb80cd5f.tex.719230324
