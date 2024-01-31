@@ -97,6 +97,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (PlayStation 4)
 | Game   | List Tag   |
 |---      |---    |
+| Apollo Justice: Ace Attorney Trilogy | [AJ_AAT_PS4_Release](Projects)
 | Capcom Arcade Stadium | [CAS_PS4_Release](Projects)
 | Capcom Arcade 2nd Stadium | [CAS2_PS4_Release](Projects)
 | Devil May Cry 5 | [DMC5_PS4_Release](Projects)
