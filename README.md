@@ -113,6 +113,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 7: Teaser - Beginning Hour | [RE7_TBH_PS4_Demo](Projects)
 | Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
 | Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
+| Street Fighter 6 | [SF6_PS4_Release](Projects)
 
 # Games (PlayStation 5)
 | Game   | List Tag   |
@@ -140,11 +141,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [flatz](https://github.com/flatz) (PS4 stuff :sunglasses:)
 * wigwrm (RE7) dlc filenames
 * iRaven (RE2 & RE3 RT) dlc filenames
-* Link (SF6 patches)
+* Link (SF6 game files)
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
-* [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version, Apollo)
-* [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version)
-* [r00t0s](https://github.com/r00t0s) (RE8)
-* [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version)
-* [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version)
+* [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version, Apollo game files)
+* [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version game files)
+* [r00t0s](https://github.com/r00t0s) (RE8 game files)
+* [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version game files)
+* [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version game files)
 * [osyu](https://github.com/osyu) (GTPD, AJ_AAT) filenames
