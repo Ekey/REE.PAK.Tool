@@ -85,7 +85,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 # Games (MacOS)
 | Game   | List Tag   |
 |---      |---    |
-| Resident Evil 4 | None
+| Resident Evil 4 | [RE4_MAC_Release](Projects)
 | Resident Evil 8: Village | [RE8_MAC_Release](Projects)
 
 # Games (iOS)
@@ -150,3 +150,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [linkthehylian](https://github.com/linkthehylian) (RE8 Z Version game files)
 * [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version game files)
 * [osyu](https://github.com/osyu) (GTPD, AJ_AAT) filenames
+* [shaoxuantoo](https://github.com/shaoxuantoo) (RE4 MacOS game files)
