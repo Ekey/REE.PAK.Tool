@@ -131,7 +131,7 @@ namespace REE.Unpacker
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
 
-                        File.WriteAllBytes(m_FullPath, lpBuffer);
+                        File.WriteAllBytes(m_FullPath, lpDstBuffer);
                     }
                     else
                     {
