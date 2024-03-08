@@ -34,9 +34,15 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.bMajorVersion != 2 && m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0)
+                if (m_Header.bMajorVersion != 2 && m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0 && m_Header.bMinorVersion != 1)
                 {
-                    Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 2.0 & 4.0");
+                    Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 2.0, 4.0 & 4.1");
+                    return;
+                }
+
+                if (m_Header.wFeature != 0 && m_Header.wFeature != 8)
+                {
+                    Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm");
                     return;
                 }
 
@@ -63,7 +69,7 @@ namespace REE.Unpacker
                     {
                         var m_Entry = new PakEntry();
 
-                        if (m_Header.bMajorVersion == 2)
+                        if (m_Header.bMajorVersion == 2 && m_Header.bMinorVersion == 0)
                         {
                             m_Entry.dwOffset = TEntryReader.ReadInt64();
                             m_Entry.dwDecompressedSize = TEntryReader.ReadInt64();
@@ -73,7 +79,7 @@ namespace REE.Unpacker
                             m_Entry.wCompressionType = 0;
                             m_Entry.dwChecksum = 0;
                         }
-                        else
+                        else if (m_Header.bMajorVersion == 2 && m_Header.bMajorVersion == 4 || m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1)
                         {
                             m_Entry.dwHashNameLower = TEntryReader.ReadUInt32();
                             m_Entry.dwHashNameUpper = TEntryReader.ReadUInt32();
@@ -83,16 +89,22 @@ namespace REE.Unpacker
                             m_Entry.wCompressionType = PakUtils.iGetCompressionType(TEntryReader.ReadInt64());
                             m_Entry.dwChecksum = TEntryReader.ReadUInt64();
                         }
+                        else
+                        {
+                            Utils.iSetError("[ERROR]: Something is wrong when reading the entry table");
+                            return;
+                        }
+
                         m_EntryTable.Add(m_Entry);
                     }
                 }
-				
+
                 Int32 dwCounter = 1;
                 foreach (var m_Entry in m_EntryTable)
                 {
                     String m_FileName = PakList.iGetNameFromHashList((UInt64)m_Entry.dwHashNameUpper << 32 | m_Entry.dwHashNameLower);
                     String m_FullPath = m_DstFolder + m_FileName.Replace("/", @"\");
-					
+
                     Console.Title = Program.m_Title + " - " + Path.GetFileName(m_PakFile) + " -> " + PakUtils.iPrintInfo(dwCounter++, (Int32)m_Header.dwTotalFiles);
 
                     Utils.iSetInfo("[UNPACKING]: " + m_FileName);
@@ -103,8 +115,11 @@ namespace REE.Unpacker
                     {
                         var lpBuffer = TPakStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
-                        
-                        File.WriteAllBytes(m_FullPath, lpBuffer);
+
+                        if (!PakUtils.iSkipSomeFiles(m_FullPath, true))
+                        {
+                            File.WriteAllBytes(m_FullPath, lpBuffer);
+                        }
                     }
                     else if (m_Entry.wCompressionType == PakFlags.DEFLATE || m_Entry.wCompressionType == PakFlags.ZSTD)
                     {
@@ -119,7 +134,10 @@ namespace REE.Unpacker
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
 
-                        File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                        if (!PakUtils.iSkipSomeFiles(m_FullPath, true))
+                        {
+                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                        }
                     }
                     else
                     {
@@ -127,7 +145,7 @@ namespace REE.Unpacker
                         return;
                     }
                 }
-				
+
                 Console.Title = Program.m_Title;
 
                 TPakStream.Dispose();
