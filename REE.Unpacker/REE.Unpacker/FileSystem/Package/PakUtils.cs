@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace REE.Unpacker
 {
@@ -45,6 +46,7 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x1D8: return m_FileName + ".motlist";
+                        case 0x424454: return m_FileName + ".tdb";
                         case 0x424956: return m_FileName + ".vib";
                         case 0x444957: return m_FileName + ".wid";
                         case 0x444F4C: return m_FileName + ".lod";
@@ -64,6 +66,18 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x594C504D: return m_FileName + ".mply";
+                        case 0x50415257: return m_FileName + ".wrap";
+                        case 0x50534C43: return m_FileName + ".clsp";
+                        case 0x4F49434F: return m_FileName + ".ocio";
+                        case 0x5F525350: return m_FileName + ".psr_bvhl";
+                        case 0x4403FBF5: return m_FileName + ".ncf";
+                        case 0x5DD45FC6: return m_FileName + ".ncf";
+                        case 0x444D5921: return m_FileName + ".ymd";
+                        case 0x52544350: return m_FileName + ".pctr";
+                        case 0x44474C4D: return m_FileName + ".mlgd";
+                        case 0x20434452: return m_FileName + ".rdc";
+                        case 0x50464E4E: return m_FileName + ".nnfp";
                         case 0x4D534C43: return m_FileName + ".clsm";
                         case 0x54414D2E: return m_FileName + ".mat";
                         case 0x54464453: return m_FileName + ".sdft";
@@ -97,6 +111,7 @@ namespace REE.Unpacker
                         case 0x736C6375: return m_FileName + ".ucls";
                         case 0x54435846: return m_FileName + ".fxct";
                         case 0x58455452: return m_FileName + ".rtex";
+                        case 0x37863546: return m_FileName + ".oft";
                         case 0x4F464246: return m_FileName + ".oft";
                         case 0x4C4F434D: return m_FileName + ".mcol";
                         case 0x46454443: return m_FileName + ".cdef";
@@ -130,6 +145,12 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x766544: return m_FileName + ".dev";
+                        case 0x74646566: return m_FileName + ".fedt";
+                        case 0x73627472: return m_FileName + ".rtbs";
+                        case 0x67727472: return m_FileName + ".rtrg";
+                        case 0x67636B69: return m_FileName + ".ikcg";
+                        case 0x45445046: return m_FileName + ".fpde";
+                        case 0x64776863: return m_FileName + ".chwd";
                         case 0x6E616863: return m_FileName + ".chain";
                         case 0x6E6C6B73: return m_FileName + ".fbxskel";
                         case 0x47534D47: return m_FileName + ".msg";

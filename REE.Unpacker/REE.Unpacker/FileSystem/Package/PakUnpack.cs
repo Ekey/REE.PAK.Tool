@@ -116,10 +116,7 @@ namespace REE.Unpacker
                         var lpBuffer = TPakStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
 
-                        if (!PakUtils.iSkipSomeFiles(m_FullPath, true))
-                        {
-                            File.WriteAllBytes(m_FullPath, lpBuffer);
-                        }
+                        File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                     else if (m_Entry.wCompressionType == PakFlags.DEFLATE || m_Entry.wCompressionType == PakFlags.ZSTD)
                     {
@@ -134,10 +131,7 @@ namespace REE.Unpacker
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
 
-                        if (!PakUtils.iSkipSomeFiles(m_FullPath, true))
-                        {
-                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
-                        }
+                        File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                     else
                     {
