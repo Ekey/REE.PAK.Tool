@@ -11752,6 +11752,7 @@ natives/stm/gui/ui01/font/msunghk-medium.oft.1
 natives/stm/gui/ui01/font/tex_ui0000_iconfont_iam.tex.760230703
 natives/stm/gui/ui01/font/tower_elf.oft.1
 natives/stm/gui/ui01/font/tower_elf2.oft.1
+natives/stm/gui/ui01/font/ui0000.ift.7
 natives/stm/gui/ui01/font/ui0000.uvs.8
 natives/stm/gui/ui01/font/ui0000_iam.tex.760230703.x64
 natives/stm/gui/ui01/font/ui0010.ift.7
@@ -14702,6 +14703,7 @@ natives/stm/systems/develop/alembicmeshtest.sdf.230815080
 natives/stm/systems/develop/colorchecker_before_nov2014.tex.760230703
 natives/stm/systems/develop/colorchecker_sphere.mdf2.40
 natives/stm/systems/develop/colorchecker_sphere.mesh.231011879
+natives/stm/systems/develop/colorchecker_sphere.pfb.17
 natives/stm/systems/develop/ecotope.sdf.230815080
 natives/stm/systems/develop/ecotope/v00/_v00.mmtr.230815080
 natives/stm/systems/develop/ecotope/v10/_v10.mmtr.230815080
@@ -14730,6 +14732,7 @@ natives/stm/systems/effect/chijiiwa_pat128_msk1.tex.760230703
 natives/stm/systems/effect/defaultparticlerefract.mmtr.230815080
 natives/stm/systems/effect/defaultprimitivemastermaterial.mmtr.230815080
 natives/stm/systems/effect/defaultprimitivemesh.mmtr.230815080
+natives/stm/systems/effect/defaultprimitivemesh_pbr.mdf2.40
 natives/stm/systems/effect/defaultprimitivemesh_pbr.mmtr.230815080
 natives/stm/systems/effect/defaultvfxsectionshader.mmtr.230815080
 natives/stm/systems/effect/lensflaresystemtexture_glow_alb.tex.760230703
