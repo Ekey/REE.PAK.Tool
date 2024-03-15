@@ -14944,6 +14944,7 @@ natives/stm/systems/shader/vfx/billboardcompute.vsdf.230815083
 natives/stm/systems/shader/vfx/billboarddraw.vsdf.230815083
 natives/stm/systems/shader/vfx/computeshaders.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/coprocess.vsdf.230815083
+natives/stm/systems/shader/vfx/coprocess/terrainsnapcoprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/fluid/fluid.sdf.230815080
 natives/stm/systems/shader/vfx/fluid/renderer.sdf.230815080
 natives/stm/systems/shader/vfx/lightingvfx.vsdf.230815083
