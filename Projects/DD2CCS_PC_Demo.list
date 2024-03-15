@@ -14779,6 +14779,8 @@ natives/stm/systems/rendering/bluenoise/scramblingtile_64spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/scramblingtile_8spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/sobol_256spp_256d.gpbf.2
 natives/stm/systems/rendering/bluenoise16x16.tex.760230703
+natives/stm/systems/rendering/cloud_base_3d_mip2_msk2.tex.760230703
+natives/stm/systems/rendering/cloud_base_3d_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_base_rd_mip2_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_base_rd_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_detail_3d_msk1.tex.760230703
@@ -14846,6 +14848,7 @@ natives/stm/systems/rendering/yp.rtex.5
 natives/stm/systems/rendering/zn.rtex.5
 natives/stm/systems/rendering/zp.rtex.5
 natives/stm/systems/shader/advancedsystem.sdf.230815080
+natives/stm/systems/shader/alembicmesh/alembicmesh.sdf.230815080
 natives/stm/systems/shader/ambientocclusion.sdf.230815080
 natives/stm/systems/shader/atmosphere.sdf.230815080
 natives/stm/systems/shader/atmosphere2.sdf.230815080
@@ -14900,6 +14903,7 @@ natives/stm/systems/shader/primitivegui.sdf.230815080
 natives/stm/systems/shader/primitivegui_hdroutput.sdf.230815080
 natives/stm/systems/shader/primitivegui_rttoutput.sdf.230815080
 natives/stm/systems/shader/primitivegui_srgboutput.sdf.230815080
+natives/stm/systems/shader/primitivevfx_billboard2d.vsdf.230815083
 natives/stm/systems/shader/primitivevfxdebug.vsdf.230815083
 natives/stm/systems/shader/rasterizer/swrasterizer.sdf.230815080
 natives/stm/systems/shader/raytracelensflare/raytracelensflare.sdf.230815080
@@ -14945,8 +14949,10 @@ natives/stm/systems/shader/vfx/billboarddraw.vsdf.230815083
 natives/stm/systems/shader/vfx/computeshaders.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/coprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/terrainsnapcoprocess.vsdf.230815083
+natives/stm/systems/shader/vfx/coprocess/vortexelsnapcoprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/fluid/fluid.sdf.230815080
 natives/stm/systems/shader/vfx/fluid/renderer.sdf.230815080
+natives/stm/systems/shader/vfx/layoutvfx.vsdf.230815083
 natives/stm/systems/shader/vfx/lightingvfx.vsdf.230815083
 natives/stm/systems/shader/vfx/lightningcompute.vsdf.230815083
 natives/stm/systems/shader/vfx/lightningdraw.vsdf.230815083
