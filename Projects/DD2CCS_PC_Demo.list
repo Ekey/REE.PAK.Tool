@@ -15236,6 +15236,8 @@ natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_01.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_10.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_11.efx.4064419
+natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_21.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_30.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp02/001/13_wp02_001_enchant_15.efx.4064419
@@ -15408,8 +15410,14 @@ natives/stm/vfx/effects/weapon/wp04/016/13_wp04_016_enchant_26.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/016/13_wp04_016_enchant_36.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_01.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_10.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_11.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_16.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_21.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_26.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_30.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_36.efx.4064419
 natives/stm/vfx/effects/weapon/wp05/13_wp05_enchant_16.efx.4064419
 natives/stm/vfx/effects/weapon/wp05/13_wp05_enchant_26.efx.4064419
@@ -15424,6 +15432,12 @@ natives/stm/vfx/effects/weapon/wp07/006/13_wp07_006_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/006/13_wp07_006_ref.pfb.17
 natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_01.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_10.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_11.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_21.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_30.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/wp07_mat_10.user.2
 natives/stm/vfx/effects/weapon/wp09/001/13_wp09_001_enchant_15.efx.4064419
 natives/stm/vfx/effects/weapon/wp09/001/13_wp09_001_enchant_16.efx.4064419
