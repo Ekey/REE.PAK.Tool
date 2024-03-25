@@ -66,10 +66,17 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x20204648: return m_FileName + ".hf";
+                        case 0x0A4C5447: return m_FileName + ".gtl";
+                        case 0x4B424343: return m_FileName + ".ccbk";
+                        case 0x20464843: return m_FileName + ".chf";
+                        case 0x4854444D: return m_FileName + ".mdth";
+                        case 0x5443504D: return m_FileName + ".mpct";
                         case 0x594C504D: return m_FileName + ".mply";
                         case 0x50415257: return m_FileName + ".wrap";
                         case 0x50534C43: return m_FileName + ".clsp";
                         case 0x4F49434F: return m_FileName + ".ocio";
+                        case 0x4F434F43: return m_FileName + ".coco";
                         case 0x5F525350: return m_FileName + ".psr_bvhl";
                         case 0x4403FBF5: return m_FileName + ".ncf";
                         case 0x5DD45FC6: return m_FileName + ".ncf";
@@ -145,6 +152,7 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x766544: return m_FileName + ".dev";
+                        case 0x6B696266: return m_FileName + ".fbik";
                         case 0x74646566: return m_FileName + ".fedt";
                         case 0x73627472: return m_FileName + ".rtbs";
                         case 0x67727472: return m_FileName + ".rtrg";
