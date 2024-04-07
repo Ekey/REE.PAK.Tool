@@ -133,6 +133,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
 
+# Games (Microsoft Games)
+| Game   | List Tag   |
+|---      |---    |
+| MONSTER HUNTER RISE | [MHR_MSG_Release](Projects)
+
 # Games (Universal Windows Platform)
 | Game   | MS Store   | List Tag   |
 |---      |---    |---    |
@@ -152,3 +157,4 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [Ferbez](https://github.com/Ferbez) (RE8 MacOS Version game files)
 * [osyu](https://github.com/osyu) (GTPD, AJ_AAT) filenames
 * [shaoxuantoo](https://github.com/shaoxuantoo) (RE4 MacOS game files)
+* [LinkOFF](https://github.com/LinkOFF7) (MHR (MSG) platform) filenames
