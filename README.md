@@ -41,6 +41,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| [AJ_AAT_PC_Release](Projects)
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
 | Capcom Arcade 2nd Stadium | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
+| Dead Rising Deluxe Remaster | [here](https://store.steampowered.com/app/2527390) | [here](https://steamdb.info/app/2527390) | None
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
 | Dragon's Dogma 2 | [here](https://store.steampowered.com/app/2054970) | [here](https://steamdb.info/app/2054970)| [DD2_PC_Release](Projects)
 | Dragon's Dogma 2 - Character Creator & Storage Demo | [here](https://store.steampowered.com/app/2674810) | [here](https://steamdb.info/app/2674810)| [DD2CCS_PC_Demo](Projects)
@@ -73,7 +74,8 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_PC_Release](Projects)
 | Resident Evil: Re:Verse (Open Beta) | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Open_Beta](Projects)
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | [RERE_PC_Release](Projects)
-| Kunitsu-Gami: Path of the Goddess | None | None| None
+| Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | None
+| Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | None
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_PC_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
