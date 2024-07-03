@@ -65,7 +65,10 @@ namespace REE.Unpacker
                         case 0x584554: return m_FileName + ".tex";
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
+                        case 0x4C4750: return m_FileName + ".pgl";
+                        case 0x474F50: return m_FileName + ".pog";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x444E5247: return m_FileName + ".grnd";
                         case 0x20204648: return m_FileName + ".hf";
                         case 0x0A4C5447: return m_FileName + ".gtl";
                         case 0x4B424343: return m_FileName + ".ccbk";
