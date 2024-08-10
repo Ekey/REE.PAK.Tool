@@ -75,7 +75,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil: Re:Verse (Open Beta) | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Open_Beta](Projects)
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | [RERE_PC_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | None
-| Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | [KGD_PC_Demo](Projects)
+| Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | [KGPG_PC_Demo](Projects)
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_PC_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
 | MONSTER HUNTER RISE (Encrypted) | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_PC_Release](Projects)
@@ -135,9 +135,12 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
 
-# Games (Microsoft Games)
+# Games (Microsoft Games - XPG)
 | Game   | List Tag   |
 |---      |---    |
+| Kunitsu-Gami: Path of the Goddess | [KGPG_MSG_Release](Projects)
+| Resident Evil 2 | None (In progress)
+| Resident Evil 3 | None (In progress)
 | MONSTER HUNTER RISE | [MHR_MSG_Release](Projects)
 
 # Games (Universal Windows Platform)
@@ -160,3 +163,5 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 * [osyu](https://github.com/osyu) (GTPD, AJ_AAT) filenames
 * [shaoxuantoo](https://github.com/shaoxuantoo) (RE4 MacOS game files)
 * [LinkOFF](https://github.com/LinkOFF7) (MHR (MSG) platform) filenames
+* [BqCai](https://github.com/BqCai) (KGPG (MSG platform) game files)
+* [Narayanna](https://github.com/Narayanna) (RE2 & RE3 (MSG platform) game files)
