@@ -140,7 +140,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 |---      |---    |
 | Kunitsu-Gami: Path of the Goddess | [KGPG_MSG_Release](Projects)
 | Resident Evil 2 | [RE2_MSG_Release](Projects)
-| Resident Evil 3 | None (In progress)
+| Resident Evil 3 | [RE3_MSG_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_MSG_Release](Projects)
 
 # Games (Universal Windows Platform)
