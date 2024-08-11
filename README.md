@@ -135,11 +135,11 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
 
-# Games (Microsoft Games - XPG)
+# Games (Microsoft Games - XGP)
 | Game   | List Tag   |
 |---      |---    |
 | Kunitsu-Gami: Path of the Goddess | [KGPG_MSG_Release](Projects)
-| Resident Evil 2 | None (In progress)
+| Resident Evil 2 | [RE2_MSG_Release](Projects)
 | Resident Evil 3 | None (In progress)
 | MONSTER HUNTER RISE | [MHR_MSG_Release](Projects)
 
