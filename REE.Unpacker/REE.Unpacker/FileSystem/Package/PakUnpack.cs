@@ -79,7 +79,7 @@ namespace REE.Unpacker
                             m_Entry.wCompressionType = 0;
                             m_Entry.dwChecksum = 0;
                         }
-                        else if (m_Header.bMajorVersion == 2 && m_Header.bMajorVersion == 4 || m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1)
+                        else if (m_Header.bMajorVersion == 4 && m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1)
                         {
                             m_Entry.dwHashNameLower = TEntryReader.ReadUInt32();
                             m_Entry.dwHashNameUpper = TEntryReader.ReadUInt32();
