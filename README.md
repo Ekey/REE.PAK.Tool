@@ -74,7 +74,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_PC_Release](Projects)
 | Resident Evil: Re:Verse (Open Beta) | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_PC_Open_Beta](Projects)
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | [RERE_PC_Release](Projects)
-| Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | None
+| Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | [KGPG_PC_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | [KGPG_PC_Demo](Projects)
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_PC_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO (Encrypted) | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_PC_Demo](Projects)
