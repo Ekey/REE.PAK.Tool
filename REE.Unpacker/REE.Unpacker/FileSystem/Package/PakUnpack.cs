@@ -86,7 +86,11 @@ namespace REE.Unpacker
                             m_Entry.dwOffset = TEntryReader.ReadInt64();
                             m_Entry.dwCompressedSize = TEntryReader.ReadInt64();
                             m_Entry.dwDecompressedSize = TEntryReader.ReadInt64();
-                            m_Entry.wCompressionType = PakUtils.iGetCompressionType(TEntryReader.ReadInt64());
+                            m_Entry.wCompressionType = (CompressionType)TEntryReader.ReadByte();
+                            m_Entry.wCompressionFlags = TEntryReader.ReadByte();
+                            m_Entry.wEncryptionType = TEntryReader.ReadByte();
+                            m_Entry.wEncryptionFlags = TEntryReader.ReadByte();
+                            m_Entry.dwReserved = TEntryReader.ReadInt32();
                             m_Entry.dwChecksum = TEntryReader.ReadUInt64();
                         }
                         else
@@ -122,6 +126,11 @@ namespace REE.Unpacker
                     {
                         var lpSrcBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         var lpDstBuffer = new Byte[] { };
+						
+                        if (m_Entry.wEncryptionType > 0)
+                        {
+                            lpSrcBuffer = ResourceCipher.iDecryptResource(lpSrcBuffer);
+                        }
 
                         switch (m_Entry.wCompressionType)
                         {

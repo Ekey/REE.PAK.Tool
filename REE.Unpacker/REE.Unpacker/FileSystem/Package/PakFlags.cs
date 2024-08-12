@@ -3,10 +3,10 @@
 namespace REE.Unpacker
 {
     [Flags]
-    public enum PakFlags : Int64
+    public enum CompressionType : Byte
     {
         NONE = 0,
         DEFLATE = 1,
-        ZSTD = 2
+        ZSTD = 2,
     }
 }

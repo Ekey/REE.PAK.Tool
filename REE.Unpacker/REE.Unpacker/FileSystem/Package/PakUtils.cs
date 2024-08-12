@@ -20,22 +20,6 @@ namespace REE.Unpacker
             return String.Format("{0} of {1} ({2}%)", dwCurrent, dwMaxValue, iGetPercent(dwCurrent, dwMaxValue));
         }
 
-        public static PakFlags iGetCompressionType(Int64 dwFlag)
-        {
-            if (Convert.ToInt32(dwFlag & 0xF) == 1)
-            {
-                if (dwFlag >> 16 > 0) { return PakFlags.NONE; } else { return PakFlags.DEFLATE; }
-            }
-            else if (Convert.ToInt32(dwFlag & 0xF) == 2)
-            {
-                if (dwFlag >> 16 > 0) { return PakFlags.NONE; } else { return PakFlags.ZSTD; }
-            }
-            else
-            {
-                return PakFlags.NONE;
-            }
-        }
-
         public static String iDetectFileType(String m_FileName, Byte[] lpBuffer)
         {
             if (m_FileName.Contains(@"__Unknown"))
