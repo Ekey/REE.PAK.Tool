@@ -32,14 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-
   <!-- Copies libzstd.dll into the build folder manually because it's not directly referenced in the project. -->
   <Target Name="CopyDLL" AfterTargets="Build">
     <Message Text="copying libzstd.dll from $(SourceFolder)Libs\ to $(TargetDir)" Importance="High" />
     <Copy SourceFiles="$(SourceFolder)Libs\libzstd.dll" DestinationFiles="$(TargetDir)libzstd.dll" SkipUnchangedFiles="true" />
     <Message Text="copy successful" Importance="High" />
   </Target>
-
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +56,7 @@
     <Compile Include="FileSystem\Compression\DEFLATE.cs" />
     <Compile Include="FileSystem\Compression\ZSTD.cs" />
     <Compile Include="FileSystem\Encryption\PakCipher.cs" />
+    <Compile Include="FileSystem\Encryption\ResourceCipher.cs" />
     <Compile Include="FileSystem\Other\Helpers.cs" />
     <Compile Include="FileSystem\Other\Utils.cs" />
     <Compile Include="FileSystem\Package\PakEntry.cs" />
