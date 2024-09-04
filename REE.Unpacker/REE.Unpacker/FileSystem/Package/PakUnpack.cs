@@ -132,10 +132,15 @@ namespace REE.Unpacker
                             lpSrcBuffer = ResourceCipher.iDecryptResource(lpSrcBuffer);
                         }
 
-                        switch (m_Entry.wCompressionType)
+                        UInt32 dwMagic = BitConverter.ToUInt32(lpSrcBuffer, 0);
+
+                        if (dwMagic == 0xFD2FB528)
                         {
-                            case CompressionType.DEFLATE: lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer); break;
-                            case CompressionType.ZSTD: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
+                            lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer);
+                        }
+                        else
+                        {
+                            lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer);
                         }
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
