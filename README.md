@@ -41,7 +41,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| [AJ_AAT_PC_Release](Projects)
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_PC_Release](Projects)
 | Capcom Arcade 2nd Stadium | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_PC_Release](Projects)
-| Dead Rising Deluxe Remaster | [here](https://store.steampowered.com/app/2527390) | [here](https://steamdb.info/app/2527390) | None
+| Dead Rising Deluxe Remaster | [here](https://store.steampowered.com/app/2527390) | [here](https://steamdb.info/app/2527390) | [DRDR_PC_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_PC_Release](Projects)
 | Dragon's Dogma 2 | [here](https://store.steampowered.com/app/2054970) | [here](https://steamdb.info/app/2054970)| [DD2_PC_Release](Projects)
 | Dragon's Dogma 2 - Character Creator & Storage Demo | [here](https://store.steampowered.com/app/2674810) | [here](https://steamdb.info/app/2674810)| [DD2CCS_PC_Demo](Projects)
