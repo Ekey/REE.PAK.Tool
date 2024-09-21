@@ -32077,6 +32077,8 @@ natives/stm/streaming/mastermaterial/textures/env_wetfloor/wetfloor_vector_water
 natives/stm/streaming/mastermaterial/textures/nulldetail.tex.34
 natives/stm/streaming/mastermaterial/textures/record_enemydefault/record_enemydefault_hightmap_msk3.tex.34
 natives/stm/streaming/movie/cf082_into_rpd.mov.1
+natives/stm/streaming/movie/ev890_00_movie.mov.1.x64
+natives/stm/streaming/movie/ev890_01_movie.mov.1.x64
 natives/stm/streaming/movie/previz_cf930_00.mov.1
 natives/stm/streaming/movie/previz_cf938_00.mov.1
 natives/stm/streaming/movie/previz_ev140_00.mov.1
@@ -38673,6 +38675,13 @@ natives/stm/streaming/sectionroot/light/ibl/ibl_opening.tex.34
 natives/stm/streaming/sectionroot/light/ibl/ibl_opening3.tex.34
 natives/stm/streaming/sectionroot/light/texture/multizonemetering_001.tex.34
 natives/stm/streaming/sectionroot/sound/wwise/cf007_music_en.pck.3.stm
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.de
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.en
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.es
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.fr
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.it
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.ja
+natives/stm/streaming/sectionroot/sound/wwise/cf560_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sectionroot/sound/wwise/em9000_dialogue.pck.3.stm.de
 natives/stm/streaming/sectionroot/sound/wwise/em9000_dialogue.pck.3.stm.en
 natives/stm/streaming/sectionroot/sound/wwise/em9000_dialogue.pck.3.stm.es
@@ -38734,6 +38743,7 @@ natives/stm/streaming/sectionroot/sound/wwise/ev260_dialogue.pck.3.stm.ja
 natives/stm/streaming/sectionroot/sound/wwise/ev260_dialogue.pck.3.stm.zhcn
 natives/stm/streaming/sectionroot/sound/wwise/ev260_music.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/ev260_se_en.pck.3.stm
+natives/stm/streaming/sectionroot/sound/wwise/ev400_music.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/ev400_se_en.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/ev410_dialogue.pck.3.stm.de
 natives/stm/streaming/sectionroot/sound/wwise/ev410_dialogue.pck.3.stm.en
@@ -38823,6 +38833,7 @@ natives/stm/streaming/sectionroot/sound/wwise/music_layer_leon.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/music_location_orphan_asylum.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/music_location_rpd.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/music_resident.pck.3.stm
+natives/stm/streaming/sectionroot/sound/wwise/music_tu_05a.pck.3.stm
 natives/stm/streaming/sectionroot/sound/wwise/pl0000_dialogue.pck.3.stm.de
 natives/stm/streaming/sectionroot/sound/wwise/pl0000_dialogue.pck.3.stm.en
 natives/stm/streaming/sectionroot/sound/wwise/pl0000_dialogue.pck.3.stm.es
