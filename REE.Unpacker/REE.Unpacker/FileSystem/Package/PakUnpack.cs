@@ -117,7 +117,7 @@ namespace REE.Unpacker
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == CompressionType.NONE)
                     {
-                        var lpBuffer = TPakStream.ReadBytes(PakUtils.iGetSize(m_Entry.dwCompressedSize, m_Entry.dwDecompressedSize));
+                        var lpBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
 
                         File.WriteAllBytes(m_FullPath, lpBuffer);
