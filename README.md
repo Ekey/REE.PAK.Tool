@@ -102,8 +102,8 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Game   | Serial | List Tag |
 |---      |---    |---    |
 | Apollo Justice: Ace Attorney Trilogy | CUSA37737 | [AJ_AAT_PS4_Release](Projects)
-| Capcom Arcade Stadium | CUSA26272 | | [CAS_PS4_Release](Projects)
-| Capcom Arcade 2nd Stadium | CUSA30640 | | [CAS2_PS4_Release](Projects)
+| Capcom Arcade Stadium | CUSA26272 | [CAS_PS4_Release](Projects)
+| Capcom Arcade 2nd Stadium | CUSA30640 | [CAS2_PS4_Release](Projects)
 | Devil May Cry 5 | CUSA08161 | [DMC5_PS4_Release](Projects)
 | Ghosts 'n Goblins Resurrection | CUSA24159 | [GGR_PS4_Release](Projects)
 | Ghost Trick: Phantom Detective | CUSA34041 | [GTPD_PS4_Release](Projects)
