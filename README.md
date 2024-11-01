@@ -99,31 +99,33 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 | Resident Evil 8: Village | [RE8_iOS_Release](Projects)
 
 # Platform (PlayStation 4)
-| Game   | List Tag   |
-|---      |---    |
-| Apollo Justice: Ace Attorney Trilogy | [AJ_AAT_PS4_Release](Projects)
-| Capcom Arcade Stadium | [CAS_PS4_Release](Projects)
-| Capcom Arcade 2nd Stadium | [CAS2_PS4_Release](Projects)
-| Devil May Cry 5 | [DMC5_PS4_Release](Projects)
-| Ghosts 'n Goblins Resurrection | [GGR_PS4_Release](Projects)
-| Ghost Trick: Phantom Detective | [GTPD_PS4_Release](Projects)
-| Resident Evil 2: "1-Shot Demo" | [RE2_1S_PS4_Demo](Projects)
-| Resident Evil 2 | [RE2_PS4_Release](Projects)
-| Resident Evil 3: Raccoon City Demo| [RE3_RC_PS4_Demo](Projects)
-| Resident Evil 3 | [RE3_PS4_Release](Projects)
-| Resident Evil 4 | [RE4_PS4_Release](Projects)
-| Resident Evil 7 | [RE7_PS4_Release](Projects)
-| Resident Evil 7: Gold Edition | [RE7_GE_PS4_Release](Projects)
-| Resident Evil 7: Kitchen Demo | [RE7_K_PS4_Demo](Projects)
-| Resident Evil 7: Teaser - Beginning Hour | [RE7_TBH_PS4_Demo](Projects)
-| Resident Evil 8: Village Gameplay Demo | [RE8_PS4_Demo](Projects)
-| Resident Evil: Re:Verse | [RERE_PS4_Release](Projects)
-| Street Fighter 6 | [SF6_PS4_Release](Projects)
+| Game   | Serial | List Tag |
+|---      |---    |---    |
+| Apollo Justice: Ace Attorney Trilogy | CUSA37737 | [AJ_AAT_PS4_Release](Projects)
+| Capcom Arcade Stadium | CUSA26272 | | [CAS_PS4_Release](Projects)
+| Capcom Arcade 2nd Stadium | CUSA30640 | | [CAS2_PS4_Release](Projects)
+| Devil May Cry 5 | CUSA08161 | [DMC5_PS4_Release](Projects)
+| Ghosts 'n Goblins Resurrection | CUSA24159 | [GGR_PS4_Release](Projects)
+| Ghost Trick: Phantom Detective | CUSA34041 | [GTPD_PS4_Release](Projects)
+| Resident Evil 2: "1-Shot Demo" | CUSA14426 | [RE2_1S_PS4_Demo](Projects)
+| Resident Evil 2 | CUSA09171 | [RE2_PS4_Release](Projects)
+| Resident Evil 3: Raccoon City Demo | CUSA17925 | [RE3_RC_PS4_Demo](Projects)
+| Resident Evil 3 | CUSA14123 | [RE3_PS4_Release](Projects)
+| Resident Evil 4 | CUSA33388 | [RE4_PS4_Release](Projects)
+| Resident Evil 7 | CUSA03842 | [RE7_PS4_Release](Projects)
+| Resident Evil 7: Gold Edition | CUSA09473 | [RE7_GE_PS4_Release](Projects)
+| Resident Evil 7: Kitchen Demo | CUSA06799 | [RE7_K_PS4_Demo](Projects)
+| Resident Evil 7: Teaser - Beginning Hour | CUSA04767 | [RE7_TBH_PS4_Demo](Projects)
+| Resident Evil 8: Village Gameplay Demo | CUSA27126 | [RE8_PS4_Demo](Projects)
+| Resident Evil: Re:Verse | CUSA18951 | [RERE_PS4_Release](Projects)
+| MONSTER HUNTER RISE: SUNBREAK | CUSA34119 | None
+| Street Fighter 6 | CUSA31498 | [SF6_PS4_Release](Projects)
 
 # Platform (PlayStation 5)
-| Game   | List Tag   |
-|---      |---    |
-| Resident Evil 8: Village Maiden Demo | [RE8_M_PS5_Demo](Projects)
+| Game   | Serial | List Tag |
+|---      |---    |---    |
+| Resident Evil 8: Village Maiden Demo | PPSA01859 | [RE8_M_PS5_Demo](Projects)
+| Resident Evil 8: Village Gold Edition | PPSA01556 | None
 
 # Platform (Nintendo Switch)
 | Game   | List Tag   |
