@@ -50,9 +50,16 @@ namespace REE.Unpacker
                         case 0x525355: return m_FileName + ".user";
                         case 0x5A5352: return m_FileName + ".wcc";
                         case 0x4C4750: return m_FileName + ".pgl";
+                        case 0x474C44: return m_FileName + ".dlg";
                         case 0x474F50: return m_FileName + ".pog";
                         case 0x4C4D47: return m_FileName + ".gml";
+                        case 0x535453: return m_FileName + ".sts";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x50524C43: return m_FileName + ".clrp";
+                        case 0x484C4946: return m_FileName + ".filh";
+                        case 0x4156495A: return m_FileName + ".ziva";
+                        case 0x52415453: return m_FileName + ".star";
+                        case 0x49484556: return m_FileName + ".vehi";
                         case 0x444E5247: return m_FileName + ".grnd";
                         case 0x20204648: return m_FileName + ".hf";
                         case 0x0A4C5447: return m_FileName + ".gtl";
@@ -140,6 +147,10 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x766544: return m_FileName + ".dev";
+                        case 0x4C474C44: return m_FileName + ".dlgl";
+                        case 0x86354600: return m_FileName + ".oft";
+                        case 0x6C6D6B69: return m_FileName + ".ikml";
+                        case 0x326E6863: return m_FileName + ".chn2";
                         case 0x6B696266: return m_FileName + ".fbik";
                         case 0x74646566: return m_FileName + ".fedt";
                         case 0x73627472: return m_FileName + ".rtbs";
