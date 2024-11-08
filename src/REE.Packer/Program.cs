@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Reflection;
 
 namespace REE.Packer
@@ -20,7 +19,7 @@ namespace REE.Packer
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("[Usage]");
-                Console.WriteLine("    REE.Packer <m_File> <m_Directory>\n");
+                Console.WriteLine("    REE.Packer <m_Directory> <m_File>\n");
                 Console.WriteLine("    m_Directory - Source directory");
                 Console.WriteLine("    m_File - Destination of PAK archive file\n");
                 Console.ResetColor();

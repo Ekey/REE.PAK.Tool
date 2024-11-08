@@ -28,15 +28,18 @@ namespace REE
 
         public void AddDirectory(string path, string pakRootPath = "")
         {
+            if (pakRootPath.Length != 0 && !pakRootPath.EndsWith("/"))
+                pakRootPath += '/';
+
             var entries = Directory.GetFiles(path);
             foreach (var entry in entries)
             {
-                var pakPath = pakRootPath + '/' + Path.GetFileName(entry);
+                var pakPath = pakRootPath + Path.GetFileName(entry);
                 AddEntry(pakPath, entry);
             }
             foreach (var directory in Directory.GetDirectories(path))
             {
-                var pakPath = pakRootPath + '/' + Path.GetFileName(directory);
+                var pakPath = pakRootPath + Path.GetFileName(directory);
                 AddDirectory(directory, pakPath);
             }
         }
