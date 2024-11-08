@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -15,11 +15,12 @@ jobs:
       run: dotnet pack src/REE.PAK -c Release --no-build -o out
     - name: Create zip
       run: |
-        dotnet publish -c Release -o archive --no-build
+        dotnet publish -c Release -f net472 -o archive --no-build
         cd archive
-        rm *.pdb *.deps.json
-        cp -r ../Projects . && mv Projects projects
-        zip -r ../out/ree-pak-tools.zip *
+        rm *.pdb
+        rm *.deps.json
+        cp -r ../Projects projects
+        7z a -r ../out/ree-pak-tools.zip *
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
