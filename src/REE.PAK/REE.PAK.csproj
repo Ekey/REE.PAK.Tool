@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+    <Version>1.0.0</Version>
+    <Title>RE Engine PAK Library</Title>
+    <Authors>Ekey</Authors>
+    <Product>$(AssemblyName)</Product>
+    <Description>Extract or create PAK archives for RE engine games.</Description>
+    <Copyright>Copyright (C) Ekey 2024</Copyright>
+    <PackageProjectUrl>https://github.com/Ekey/REE.PAK.Tool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ekey/REE.PAK.Tool</RepositoryUrl>
+    <PackageTags>re engine,pak,capcom</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ZstdSharp.Port" Version="0.8.1" />
+  </ItemGroup>
+</Project>
+  

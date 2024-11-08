@@ -1,0 +1,39 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Restore
+      run: dotnet restore
+    - name: Build
+      run: dotnet build -c Release
+    - name: Pack
+      run: dotnet pack src/REE.PAK -c Release --no-build -o out
+    - name: Create zip
+      run: |
+        dotnet publish -c Release -f net472 -o archive --no-build
+        cd archive
+        rm *.pdb
+        rm *.deps.json
+        cp -r ../Projects projects
+        7z a -r ../out/ree-pak-tools.zip *
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: REE.PAK
+        path: out/**/*
+    - name: Create release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/v')
+      with:
+        fail_on_unmatched_files: true
+        files: |
+          out/*.nupkg
+          out/*.zip
+    - name: Publish to nuget.org
+      if: startsWith(github.ref, 'refs/tags/v')
+      run: dotnet nuget push out/*.nupkg --api-key "${{ secrets.NUGET_APIKEY }}" --source https://api.nuget.org/v3/index.json
