@@ -37,12 +37,6 @@ namespace REE.Packer
             String m_InputDirectory = iCheckArgumentsPath(args[0]);
             String m_PakFile = args[1];
 
-            if (!File.Exists("Zstandard.Net.dll") || !File.Exists("libzstd.dll"))
-            {
-                iSetError("[ERROR]: Unable to find ZSTD modules");
-                return;
-            }
-
             var pakFileBuilder = new PakFileBuilder();
             pakFileBuilder.AddDirectory(m_InputDirectory);
             pakFileBuilder.Save(m_PakFile, CompressionType.INFLATE);

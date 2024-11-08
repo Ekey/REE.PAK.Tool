@@ -193,25 +193,23 @@ namespace REE
         private byte[] GetEntryData(in PakEntry entry)
         {
             _stream.Seek(entry.dwOffset, SeekOrigin.Begin);
-            if (entry.wCompressionType == CompressionType.NONE)
+            var compressionType = (CompressionType)((int)entry.wCompressionType & 0x0F);
+            if (compressionType == CompressionType.NONE)
             {
-                return _stream.ReadBytes(PakUtils.iGetSize(entry.dwCompressedSize, entry.dwDecompressedSize));
+                return _stream.ReadBytes((int)entry.dwCompressedSize);
             }
-            else if (entry.wCompressionType == CompressionType.DEFLATE || entry.wCompressionType == CompressionType.ZSTD)
+            else if (compressionType == CompressionType.DEFLATE || compressionType == CompressionType.ZSTD)
             {
                 var lpSrcBuffer = _stream.ReadBytes((int)entry.dwCompressedSize);
-                var lpDstBuffer = Array.Empty<byte>();
-
                 if (entry.wEncryptionType > 0)
                 {
                     lpSrcBuffer = ResourceCipher.iDecryptResource(lpSrcBuffer);
                 }
 
-                switch (entry.wCompressionType)
-                {
-                    case CompressionType.DEFLATE: lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer); break;
-                    case CompressionType.ZSTD: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
-                }
+                var dwMagic = BitConverter.ToUInt32(lpSrcBuffer, 0);
+                var lpDstBuffer = dwMagic == 0xFD2FB528
+                    ? ZSTD.iDecompress(lpSrcBuffer)
+                    : DEFLATE.iDecompress(lpSrcBuffer);
                 return lpDstBuffer;
             }
             else

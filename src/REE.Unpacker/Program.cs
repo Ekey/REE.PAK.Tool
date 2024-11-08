@@ -46,12 +46,6 @@ namespace REE.Unpacker
                 m_Output = iCheckArgumentsPath(args[2]);
             }
 
-            if (!File.Exists("Zstandard.Net.dll") || !File.Exists("libzstd.dll"))
-            {
-                iSetError("[ERROR]: Unable to find ZSTD modules");
-                return;
-            }
-
             if (!File.Exists(m_PakFile))
             {
                 iSetError("[ERROR]: Input PAK file -> " + m_PakFile + " <- does not exist");
