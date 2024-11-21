@@ -42,7 +42,7 @@ namespace REE.Packer
                 return;
             }
 
-            PakPack.iDoIt(m_PakFile, m_InputDirectory, PakFlags.INFLATE);
+            PakPack.iDoIt(m_PakFile, m_InputDirectory, Compression.INFLATE);
         }
     }
 }

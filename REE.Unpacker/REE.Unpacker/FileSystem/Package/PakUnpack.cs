@@ -26,7 +26,7 @@ namespace REE.Unpacker
                 m_Header.bMinorVersion = TPakStream.ReadByte();
                 m_Header.wFeature = TPakStream.ReadInt16();
                 m_Header.dwTotalFiles = TPakStream.ReadInt32();
-                m_Header.dwHash = TPakStream.ReadUInt32();
+                m_Header.dwFingerprint = TPakStream.ReadUInt32();
 
                 if (m_Header.dwMagic != 0x414B504B)
                 {
@@ -86,12 +86,10 @@ namespace REE.Unpacker
                             m_Entry.dwOffset = TEntryReader.ReadInt64();
                             m_Entry.dwCompressedSize = TEntryReader.ReadInt64();
                             m_Entry.dwDecompressedSize = TEntryReader.ReadInt64();
-                            m_Entry.wCompressionType = (CompressionType)TEntryReader.ReadByte();
-                            m_Entry.wCompressionFlags = TEntryReader.ReadByte();
-                            m_Entry.wEncryptionType = TEntryReader.ReadByte();
-                            m_Entry.wEncryptionFlags = TEntryReader.ReadByte();
-                            m_Entry.dwReserved = TEntryReader.ReadInt32();
+                            m_Entry.dwAttributes = TEntryReader.ReadInt64();
                             m_Entry.dwChecksum = TEntryReader.ReadUInt64();
+                            m_Entry.wCompressionType = (Compression)(m_Entry.dwAttributes & 0xF);
+                            m_Entry.wEncryptionType = (Encryption)((m_Entry.dwAttributes & 0x00FF0000) >> 16);
                         }
                         else
                         {
@@ -115,32 +113,27 @@ namespace REE.Unpacker
                     Utils.iCreateDirectory(m_FullPath);
 
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
-                    if (m_Entry.wCompressionType == CompressionType.NONE)
+                    if (m_Entry.wCompressionType == Compression.NONE)
                     {
                         var lpBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
 
                         File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
-                    else if (m_Entry.wCompressionType == CompressionType.DEFLATE || m_Entry.wCompressionType == CompressionType.ZSTD)
+                    else if (m_Entry.wCompressionType == Compression.DEFLATE || m_Entry.wCompressionType == Compression.ZSTD)
                     {
                         var lpSrcBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         var lpDstBuffer = new Byte[] { };
 						
-                        if (m_Entry.wEncryptionType > 0)
+                        if (m_Entry.wEncryptionType != Encryption.None && m_Entry.wEncryptionType <= Encryption.Type_Invalid)
                         {
                             lpSrcBuffer = ResourceCipher.iDecryptResource(lpSrcBuffer);
                         }
 
-                        UInt32 dwMagic = BitConverter.ToUInt32(lpSrcBuffer, 0);
-
-                        if (dwMagic == 0xFD2FB528)
+                        switch (m_Entry.wCompressionType)
                         {
-                            lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer);
-                        }
-                        else
-                        {
-                            lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer);
+                            case Compression.DEFLATE: lpDstBuffer = DEFLATE.iDecompress(lpSrcBuffer); break;
+                            case Compression.ZSTD: lpDstBuffer = ZSTD.iDecompress(lpSrcBuffer); break;
                         }
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);

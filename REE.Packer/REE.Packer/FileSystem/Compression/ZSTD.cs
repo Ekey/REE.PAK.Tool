@@ -14,6 +14,7 @@ namespace REE.Packer
             using (var TOutputMemoryStream = new MemoryStream())
             using (var TZstandardStream = new ZstandardStream(TOutputMemoryStream, CompressionMode.Compress))
             {
+                TZstandardStream.CompressionLevel = 5;
                 TInputMemoryStream.CopyTo(TZstandardStream);
                 TZstandardStream.Close();
                 return TOutputMemoryStream.ToArray();

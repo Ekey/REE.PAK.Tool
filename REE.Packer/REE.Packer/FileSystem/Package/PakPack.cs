@@ -7,16 +7,16 @@ namespace REE.Packer
 {
     class PakPack
     {
-        private static List<PakEntry> m_EntryTable = new List<PakEntry>();
+        private static readonly List<PakEntry> m_EntryTable = new List<PakEntry>();
 
-        public static void iDoIt(String m_Archive, String m_SrcFolder, PakFlags wCompressionType)
+        public static void iDoIt(String m_Archive, String m_SrcFolder, Compression wCompressionType)
         {
             var m_Header = new PakHeader();
 
             m_Header.dwMagic = 0x414B504B;
             m_Header.dwVersion = 4;
             m_Header.dwTotalFiles = Directory.GetFiles(m_SrcFolder, "*.*", SearchOption.AllDirectories).Length;
-            m_Header.dwHash = 0xDEC0ADDE;
+            m_Header.dwFingerprint = 0xDEC0ADDE;
 
             Byte[] lpEntryTable = Enumerable.Repeat((Byte)0, m_Header.dwTotalFiles * 48).ToArray();
 
@@ -26,7 +26,7 @@ namespace REE.Packer
                 TPakWriter.Write(m_Header.dwMagic);
                 TPakWriter.Write(m_Header.dwVersion);
                 TPakWriter.Write(m_Header.dwTotalFiles);
-                TPakWriter.Write(m_Header.dwHash);
+                TPakWriter.Write(m_Header.dwFingerprint);
                 TPakWriter.Write(lpEntryTable);
 
                 Int32 dwCounter = 0;
@@ -40,7 +40,7 @@ namespace REE.Packer
                     if (!m_File.Contains("__Unknown"))
                     {
                         m_FileName = m_File.Replace(m_SrcFolder, "").Replace(@"\", "/");
-                        m_Entry.dwHashName = (UInt64)PakHash.iGetHash(m_FileName.ToUpper()) << 32 | PakHash.iGetHash(m_FileName.ToLower());
+                        m_Entry.dwHashName = (UInt64)PakHash.iGetStringHash(m_FileName.ToUpper()) << 32 | PakHash.iGetStringHash(m_FileName.ToLower());
                     }
                     else
                     {
@@ -65,7 +65,7 @@ namespace REE.Packer
                         {
                             m_Entry.dwCompressedSize = lpSrcBuffer.Length;
                             m_Entry.dwDecompressedSize = lpSrcBuffer.Length;
-                            m_Entry.wCompressionType = PakFlags.NONE;
+                            m_Entry.dwAttributes = (Int64)Compression.NONE;
 
                             TPakWriter.Write(lpSrcBuffer);
                         }
@@ -75,13 +75,13 @@ namespace REE.Packer
 
                             switch (wCompressionType)
                             {
-                                case PakFlags.INFLATE: lpDstBuffer = INFLATE.iCompress(lpSrcBuffer); break;
-                                case PakFlags.ZSTD: lpDstBuffer = ZSTD.iCompress(lpSrcBuffer); break;
+                                case Compression.INFLATE: lpDstBuffer = INFLATE.iCompress(lpSrcBuffer); break;
+                                case Compression.ZSTD: lpDstBuffer = ZSTD.iCompress(lpSrcBuffer); break;
                             }
 
                             m_Entry.dwCompressedSize = lpDstBuffer.Length;
                             m_Entry.dwDecompressedSize = lpSrcBuffer.Length;
-                            m_Entry.wCompressionType = wCompressionType;
+                            m_Entry.dwAttributes = (Int64)wCompressionType;
 
                             TPakWriter.Write(lpDstBuffer);
                         }
@@ -90,7 +90,7 @@ namespace REE.Packer
                     {
                         m_Entry.dwCompressedSize = lpSrcBuffer.Length;
                         m_Entry.dwDecompressedSize = lpSrcBuffer.Length;
-                        m_Entry.wCompressionType = PakFlags.NONE;
+                        m_Entry.dwAttributes = (Int64)Compression.NONE;
 
                         TPakWriter.Write(lpSrcBuffer);
                     }
@@ -107,7 +107,7 @@ namespace REE.Packer
                     TPakWriter.Write(m_Entry.dwOffset);
                     TPakWriter.Write(m_Entry.dwCompressedSize);
                     TPakWriter.Write(m_Entry.dwDecompressedSize);
-                    TPakWriter.Write((Int64)m_Entry.wCompressionType);
+                    TPakWriter.Write(m_Entry.dwAttributes);
                     TPakWriter.Write(m_Entry.dwChecksum);
                 }
 

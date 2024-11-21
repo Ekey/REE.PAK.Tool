@@ -25,14 +25,15 @@ namespace REE.Unpacker
             StreamReader TProjectFile = new StreamReader(m_Path + m_ProjectFile);
             while ((m_Line = TProjectFile.ReadLine()) != null)
             {
-                UInt32 dwHashLower = PakHash.iGetHash(m_Line.ToLower());
-                UInt32 dwHashUpper = PakHash.iGetHash(m_Line.ToUpper());
+                UInt32 dwHashLower = PakHash.iGetStringHash(m_Line.ToLower());
+                UInt32 dwHashUpper = PakHash.iGetStringHash(m_Line.ToUpper());
                 UInt64 dwHash = (UInt64)dwHashUpper << 32 | dwHashLower;
 
                 if (m_HashList.ContainsKey(dwHash))
                 {
                     String m_Collision = null;
                     m_HashList.TryGetValue(dwHash, out m_Collision);
+
                     Utils.iSetError("[COLLISION]: " + m_Collision + " <-> " + m_Line);
                 }
 
