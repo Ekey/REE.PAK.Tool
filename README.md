@@ -29,11 +29,20 @@ Tool for creating your own PAK archives
 > [!important]
 > Don't forget to make a backup of the PAK archives
 
-# REE.FontsCryptor :see_no_evil:
+# REE.Fonts.Cryptor :see_no_evil:
 Tool for decrypt and encrypt fonts (*.otf.1)
 
 ### Usage
-> REE.FontsCryptor "**INPUT_FONT_FILE**" "**OUTPUT_FONT_FILE**"
+> REE.Fonts.Cryptor "**INPUT_FONT_FILE**" "**OUTPUT_FONT_FILE**"
+
+# REE.Rom.Cryptor :see_no_evil:
+Tool for decrypt and encrypt CAS and CAS2 ROM files (*.mameac.2)
+
+### Usage
+> REE.Rom.Cryptor "**INPUT_MAMEAC_FILE**" "**OUTPUT_MAMEAC_FILE**"
+
+> [!note]
+> ROM files are encrypted only on the PC platform.
 
 # Platform (Steam)
 | Game   | Steam   | SteamDB   | List Tag   |

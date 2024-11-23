@@ -2,7 +2,7 @@
 using System.IO;
 using System.Reflection;
 
-namespace REE.FontsCryptor
+namespace REE.Rom.Cryptor
 {
     class Utils
     {

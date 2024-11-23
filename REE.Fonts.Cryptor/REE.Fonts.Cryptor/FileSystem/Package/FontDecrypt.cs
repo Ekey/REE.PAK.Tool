@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace REE.FontsCryptor
+namespace REE.Fonts.Cryptor
 {
     class FontDecrypt
     {

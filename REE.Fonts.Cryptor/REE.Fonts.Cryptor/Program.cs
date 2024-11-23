@@ -1,14 +1,17 @@
 ﻿using System;
 using System.IO;
 
-namespace REE.FontsCryptor
+namespace REE.Fonts.Cryptor
 {
     class Program
     {
+        public static String m_Title = "RE Engine Fonts Cryptor";
+
         static void Main(String[] args)
         {
+            Console.Title = m_Title;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("RE Engine Fonts Cryptor");
+            Console.WriteLine(m_Title);
             Console.WriteLine("(c) 2021 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
             Console.ResetColor();
 
@@ -16,13 +19,13 @@ namespace REE.FontsCryptor
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("[Usage]");
-                Console.WriteLine("    REE.FontsCryptor <m_SrcFile> <m_DstFile>\n");
+                Console.WriteLine("    REE.Fonts.Cryptor <m_SrcFile> <m_DstFile>\n");
                 Console.WriteLine("    m_SrcFile - Source file");
                 Console.WriteLine("    m_DstFile - Destination file\n");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[Examples]");
-                Console.WriteLine("    REE.FontsCryptor fot-skipstd-b.oft.1 fot-skipstd-b.oft");
+                Console.WriteLine("    REE.Fonts.Cryptor fot-skipstd-b.oft.1 fot-skipstd-b.oft");
                 Console.ResetColor();
                 return;
             }

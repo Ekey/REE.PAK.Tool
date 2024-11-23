@@ -3,7 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text;
 
-namespace REE.FontsCryptor
+namespace REE.Rom.Cryptor
 {
     public static class Helpers
     {

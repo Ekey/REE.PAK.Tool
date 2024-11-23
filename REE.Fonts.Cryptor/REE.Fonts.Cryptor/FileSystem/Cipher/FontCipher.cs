@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace REE.FontsCryptor
+namespace REE.Fonts.Cryptor
 {
     class FontCipher
     {
