@@ -2061,6 +2061,22 @@ natives/ps4/sound/source/menu/ui_titlecall.asrc.14
 natives/ps4/sound/source/menu/ui_window_close2.asrc.14
 natives/ps4/sound/source/menu/ui_window_open2.asrc.14
 natives/ps4/sound/source/menu/ui_yes.asrc.14
+natives/ps4/streaming/appsystem/shader/mastermaterial/textures/tvscreen_sandnoise_albm.tex.30
+natives/ps4/streaming/environment/props/chair_00/chair_00.mesh.2010098288
+natives/ps4/streaming/environment/props/chair_00/chair_00_tex00_albd.tex.30
+natives/ps4/streaming/environment/props/chair_01/chair_01.mesh.2010098288
+natives/ps4/streaming/environment/props/chair_01/chair_01_tex00_albd.tex.30
+natives/ps4/streaming/environment/props/coin_00/coin_00_tex00_albd.tex.30
+natives/ps4/streaming/environment/props/gc_00/gc_00_tex02_albd.tex.30
+natives/ps4/streaming/environment/props/gc_01/gc_01_tex02_albd.tex.30
+natives/ps4/streaming/environment/props/gc_01/gc_01_tex02_nrmr.tex.30
+natives/ps4/streaming/environment/props/gc_02/gc_02_tex02_albd.tex.30
+natives/ps4/streaming/environment/props/gc_03/gc_03_tex02_albd.tex.30
+natives/ps4/streaming/environment/props/gc_04/gc_04_tex02_albd.tex.30
+natives/ps4/streaming/environment/st/st_00/ceiling.mesh.2010098288
+natives/ps4/streaming/environment/st/st_01/wall.mesh.2010098288
+natives/ps4/streaming/environment/st/st_03/st_03_tex00_albd.tex.30
+natives/ps4/streaming/environment/st/st_03/st_03_tex00_nrmr.tex.30
 natives/ps4/streaming/gui/00_common/logo/re logo animation_nsw.mov.1
 natives/ps4/streaming/gui/00_common/logo/re logo animation_ps4.mov.1
 natives/ps4/streaming/gui/00_common/logo/re logo animation_x64.mov.1
@@ -2162,6 +2178,10 @@ natives/ps4/streaming/moive/rommovie/vulgus_jp.mov.1
 natives/ps4/streaming/moive/rommovie/wof_en.mov.1
 natives/ps4/streaming/moive/rommovie/wof_jp.mov.1
 natives/ps4/streaming/moive/specialcredits/launchpv.mov.1
+natives/ps4/streaming/roms/1943jc.mameac.2
+natives/ps4/streaming/roms/1943u.mameac.2
+natives/ps4/streaming/roms/gng.mameac.2
+natives/ps4/streaming/roms/makaimurg.mameac.2
 natives/ps4/streaming/sound/source/bgm/snd_launcher_fix_mas.asrc.14
 natives/ps4/streaming/sound/source/bgm/snd_staff_roll_fix_mas.asrc.14
 natives/ps4/streaming/sound/source/bgm/snd_title_fix_mas.asrc.14
@@ -2214,6 +2234,7 @@ natives/ps4/streaming/sound/source/menu/ui_window_close2.asrc.14
 natives/ps4/streaming/sound/source/menu/ui_window_open2.asrc.14
 natives/ps4/streaming/sound/source/menu/ui_yes.asrc.14
 natives/ps4/streaming/systems/rendering/eyeball/eye_nmr.tex.30
+natives/ps4/streaming/systems/rendering/eyeball/eyeball.mesh.2010098288
 natives/ps4/systems/develop/ecotope.sdf.2101120001
 natives/ps4/systems/develop/ecotopemapbaker.sdf.2101120001
 natives/ps4/systems/develop/geometrybrush.sdf.2101120001
