@@ -190,6 +190,10 @@ namespace REE
             }
         }
 
+        public ulong GetEntryHash(int index) => _entries[index].dwHashName;
+
+        public byte[] GetEntryData(int index) => GetEntryData(_entries[index]);
+
         private byte[] GetEntryData(in PakEntry entry)
         {
             _stream.Seek(entry.dwOffset, SeekOrigin.Begin);
