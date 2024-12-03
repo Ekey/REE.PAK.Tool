@@ -24,7 +24,7 @@ namespace REE.Rom.Cryptor
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[Examples]");
-                Console.WriteLine("    REE.Rom.Cryptor D:\\roms\\1943u.mameac.2 D:\\roms\\1943u_decrypted.mameac.2");
+                Console.WriteLine("    REE.Rom.Cryptor D:\\roms\\1943u.mameac.2 D:\\roms\\1943u.zip");
                 Console.ResetColor();
                 return;
             }
