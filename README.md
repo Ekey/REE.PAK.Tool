@@ -39,7 +39,10 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 
 ### Usage
-> REE.Rom.Cryptor "**INPUT_MAMEAC_FILE**" "**OUTPUT_MAMEAC_FILE**"
+> REE.Rom.Cryptor "**INPUT_MAMEAC_FILE**" "**OUTPUT_ZIP_FILE**"
+
+### Example
+> REE.Rom.Cryptor "**D:\roms\1943u.mameac.2**" "**D:\roms\1943u.zip**"
 
 > [!note]
 > ROM files are encrypted only on the PC platform.
