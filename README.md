@@ -36,7 +36,7 @@ Tool for decrypt and encrypt fonts (*.otf.1)
 > REE.Fonts.Cryptor "**INPUT_FONT_FILE**" "**OUTPUT_FONT_FILE**"
 
 # REE.Rom.Cryptor :see_no_evil:
-Tool for decrypt and encrypt CAS and CAS2 ROM files (*.mameac.2)
+Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 
 ### Usage
 > REE.Rom.Cryptor "**INPUT_MAMEAC_FILE**" "**OUTPUT_MAMEAC_FILE**"
