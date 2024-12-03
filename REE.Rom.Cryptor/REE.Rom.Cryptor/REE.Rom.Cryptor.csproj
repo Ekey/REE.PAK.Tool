@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileSystem\Compression\LZ4.cs" />
+    <Compile Include="FileSystem\Compression\LZ4\ILZ4Decompressor.cs" />
+    <Compile Include="FileSystem\Compression\LZ4\LZ4Decompressor64.cs" />
+    <Compile Include="FileSystem\Compression\LZ4\LZ4Util.cs" />
     <Compile Include="FileSystem\Encryption\MameCipher.cs" />
     <Compile Include="FileSystem\Other\Helpers.cs" />
     <Compile Include="FileSystem\Other\Utils.cs" />

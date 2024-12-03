@@ -17,7 +17,8 @@ namespace REE.Rom.Cryptor
 
             if (bMagic >> 4 == 0xF)
             {
-                File.WriteAllBytes(m_DstFile, lpBuffer);
+                var lpTemp = LZ4.iDecompress(lpBuffer);
+                File.WriteAllBytes(m_DstFile, lpTemp);
             }
             else
             {
