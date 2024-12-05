@@ -13,9 +13,7 @@ namespace REE.Rom.Cryptor
 
             MameCipher.iCryptData(lpBuffer, m_NativePath);
 
-            Int32 bMagic = lpBuffer[0];
-
-            if (bMagic >> 4 == 0xF)
+            if (lpBuffer[0] >> 4 <= 0xF)
             {
                 var lpTemp = LZ4.iDecompress(lpBuffer);
                 File.WriteAllBytes(m_DstFile, lpTemp);
