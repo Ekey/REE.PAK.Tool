@@ -23,7 +23,7 @@ namespace REE.Rom.Cryptor
 
             MameCipher.iCryptData(lpBuffer, m_NativePath);
 
-            if (BitConverter.ToInt64(lpBuffer, 1) == -1)
+            if (lpBuffer[0] >> 4 <= 0xF)
             {
                 var lpTemp = LZ4.iDecompress(lpBuffer);
                 File.WriteAllBytes(m_DstFile, lpTemp);
