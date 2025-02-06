@@ -92,7 +92,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | MONSTER HUNTER RISE: SUNBREAK DEMO | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_STM_Demo](Projects)
 | MONSTER HUNTER RISE | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_STM_Release](Projects)
 | MONSTER HUNTER WILDS (Beta) | [here](https://store.steampowered.com/app/3065170) | [here](https://steamdb.info/app/3065170) | [MHWs_STM_Beta](Projects)
-| MONSTER HUNTER WILDS (Benchmark) | [here](https://store.steampowered.com/app/3424520) | [here](https://steamdb.info/app/3424520) | None
+| MONSTER HUNTER WILDS (Benchmark) | [here](https://store.steampowered.com/app/3424520) | [here](https://steamdb.info/app/3424520) | [MHWs_STM_Benchmark](Projects)
 | MONSTER HUNTER WILDS | [here](https://store.steampowered.com/app/2246340) | [here](https://steamdb.info/app/2246340)| None
 | Onimusha: Way of the Sword | [here](https://store.steampowered.com/app/2638890) | [here](https://steamdb.info/app/2638890)| None
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_STM_Release](Projects)
