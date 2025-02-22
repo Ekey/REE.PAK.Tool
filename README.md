@@ -53,6 +53,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| [AJ_AAT_STM_Release](Projects)
 | Capcom Arcade Stadium | [here](https://store.steampowered.com/app/1515950) | [here](https://steamdb.info/app/1515950) | [CAS_STM_Release](Projects)
 | Capcom Arcade 2nd Stadium | [here](https://store.steampowered.com/app/1755910) | [here](https://steamdb.info/app/1755910) | [CAS2_STM_Release](Projects)
+| Dead Rising Deluxe Remaster Demo | [here](https://store.steampowered.com/app/2892640) | [here](https://steamdb.info/app/2892640) | [DRDR_STM_Demo](Projects)
 | Dead Rising Deluxe Remaster | [here](https://store.steampowered.com/app/2527390) | [here](https://steamdb.info/app/2527390) | [DRDR_STM_Release](Projects)
 | Devil May Cry 5 | [here](https://store.steampowered.com/app/601150) | [here](https://steamdb.info/app/601150) | [DMC5_STM_Release](Projects)
 | Dragon's Dogma 2 | [here](https://store.steampowered.com/app/2054970) | [here](https://steamdb.info/app/2054970)| [DD2_STM_Release](Projects)
