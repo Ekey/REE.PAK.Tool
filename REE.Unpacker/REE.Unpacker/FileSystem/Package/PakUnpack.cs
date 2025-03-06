@@ -40,7 +40,7 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.wFeature != 0 && m_Header.wFeature != 8)
+                if (m_Header.wFeature != 0 && m_Header.wFeature != 8 && m_Header.wFeature != 24)
                 {
                     Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm");
                     return;
@@ -55,8 +55,13 @@ namespace REE.Unpacker
 
                 var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * dwEntrySize);
 
-                if (m_Header.wFeature == 8)
+                if (m_Header.wFeature == 8 || m_Header.wFeature == 24)
                 {
+                    if (m_Header.wFeature == 24)
+                    {
+                        TPakStream.Seek(4, SeekOrigin.Current); // 0
+                    }
+
                     var lpEncryptedKey = TPakStream.ReadBytes(128);
 
                     lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
