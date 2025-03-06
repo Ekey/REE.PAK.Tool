@@ -147,6 +147,7 @@ namespace REE.Unpacker
                     switch (dwMagic)
                     {
                         case 0x766544: return m_FileName + ".dev";
+                        case 0x6778656A: return m_FileName + ".jexg";
                         case 0x4C474C44: return m_FileName + ".dlgl";
                         case 0x86354600: return m_FileName + ".oft";
                         case 0x6C6D6B69: return m_FileName + ".ikml";
