@@ -120,10 +120,9 @@ namespace REE.Unpacker
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == Compression.NONE)
                     {
-                        var lpBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
-                        m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
+                        var m_Chunks = PakUtils.ReadChunks(TPakStream, m_Entry.dwCompressedSize);
 
-                        File.WriteAllBytes(m_FullPath, lpBuffer);
+                        PakUtils.WriteChunks(m_FullPath, m_Chunks);
                     }
                     else if (m_Entry.wCompressionType == Compression.DEFLATE || m_Entry.wCompressionType == Compression.ZSTD)
                     {

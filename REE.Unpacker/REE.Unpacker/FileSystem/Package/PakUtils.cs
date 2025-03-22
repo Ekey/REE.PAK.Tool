@@ -1,10 +1,65 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
 namespace REE.Unpacker
 {
     class PakUtils
     {
+        private static List<Byte[]> m_Chunks = new List<Byte[]>();
+        public static List<Byte[]> ReadChunks(FileStream TPakStream, Int64 dwSize)
+        {
+            const Int32 MAX_CHUNK = 1048576;
+
+            Byte[] m_Chunk = new Byte[MAX_CHUNK];
+            Int32 dwNumBytes;
+
+            Int64 dwRemainSize = dwSize;
+            Int32 dwBufferLength = MAX_CHUNK;
+
+            m_Chunks.Clear();
+
+            while (true)
+            {
+                if (dwRemainSize <= MAX_CHUNK)
+                {
+                    m_Chunk = new Byte[dwRemainSize];
+                    dwBufferLength = (Int32)dwRemainSize;
+                }
+
+                if ((dwNumBytes = TPakStream.Read(m_Chunk, 0, dwBufferLength)) > 0)
+                {
+                    dwRemainSize -= dwBufferLength;
+                }
+                else
+                {
+                    break;
+                }
+
+                var m_Temp = new Byte[dwNumBytes];
+                Array.Copy(m_Chunk, m_Temp, dwNumBytes);
+
+                m_Chunks.Add(m_Temp);
+            }
+
+            return m_Chunks;
+        }
+
+        public static void WriteChunks(String m_FullPath, List<Byte[]> m_Chunks)
+        {
+            m_FullPath = PakUtils.iDetectFileType(m_FullPath, m_Chunks[0]);
+
+            using (BinaryWriter TBinaryWriter = new BinaryWriter(File.Open(m_FullPath, FileMode.Create)))
+            {
+                foreach (var m_Chunk in m_Chunks)
+                {
+                    TBinaryWriter.Write(m_Chunk);
+                }
+
+                TBinaryWriter.Dispose();
+            }
+        }
+
         public static Int32 iGetSize(Int64 dwCompressedSize, Int64 dwDecompressedSize)
         {
             return Convert.ToInt32(Math.Max(dwCompressedSize, dwDecompressedSize));
