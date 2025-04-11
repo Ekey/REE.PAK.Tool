@@ -186,3 +186,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [Narayanna](https://github.com/Narayanna) (RE2 & RE3 (MSG platform) game files)
 * [sunkhaskasis](https://github.com/sunkhaskasis) (MHWs game files)
 * [blobdash](https://github.com/blobdash) (MHWs game files)
+* [isenagi](https://github.com/isenagi) (MHWs game files)
