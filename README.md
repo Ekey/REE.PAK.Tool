@@ -97,6 +97,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | MONSTER HUNTER WILDS (Benchmark) | [here](https://store.steampowered.com/app/3424520) | [here](https://steamdb.info/app/3424520) | [MHWs_STM_Benchmark](Projects)
 | MONSTER HUNTER WILDS | [here](https://store.steampowered.com/app/2246340) | [here](https://steamdb.info/app/2246340)| [MHWs_STM_Release](Projects)
 | Onimusha: Way of the Sword | [here](https://store.steampowered.com/app/2638890) | [here](https://steamdb.info/app/2638890)| None
+| Onimusha 2: Samurai's Destiny | [here](https://store.steampowered.com/app/3046600) | [here](https://steamdb.info/app/3046600)| None
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_STM_Release](Projects)
 | Street Fighter 6 (Closed Beta) | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_STM_Closed_Beta](Projects)
 | Street Fighter 6 (Open Beta) | [here](https://store.steampowered.com/app/1952120) | [here](https://steamdb.info/app/1952120) | [SF6_STM_Closed_Beta](Projects)
@@ -153,6 +154,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Ghost Trick: Phantom Detective Demo | [GTPD_NSW_Demo](Projects)
 | Ghost Trick: Phantom Detective | [GTPD_NSW_Release](Projects)
 | MONSTER HUNTER RISE | [MHR_NSW_Release](Projects)
+| Onimusha 2: Samurai's Destiny | [O2_SD_NSW_Release](Projects)
 
 # Platform (Microsoft Games - XGP)
 | Game   | List Tag   |
