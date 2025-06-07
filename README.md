@@ -87,6 +87,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Resident Evil: Resistance | [here](https://store.steampowered.com/app/952070) | [here](https://steamdb.info/app/952070) | [RER_STM_Release](Projects)
 | Resident Evil: Re:Verse (Open Beta) | [here](https://store.steampowered.com/app/1541760) | [here](https://steamdb.info/app/1541760) | [RERE_STM_Open_Beta](Projects)
 | Resident Evil: Re:Verse | [here](https://store.steampowered.com/app/1236300) | [here](https://steamdb.info/app/1236300) | [RERE_STM_Release](Projects)
+| Resident Evil 9: Requiem | [here](https://store.steampowered.com/app/3764200) | [here](https://steamdb.info/app/3764200)| None
 | Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | [KGPG_STM_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | [KGPG_STM_Demo](Projects)
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_STM_Demo](Projects)
