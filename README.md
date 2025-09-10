@@ -110,6 +110,11 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Resident Evil 4 | [RE4_MAC_Release](Projects)
 | Resident Evil 8: Village | [RE8_MAC_Release](Projects)
 
+# Platform (Android)
+| Game   | List Tag   |
+|---      |---    |
+| Ghost Trick: Phantom Detective | [GTPD_ANDROID_Release](Projects)
+
 # Platform (iOS)
 | Game   | List Tag   |
 |---      |---    |
