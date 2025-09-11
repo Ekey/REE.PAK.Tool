@@ -196,3 +196,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [blobdash](https://github.com/blobdash) (MHWs game files)
 * [isenagi](https://github.com/isenagi) (MHWs game files)
 * [TuyNhung](https://github.com/TuyNhung) (O2: SD game files)
+* [Aclios](https://github.com/Aclios) (GTPD (ANDROID platform) filenames)
