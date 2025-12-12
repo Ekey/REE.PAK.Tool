@@ -34,13 +34,13 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.bMajorVersion != 2 && m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0 && m_Header.bMinorVersion != 1)
+                if (m_Header.bMajorVersion != 2 && m_Header.bMajorVersion != 4 || m_Header.bMinorVersion != 0 && m_Header.bMinorVersion != 1 && m_Header.bMinorVersion != 2)
                 {
-                    Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 2.0, 4.0 & 4.1");
+                    Utils.iSetError("[ERROR]: Invalid version of PAK archive file -> " + m_Header.bMajorVersion.ToString() + "." + m_Header.bMinorVersion.ToString() + ", expected 2.0, 4.0, 4.1 & 4.2");
                     return;
                 }
 
-                if (m_Header.wFeature != 0 && m_Header.wFeature != 8 && m_Header.wFeature != 24)
+                if (m_Header.wFeature != 0 && m_Header.wFeature != 8 && m_Header.wFeature != 24 && m_Header.wFeature != 40)
                 {
                     Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm");
                     return;
@@ -55,7 +55,7 @@ namespace REE.Unpacker
 
                 var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * dwEntrySize);
 
-                if (m_Header.wFeature == 8 || m_Header.wFeature == 24)
+                if (m_Header.wFeature == 8 || m_Header.wFeature == 24 || m_Header.wFeature == 40)
                 {
                     if (m_Header.wFeature == 24)
                     {
@@ -84,7 +84,7 @@ namespace REE.Unpacker
                             m_Entry.wCompressionType = 0;
                             m_Entry.dwChecksum = 0;
                         }
-                        else if (m_Header.bMajorVersion == 4 && m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1)
+                        else if (m_Header.bMajorVersion == 4 && m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1 || m_Header.bMinorVersion == 2)
                         {
                             m_Entry.dwHashNameLower = TEntryReader.ReadUInt32();
                             m_Entry.dwHashNameUpper = TEntryReader.ReadUInt32();
