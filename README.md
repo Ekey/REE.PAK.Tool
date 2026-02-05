@@ -98,6 +98,8 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | MONSTER HUNTER WILDS (Open Beta 2) | [here](https://store.steampowered.com/app/3065170) | [here](https://steamdb.info/app/3065170) | [MHWs_STM_Open_Beta2](Projects)
 | MONSTER HUNTER WILDS (Benchmark) | [here](https://store.steampowered.com/app/3424520) | [here](https://steamdb.info/app/3424520) | [MHWs_STM_Benchmark](Projects)
 | MONSTER HUNTER WILDS | [here](https://store.steampowered.com/app/2246340) | [here](https://steamdb.info/app/2246340)| [MHWs_STM_Release](Projects)
+| Monster Hunter Stories 3: Twisted Reflection | [here](https://store.steampowered.com/app/2852190) | [here](https://steamdb.info/app/2852190)| None
+| Monster Hunter Stories 3: Twisted Reflection Trial Version | [here](https://store.steampowered.com/app/3470630) | [here](https://steamdb.info/app/3470630)| None
 | Onimusha: Way of the Sword | [here](https://store.steampowered.com/app/2638890) | [here](https://steamdb.info/app/2638890)| None
 | Onimusha 2: Samurai's Destiny | [here](https://store.steampowered.com/app/3046600) | [here](https://steamdb.info/app/3046600)| [O2_SD_STM_Release](Projects)
 | Street Fighter 6 | [here](https://store.steampowered.com/app/1364780) | [here](https://steamdb.info/app/1364780) | [SF6_STM_Release](Projects)
