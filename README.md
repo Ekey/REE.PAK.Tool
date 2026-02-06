@@ -178,6 +178,10 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 |---      |---    |---    |
 | Resident Evil 7: Teaser - Beginning Hour | [here](https://www.microsoft.com/en-us/p/resident-evil-7-teaser-beginning-hour/9nblggh3zh4b) | [RE7_TBH_UWP_Demo](Projects)
 
+# Requirements / Build
+* Microsoft .NET Framework 4.7.2
+* Visual Studio 2019 / 2022
+
 # Special Thanks
 
 * [flatz](https://github.com/flatz) (PS4 stuff :sunglasses:)
