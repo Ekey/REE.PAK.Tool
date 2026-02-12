@@ -8,6 +8,7 @@ namespace REE.Unpacker
         NONE = 0,
         DEFLATE = 1,
         ZSTD = 2,
+        UNKNOWN = 12,
     }
 
     public enum Encryption : Int32
@@ -18,5 +19,13 @@ namespace REE.Unpacker
         Type_3 = 0x3, // pkc_key::c3n & pkc_key::c3d
         Type_4 = 0x4, // pkc_key::c4n & pkc_key::c4d
         Type_Invalid = 0x5,
+    }
+
+    public enum Features : Int16
+    {
+        NONE = 0,
+        ENCRYPTED_RESOURCES = 8,
+        EXTRA_DATA = 24, // just empty Integer
+        CHUNKED_RESOURCES = 40,
     }
 }

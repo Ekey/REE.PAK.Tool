@@ -1,27 +1,25 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
+using System.IO;
 
 namespace REE.Unpacker
 {
     class PakUtils
     {
         private static List<Byte[]> m_Chunks = new List<Byte[]>();
-        public static List<Byte[]> ReadChunks(FileStream TPakStream, Int64 dwSize)
+        public static List<Byte[]> iReadByChunks(FileStream TPakStream, Int64 dwSize, Int32 dwMaxChunkSize = 1048576)
         {
-            const Int32 MAX_CHUNK = 1048576;
-
-            Byte[] m_Chunk = new Byte[MAX_CHUNK];
+            Byte[] m_Chunk = new Byte[dwMaxChunkSize];
             Int32 dwNumBytes;
 
             Int64 dwRemainSize = dwSize;
-            Int32 dwBufferLength = MAX_CHUNK;
+            Int32 dwBufferLength = dwMaxChunkSize;
 
             m_Chunks.Clear();
 
             while (true)
             {
-                if (dwRemainSize <= MAX_CHUNK)
+                if (dwRemainSize <= dwMaxChunkSize)
                 {
                     m_Chunk = new Byte[dwRemainSize];
                     dwBufferLength = (Int32)dwRemainSize;
@@ -45,7 +43,7 @@ namespace REE.Unpacker
             return m_Chunks;
         }
 
-        public static void WriteChunks(String m_FullPath, List<Byte[]> m_Chunks)
+        public static void iWriteByChunks(String m_FullPath, List<Byte[]> m_Chunks)
         {
             m_FullPath = PakUtils.iDetectFileType(m_FullPath, m_Chunks[0]);
 
@@ -73,6 +71,34 @@ namespace REE.Unpacker
         public static String iPrintInfo(Int32 dwCurrent, Int32 dwMaxValue)
         {
             return String.Format("{0} of {1} ({2}%)", dwCurrent, dwMaxValue, iGetPercent(dwCurrent, dwMaxValue));
+        }
+
+        public static String iGetStringFromBytes(Byte[] m_Bytes)
+        {
+            Char[] lpBytesHex = new Char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+            Char[] lpHexString = new Char[m_Bytes.Length * 2];
+            Int32 dwIndex = 0;
+
+            foreach (Byte bByte in m_Bytes)
+            {
+                lpHexString[dwIndex++] = lpBytesHex[bByte >> 4];
+                lpHexString[dwIndex++] = lpBytesHex[bByte & 0x0F];
+            }
+
+            return new String(lpHexString);
+        }
+
+        public static Byte[] iGetBytesFromString(String m_HexString)
+        {
+            Int32 dwNumberChars = m_HexString.Length;
+            Byte[] m_Result = new Byte[dwNumberChars / 2];
+
+            for (Int32 i = 0; i < dwNumberChars; i += 2)
+            {
+                m_Result[i / 2] = Convert.ToByte(m_HexString.Substring(i, 2), 16);
+            }
+
+            return m_Result;
         }
 
         public static String iDetectFileType(String m_FileName, Byte[] lpBuffer)
@@ -110,6 +136,9 @@ namespace REE.Unpacker
                         case 0x4C4D47: return m_FileName + ".gml";
                         case 0x535453: return m_FileName + ".sts";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x494C5356: return m_FileName + ".vsli";
+                        case 0x444F4C53: return m_FileName + ".slod";
+                        case 0x424F4345: return m_FileName + ".ecob";
                         case 0x50524C43: return m_FileName + ".clrp";
                         case 0x484C4946: return m_FileName + ".filh";
                         case 0x4156495A: return m_FileName + ".ziva";
@@ -256,21 +285,6 @@ namespace REE.Unpacker
             {
                 return m_FileName;
             }
-        }
-
-        public static String iGetStringFromBytes(Byte[] m_Bytes)
-        {
-            Char[] lpBytesHex = new Char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
-            Char[] lpHexString = new Char[m_Bytes.Length * 2];
-            Int32 dwIndex = 0;
-
-            foreach (Byte bByte in m_Bytes)
-            {
-                lpHexString[dwIndex++] = lpBytesHex[bByte >> 4];
-                lpHexString[dwIndex++] = lpBytesHex[bByte & 0x0F];
-            }
-
-            return new String(lpHexString);
         }
     }
 }

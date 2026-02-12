@@ -12,7 +12,7 @@ namespace REE.Unpacker
             Console.Title = m_Title;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(m_Title);
-            Console.WriteLine("(c) 2023 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
+            Console.WriteLine("(c) 2023-2026 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
             Console.ResetColor();
 
             if (args.Length != 2 && args.Length != 3)

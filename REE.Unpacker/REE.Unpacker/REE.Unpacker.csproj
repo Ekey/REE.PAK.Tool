@@ -58,9 +58,9 @@
     <Compile Include="FileSystem\Encryption\PakCipher.cs" />
     <Compile Include="FileSystem\Encryption\ResourceCipher.cs" />
     <Compile Include="FileSystem\Hashing\Murmur3.cs" />
-    <Compile Include="FileSystem\Hashing\xxHash.cs" />
-    <Compile Include="FileSystem\Other\Helpers.cs" />
-    <Compile Include="FileSystem\Other\Utils.cs" />
+    <Compile Include="FileSystem\Helpers\Helpers.cs" />
+    <Compile Include="FileSystem\Helpers\Utils.cs" />
+    <Compile Include="FileSystem\Package\PakChunks.cs" />
     <Compile Include="FileSystem\Package\PakEntry.cs" />
     <Compile Include="FileSystem\Package\PakFlags.cs" />
     <Compile Include="FileSystem\Package\PakHash.cs" />

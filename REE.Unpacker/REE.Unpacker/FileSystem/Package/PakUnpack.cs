@@ -24,7 +24,7 @@ namespace REE.Unpacker
                 m_Header.dwMagic = TPakStream.ReadUInt32();
                 m_Header.bMajorVersion = TPakStream.ReadByte();
                 m_Header.bMinorVersion = TPakStream.ReadByte();
-                m_Header.wFeature = TPakStream.ReadInt16();
+                m_Header.wFeature = (Features)TPakStream.ReadInt16();
                 m_Header.dwTotalFiles = TPakStream.ReadInt32();
                 m_Header.dwFingerprint = TPakStream.ReadUInt32();
 
@@ -40,9 +40,9 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.wFeature != 0 && m_Header.wFeature != 8 && m_Header.wFeature != 24 && m_Header.wFeature != 40)
+                if (m_Header.wFeature != Features.NONE && m_Header.wFeature != Features.ENCRYPTED_RESOURCES && m_Header.wFeature != Features.EXTRA_DATA && m_Header.wFeature != Features.CHUNKED_RESOURCES)
                 {
-                    Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm");
+                    Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm or has unknown header flags");
                     return;
                 }
 
@@ -55,9 +55,9 @@ namespace REE.Unpacker
 
                 var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * dwEntrySize);
 
-                if (m_Header.wFeature == 8 || m_Header.wFeature == 24 || m_Header.wFeature == 40)
+                if (m_Header.wFeature == Features.ENCRYPTED_RESOURCES || m_Header.wFeature == Features.EXTRA_DATA || m_Header.wFeature == Features.CHUNKED_RESOURCES)
                 {
-                    if (m_Header.wFeature == 24)
+                    if (m_Header.wFeature == Features.EXTRA_DATA)
                     {
                         TPakStream.Seek(4, SeekOrigin.Current); // 0
                     }
@@ -65,6 +65,11 @@ namespace REE.Unpacker
                     var lpEncryptedKey = TPakStream.ReadBytes(128);
 
                     lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
+
+                    if (m_Header.wFeature == Features.CHUNKED_RESOURCES)
+                    {
+                        PakChunks.iReadMapTable(TPakStream);
+                    }
                 }
 
                 m_EntryTable.Clear();
@@ -120,9 +125,21 @@ namespace REE.Unpacker
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == Compression.NONE)
                     {
-                        var m_Chunks = PakUtils.ReadChunks(TPakStream, m_Entry.dwCompressedSize);
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES)
+                        {
+                            if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400)
+                            {
+                                var lpBuffer = PakChunks.iUnwrapChunks(TPakStream, m_Entry);
 
-                        PakUtils.WriteChunks(m_FullPath, m_Chunks);
+                                File.WriteAllBytes(m_FullPath, lpBuffer);
+                            }
+                        }
+                        else
+                        {
+                            var m_Chunks = PakUtils.iReadByChunks(TPakStream, m_Entry.dwCompressedSize);
+
+                            PakUtils.iWriteByChunks(m_FullPath, m_Chunks);
+                        }
                     }
                     else if (m_Entry.wCompressionType == Compression.DEFLATE || m_Entry.wCompressionType == Compression.ZSTD)
                     {
@@ -146,7 +163,7 @@ namespace REE.Unpacker
                     }
                     else
                     {
-                        Utils.iSetError("[ERROR]: Unknown compression id detected -> " + m_Entry.wCompressionType.ToString());
+                        Utils.iSetError("[ERROR]: Unknown compression type detected -> " + m_Entry.wCompressionType.ToString());
                         return;
                     }
                 }
