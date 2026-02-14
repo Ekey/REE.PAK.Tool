@@ -130,6 +130,8 @@ namespace REE.Unpacker
                             if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400)
                             {
                                 var lpBuffer = PakChunks.iUnwrapChunks(TPakStream, m_Entry);
+								
+                                m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
 
                                 File.WriteAllBytes(m_FullPath, lpBuffer);
                             }
