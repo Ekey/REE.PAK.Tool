@@ -40,7 +40,7 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.wFeature != Features.NONE && m_Header.wFeature != Features.ENCRYPTED_RESOURCES && m_Header.wFeature != Features.DLC && m_Header.wFeature != Features.EXTRA_DATA && m_Header.wFeature != Features.CHUNKED_RESOURCES)
+                if (m_Header.wFeature != Features.NONE && m_Header.wFeature != Features.ENCRYPTED_RESOURCES && m_Header.wFeature != Features.EXTRA_DATA && m_Header.wFeature != Features.CHUNKED_RESOURCES)
                 {
                     Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm or has unknown header flags");
                     return;
@@ -59,11 +59,7 @@ namespace REE.Unpacker
                 {
                     if (m_Header.wFeature == Features.EXTRA_DATA)
                     {
-                        TPakStream.Seek(4, SeekOrigin.Current);
-                    }
-                    else if (m_Header.wFeature == Features.DLC)
-                    {
-                        TPakStream.Seek(9, SeekOrigin.Current);
+                        TPakStream.Seek(4, SeekOrigin.Current); // 0
                     }
 
                     var lpEncryptedKey = TPakStream.ReadBytes(128);
