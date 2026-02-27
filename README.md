@@ -205,3 +205,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [TuyNhung](https://github.com/TuyNhung) (O2: SD game files)
 * [Aclios](https://github.com/Aclios) (GTPD (ANDROID platform) filenames)
 * [Eigeen](https://github.com/eigeen)
+* [Battlezone](https://github.com/seifhassine) (RE9 DLC filenames)
