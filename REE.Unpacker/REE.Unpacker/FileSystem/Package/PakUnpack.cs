@@ -70,7 +70,7 @@ namespace REE.Unpacker
 
                     lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
 
-                    if (m_Header.wFeature == Features.CHUNKED_RESOURCES)
+                    if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
                     {
                         PakChunks.iReadMapTable(TPakStream);
                     }
@@ -129,7 +129,7 @@ namespace REE.Unpacker
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == Compression.NONE)
                     {
-                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES)
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
                         {
                             if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400)
                             {
