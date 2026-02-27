@@ -139,6 +139,12 @@ namespace REE.Unpacker
 
                                 File.WriteAllBytes(m_FullPath, lpBuffer);
                             }
+                            else
+                            {
+                                var m_Chunks = PakUtils.iReadByChunks(TPakStream, m_Entry.dwCompressedSize);
+
+                                PakUtils.iWriteByChunks(m_FullPath, m_Chunks);
+                            }
                         }
                         else
                         {
