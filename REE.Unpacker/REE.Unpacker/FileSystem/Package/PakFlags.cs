@@ -27,5 +27,6 @@ namespace REE.Unpacker
         ENCRYPTED_RESOURCES = 8,
         EXTRA_DATA = 24, // just empty Integer
         CHUNKED_RESOURCES = 40,
+        DLC_EXTRA_DATA = 44, // empty Integer + 01 02 00 57 57
     }
 }
