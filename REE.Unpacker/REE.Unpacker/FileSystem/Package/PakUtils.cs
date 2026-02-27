@@ -136,6 +136,7 @@ namespace REE.Unpacker
                         case 0x4C4D47: return m_FileName + ".gml";
                         case 0x535453: return m_FileName + ".sts";
                         case 0x4034B50: return m_FileName + ".zip";
+                        case 0x414B504B: return m_FileName + ".pak";
                         case 0x494C5356: return m_FileName + ".vsli";
                         case 0x444F4C53: return m_FileName + ".slod";
                         case 0x424F4345: return m_FileName + ".ecob";
