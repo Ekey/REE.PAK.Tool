@@ -48,6 +48,10 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 > ROM files are encrypted only on the PC platform.
 
 # Platform (Steam)
+
+> [!important]
+> These lists are for the Steam platform only. For other platforms, the lists are below.
+
 | Game   | Steam   | SteamDB   | List Tag   |
 |---      |---    |---    |---    |
 | Apollo Justice: Ace Attorney Trilogy | [here](https://store.steampowered.com/app/2187220) | [here](https://steamdb.info/app/2187220)| [AJ_AAT_STM_Release](Projects)
