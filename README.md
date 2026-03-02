@@ -107,6 +107,11 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Street Fighter 6 (Open Beta) | [here](https://store.steampowered.com/app/1952120) | [here](https://steamdb.info/app/1952120) | [SF6_STM_Closed_Beta](Projects)
 | Street Fighter 6 Demo | [here](https://store.steampowered.com/app/2154900) | [here](https://steamdb.info/app/2154900) | [SF6_STM_Demo](Projects)
 
+# Epic Games
+| Game   | List Tag   |
+|---      |---    |
+| Resident Evil 9: Requiem | [RE9_EGS_Release](Projects)
+
 # Platform (MacOS)
 | Game   | List Tag   |
 |---      |---    |
@@ -206,3 +211,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [Aclios](https://github.com/Aclios) (GTPD (ANDROID platform) filenames)
 * [Eigeen](https://github.com/eigeen)
 * [Battlezone](https://github.com/seifhassine) (RE9 DLC filenames)
+* [lucablight83](https://github.com/lucablight83) (RE9 EGS filenames)
