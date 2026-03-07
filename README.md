@@ -95,6 +95,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 | Resident Evil 9: Requiem | [here](https://store.steampowered.com/app/3764200) | [here](https://steamdb.info/app/3764200)| [RE9_STM_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess | [here](https://store.steampowered.com/app/2510710) | [here](https://steamdb.info/app/2510710) | [KGPG_STM_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess - Demo | [here](https://store.steampowered.com/app/2842890) | [here](https://steamdb.info/app/2842890) | [KGPG_STM_Demo](Projects)
+| Mega Man: Dual Override | [here](https://store.steampowered.com/app/4223290) | [here](https://steamdb.info/app/4223290)| None
 | MONSTER HUNTER RISE DEMO | [here](https://store.steampowered.com/app/1641480) | [here](https://steamdb.info/app/1641480) | [MHR_STM_Demo](Projects)
 | MONSTER HUNTER RISE: SUNBREAK DEMO | [here](https://store.steampowered.com/app/1836450) | [here](https://steamdb.info/app/1836450) | [MHRS_STM_Demo](Projects)
 | MONSTER HUNTER RISE | [here](https://store.steampowered.com/app/1446780) | [here](https://steamdb.info/app/1446780) | [MHR_STM_Release](Projects)
