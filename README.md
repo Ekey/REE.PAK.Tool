@@ -199,6 +199,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * wigwrm (RE7) dlc filenames
 * iRaven (RE2 & RE3 RT) dlc filenames
 * Link (SF6 game files)
+* Wasabiwa (PRAGMATA) dlc filenames
 * [SilverEzredes](https://github.com/SilverEzredes) (Exoprimal Beta) filenames
 * [FluffyQuack](https://github.com/FluffyQuack) (RE7 Z Version, Apollo game files)
 * [Elliezrah](https://github.com/Elliezrah) (RE2 & RE3 Z Version game files)
