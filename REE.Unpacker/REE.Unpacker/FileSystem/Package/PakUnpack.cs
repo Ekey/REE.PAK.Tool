@@ -81,7 +81,7 @@ namespace REE.Unpacker
 
                     if (m_Header.wFeature == Features.DD2_EXTRA_FLAG)
                     {
-                        PakChunks.iReadMapTable16(TPakStream);
+                        PakChunks.iReadMapTable(TPakStream, 16);
 
                         var lpEncryptedKey = TPakStream.ReadBytes(128);
 
@@ -95,7 +95,7 @@ namespace REE.Unpacker
 
                         if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2 || m_Header.wFeature == Features.DD2_EXTRA_FLAG)
                         {
-                            PakChunks.iReadMapTable8(TPakStream);
+                            PakChunks.iReadMapTable(TPakStream, 8);
                         }
                     }
                 }
