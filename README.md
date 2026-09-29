@@ -220,3 +220,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [Battlezone](https://github.com/seifhassine) (RE9 DLC filenames)
 * [lucablight83](https://github.com/lucablight83) (RE9 EGS filenames)
 * [Red1Fouad](https://github.com/Red1Fouad) (MMSFLC STM filenames)
+* [rm-NoobInCoding](https://github.com/rm-NoobInCoding) (Onimusha STM filenames)
