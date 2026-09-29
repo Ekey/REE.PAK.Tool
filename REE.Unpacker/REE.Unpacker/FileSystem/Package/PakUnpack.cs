@@ -93,7 +93,7 @@ namespace REE.Unpacker
 
                         lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
 
-                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2 || m_Header.wFeature == Features.DD2_EXTRA_FLAG)
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
                         {
                             PakChunks.iReadMapTable(TPakStream, 8);
                         }
@@ -150,7 +150,7 @@ namespace REE.Unpacker
                     TPakStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
                     if (m_Entry.wCompressionType == Compression.NONE)
                     {
-                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2 || m_Header.wFeature == Features.DD2_EXTRA_FLAG)
                         {
                             if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400 || m_Entry.dwAttributes == 0x1000800 || m_Entry.dwAttributes == 0x1000C00)
                             {
