@@ -29,5 +29,6 @@ namespace REE.Unpacker
         EXTRA_DATA = 24, // empty Integer
         CHUNKED_RESOURCES = 40,
         DLC_EXTRA_DATA2 = 44, // same as DLC_EXTRA_DATA1
+        DD2_EXTRA_FLAG = 104, // DD2 chunked table * 16
     }
 }

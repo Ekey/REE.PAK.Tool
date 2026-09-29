@@ -40,7 +40,14 @@ namespace REE.Unpacker
                     return;
                 }
 
-                if (m_Header.wFeature != Features.NONE && m_Header.wFeature != Features.ENCRYPTED_RESOURCES && m_Header.wFeature != Features.DLC_EXTRA_DATA1 && m_Header.wFeature != Features.EXTRA_DATA && m_Header.wFeature != Features.CHUNKED_RESOURCES && m_Header.wFeature != Features.DLC_EXTRA_DATA2)
+                if (m_Header.wFeature != Features.NONE &&
+                    m_Header.wFeature != Features.ENCRYPTED_RESOURCES &&
+                    m_Header.wFeature != Features.DLC_EXTRA_DATA1 &&
+                    m_Header.wFeature != Features.EXTRA_DATA &&
+                    m_Header.wFeature != Features.CHUNKED_RESOURCES &&
+                    m_Header.wFeature != Features.DLC_EXTRA_DATA2 &&
+                    m_Header.wFeature != Features.DD2_EXTRA_FLAG
+                    )
                 {
                     Utils.iSetError("[ERROR]: Archive is encrypted (obfuscated) with an unsupported algorithm or has unknown header flags");
                     return;
@@ -55,7 +62,13 @@ namespace REE.Unpacker
 
                 var lpTable = TPakStream.ReadBytes(m_Header.dwTotalFiles * dwEntrySize);
 
-                if (m_Header.wFeature == Features.ENCRYPTED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA1 || m_Header.wFeature == Features.EXTRA_DATA || m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
+                if (m_Header.wFeature == Features.ENCRYPTED_RESOURCES ||
+                    m_Header.wFeature == Features.DLC_EXTRA_DATA1 ||
+                    m_Header.wFeature == Features.EXTRA_DATA ||
+                    m_Header.wFeature == Features.CHUNKED_RESOURCES ||
+                    m_Header.wFeature == Features.DLC_EXTRA_DATA2 ||
+                    m_Header.wFeature == Features.DD2_EXTRA_FLAG
+                    )
                 {
                     if (m_Header.wFeature == Features.EXTRA_DATA)
                     {
@@ -66,13 +79,24 @@ namespace REE.Unpacker
                         TPakStream.Seek(9, SeekOrigin.Current);
                     }
 
-                    var lpEncryptedKey = TPakStream.ReadBytes(128);
-
-                    lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
-
-                    if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
+                    if (m_Header.wFeature == Features.DD2_EXTRA_FLAG)
                     {
-                        PakChunks.iReadMapTable(TPakStream);
+                        PakChunks.iReadMapTable16(TPakStream);
+
+                        var lpEncryptedKey = TPakStream.ReadBytes(128);
+
+                        lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
+                    }
+                    else
+                    {
+                        var lpEncryptedKey = TPakStream.ReadBytes(128);
+
+                        lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
+
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2 || m_Header.wFeature == Features.DD2_EXTRA_FLAG)
+                        {
+                            PakChunks.iReadMapTable8(TPakStream);
+                        }
                     }
                 }
 
@@ -89,9 +113,6 @@ namespace REE.Unpacker
                             m_Entry.dwDecompressedSize = TEntryReader.ReadInt64();
                             m_Entry.dwHashNameLower = TEntryReader.ReadUInt32();
                             m_Entry.dwHashNameUpper = TEntryReader.ReadUInt32();
-                            m_Entry.dwCompressedSize = 0;
-                            m_Entry.wCompressionType = 0;
-                            m_Entry.dwChecksum = 0;
                         }
                         else if (m_Header.bMajorVersion == 4 && m_Header.bMinorVersion == 0 || m_Header.bMinorVersion == 1 || m_Header.bMinorVersion == 2)
                         {
@@ -131,19 +152,11 @@ namespace REE.Unpacker
                     {
                         if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
                         {
-                            if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400)
+                            if (m_Entry.dwAttributes == 0x1000000 || m_Entry.dwAttributes == 0x1000400 || m_Entry.dwAttributes == 0x1000800 || m_Entry.dwAttributes == 0x1000C00)
                             {
                                 var lpBuffer = PakChunks.iUnwrapChunks(TPakStream, m_Entry);
-								
+
                                 m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
-
-                                File.WriteAllBytes(m_FullPath, lpBuffer);
-                            }
-                            else
-                            {
-                                var m_Chunks = PakUtils.iReadByChunks(TPakStream, m_Entry.dwCompressedSize);
-
-                                PakUtils.iWriteByChunks(m_FullPath, m_Chunks);
                             }
                         }
                         else
@@ -157,7 +170,7 @@ namespace REE.Unpacker
                     {
                         var lpSrcBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         var lpDstBuffer = new Byte[] { };
-						
+
                         if (m_Entry.wEncryptionType != Encryption.None && m_Entry.wEncryptionType <= Encryption.Type_Invalid)
                         {
                             lpSrcBuffer = ResourceCipher.iDecryptResource(lpSrcBuffer);
@@ -170,8 +183,6 @@ namespace REE.Unpacker
                         }
 
                         m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpDstBuffer);
-
-                        File.WriteAllBytes(m_FullPath, lpDstBuffer);
                     }
                     else
                     {
