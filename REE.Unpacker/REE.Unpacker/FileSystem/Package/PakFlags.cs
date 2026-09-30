@@ -27,8 +27,8 @@ namespace REE.Unpacker
         ENCRYPTED_RESOURCES = 8,
         DLC_EXTRA_DATA1 = 12, // empty Integer + 01 02 00 57 57
         EXTRA_DATA = 24, // empty Integer
-        CHUNKED_RESOURCES = 40,
+        CHUNKED_RESOURCES = 40, // chunked table (each entry for 8 bytes) - (header -> entry table -> chunked table -> key)
         DLC_EXTRA_DATA2 = 44, // same as DLC_EXTRA_DATA1
-        DD2_EXTRA_FLAG = 104, // DD2 chunked table * 16
+        DD2_EXTRA_FLAG = 104, // DD2 extra chunked table (each entry for 16 bytes) - (header -> entry table -> extra chunked table -> key -> chunked table)
     }
 }
