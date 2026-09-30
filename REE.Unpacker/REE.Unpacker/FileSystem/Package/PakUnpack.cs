@@ -159,6 +159,8 @@ namespace REE.Unpacker
                                 var lpBuffer = PakChunks.iUnwrapChunks(TPakStream, m_Entry);
 
                                 m_FullPath = PakUtils.iDetectFileType(m_FullPath, lpBuffer);
+
+                                File.WriteAllBytes(m_FullPath, lpBuffer);
                             }
                         }
                         else
