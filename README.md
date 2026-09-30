@@ -179,6 +179,7 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 # Platform (Microsoft Games - XGP)
 | Game   | List Tag   |
 |---      |---    |
+| Apollo Justice: Ace Attorney Trilogy | [AJ_AAT_MSG_Release](Projects)
 | Kunitsu-Gami: Path of the Goddess | [KGPG_MSG_Release](Projects)
 | Resident Evil 2 | [RE2_MSG_Release](Projects)
 | Resident Evil 3 | [RE3_MSG_Release](Projects)
@@ -221,3 +222,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [lucablight83](https://github.com/lucablight83) (RE9 EGS filenames)
 * [Red1Fouad](https://github.com/Red1Fouad) (MMSFLC STM filenames)
 * [rm-NoobInCoding](https://github.com/rm-NoobInCoding) (Onimusha STM filenames)
+* [Linkwarrior75](https://github.com/Linkwarrior75) (Apollo (MSG platform) filenames)
