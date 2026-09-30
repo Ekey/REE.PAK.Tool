@@ -93,7 +93,7 @@ namespace REE.Unpacker
 
                         lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
 
-                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2 || m_Header.wFeature == Features.DD2_EXTRA_FLAG)
+                        if (m_Header.wFeature == Features.CHUNKED_RESOURCES || m_Header.wFeature == Features.DLC_EXTRA_DATA2)
                         {
                             PakChunks.iReadMapTable(TPakStream, 8);
                         }
