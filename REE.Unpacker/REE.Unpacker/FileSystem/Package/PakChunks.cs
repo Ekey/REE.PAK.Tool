@@ -12,16 +12,15 @@ namespace REE.Unpacker
 
     class PakChunkEntry
     {
-        public UInt64 dwChunkOffset { get; set; }
-        public UInt32 dwChunkSize { get; set; }
-        public UInt64 dwHash { get; set; } // for DD2
+        public Int64 dwChunkOffset { get; set; }
+        public Int64 dwChunkSize { get; set; }
+        public UInt64 dwHash { get; set; } // Added in latest patch DD2
     }
 
     class PakChunks
     {
         public static List<PakChunkEntry> lpMapTable = new List<PakChunkEntry>();
 
-        //Based on https://github.com/eigeen/ree-pak-rs
         public static void iReadMapTable(Stream TPakStream, Int32 dwEntrySize)
         {
             var m_ChunkHeader = new PakChunkHeader();
@@ -52,25 +51,14 @@ namespace REE.Unpacker
                 }
             }
 
-            UInt64 dwHigh = 0;
-            UInt32 dwPrevOffset = 0;
-
             lpMapTable.Clear();
             for (Int32 i = 0; i < m_ChunkHeader.dwChunksCount; i++)
             {
-                if (i > 0 && dwOffsets[i] < dwPrevOffset)
+                lpMapTable.Add(new PakChunkEntry
                 {
-                    dwHigh += 1UL << 32;
-                }
-
-                var m_ChunkEntry = new PakChunkEntry();
-
-                m_ChunkEntry.dwChunkOffset = dwHigh | dwOffsets[i];
-                m_ChunkEntry.dwChunkSize = dwSizes[i] >> 10;
-
-                lpMapTable.Add(m_ChunkEntry);
-
-                dwPrevOffset = dwOffsets[i];
+                    dwChunkOffset = dwOffsets[i] + (((Int64)dwSizes[i] & 0x3FF) << 32),
+                    dwChunkSize = (Int64)dwSizes[i] >> 10
+                });
             }
         }
 

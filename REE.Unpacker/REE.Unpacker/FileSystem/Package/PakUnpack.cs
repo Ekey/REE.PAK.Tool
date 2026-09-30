@@ -85,6 +85,8 @@ namespace REE.Unpacker
 
                         var lpEncryptedKey = TPakStream.ReadBytes(128);
 
+                        PakChunks.iReadMapTable(TPakStream, 8);
+
                         lpTable = PakCipher.iDecryptData(lpTable, lpEncryptedKey);
                     }
                     else
