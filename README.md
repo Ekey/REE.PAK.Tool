@@ -223,3 +223,4 @@ Tool for decrypt CAS and CAS2 ROM files (*.mameac.2) to regular ZIP
 * [Red1Fouad](https://github.com/Red1Fouad) (MMSFLC STM filenames)
 * [rm-NoobInCoding](https://github.com/rm-NoobInCoding) (Onimusha STM filenames)
 * [Linkwarrior75](https://github.com/Linkwarrior75) (Apollo (MSG platform) filenames)
+* Phil (DD2 game files)
